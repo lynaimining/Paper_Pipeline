@@ -1,0 +1,4332 @@
+[
+  {
+    "paper_id": "Age and origin of the Ngankipari Formation in the Noarlunga and Willunga embayments  southern South Australia",
+    "deposit_class": "none",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Cenozoic Saint Vincent Basin, passive margin, influenced by faulting and glacio-eustatic sea-level changes",
+    "ages_ma": [
+      262,
+      253,
+      381
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Backthrusts in the Bowen Basin Folded Zone  eastern Australia  progressive intra-basin shortening or passive-roof thrusting ",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "north-northwest-striking west-southwest-dipping thrusts",
+      "reverse faults",
+      "décollements",
+      "symmetric folds",
+      "asymmetric hanging-wall anticlines"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": "Bowen Basin, New England Orogen, eastern Australia",
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Foreland fold-thrust belt associated with the Hunter–Bowen Orogeny, backarc extensional basin inverted during contraction",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Constraints of the paleowind directions on the paleogeography of the North China  South China and Tarim cratons during the Ediacaran Period",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Ediacaran paleogeography of North China, South China, and Tarim cratons; low-latitude positions near equator and western Australia",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Distribution of critical minerals in the Mount Evelyn Pb Zn Ag skarn deposit  Pine Creek Orogen  Northern Territory",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "SKARN",
+    "deposit_type_conf": 1.0,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "limestone",
+      "marble"
+    ],
+    "alteration": [
+      "exoskarn",
+      "retrograde serpentine",
+      "calcite veining"
+    ],
+    "structural_controls": [
+      "discordant en-échelon fractures",
+      "northwest-trending shear zone",
+      "east-trending fault"
+    ],
+    "minerals_mentioned": [
+      "sphalerite",
+      "galena",
+      "chalcopyrite",
+      "tetrahedrite",
+      "stannite",
+      "arsenopyrite",
+      "pyrrhotite",
+      "cassiterite",
+      "pyrite",
+      "calcite",
+      "dolomite",
+      "quartz",
+      "tremolite",
+      "diopside",
+      "serpentine",
+      "apatite",
+      "biotite",
+      "muscovite",
+      "chlorite",
+      "smithsonite",
+      "hydrozincite",
+      "hemimorphite",
+      "anglesite",
+      "cerussite",
+      "azurite",
+      "aurichalcite",
+      "goethite",
+      "ankerite",
+      "magnetite",
+      "enstatite"
+    ],
+    "commodities": [
+      "Pb",
+      "Zn",
+      "Ag",
+      "Cd",
+      "Au",
+      "In",
+      "Ga",
+      "Ge",
+      "Bi",
+      "Sb",
+      "Se",
+      "Te",
+      "Tl",
+      "Co",
+      "Ni",
+      "As"
+    ],
+    "metallogenic_belt": "Pine Creek Orogen, Central Domain",
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Greenschist-facies metamorphosed Paleoproterozoic sedimentary basin with I-type granitic magmatism",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Metals sourced from granitic magmatism (Cullen Supersuite) and/or sedimentary rocks; Pb-Zn-Ag skarn associated with granite intrusion"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluids transported via discordant en-échelon fractures and shear zone; skarn alteration indicates hydrothermal fluid flow"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Mineralization precipitated in fractures and shear zone within limestone; exoskarn assemblage indicates chemical trap"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Discordant veins and lodes; host rock is limestone of Koolpin Formation"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal mentioned; post-mineralization calcite veining may provide some sealing"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Mineralization related to ca 1835-1820 Ma Cullen Supersuite intrusion; no direct age for mineralization"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved at depth; oxidation at surface; estimated remaining ore"
+      }
+    }
+  },
+  {
+    "paper_id": "Paleomagnetism of the southern New England Orogen  can apparently conflicting data sets be reconciled ",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "New England Orogen, part of the Tasmanides, a Paleozoic convergent margin orogen",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Pinpointing regional unconformities in the Surat Basin  Australia  by statistical identification of neutron wireline log anomalies",
+    "deposit_class": "energy",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": false,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Intracratonic basin, fluvial-lacustrine depositional environment",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Regional tectonics  crustal deformation and contrasting batholith orientations in southeastern Australia  why is Late Devonian central Victoria differ",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Late Devonian post-orogenic extension in the distal backarc region of the Lachlan Orogen, with east-west extension and crustal thinning above the Selwyn Block.",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Weathered crust hydrocarbon reservoirs  review and perspectives",
+    "deposit_class": "energy",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": false,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": null,
+    "tectonic_setting": null,
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "A-FORTRAN-program-to-implement-the-method-of-finite-element_2010_Computers--",
+    "deposit_class": "methodological",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": false,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": null,
+    "tectonic_setting": null,
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Algorithms-for-multi-parameter-constrained-compositing-of-_2010_Computers---",
+    "deposit_class": "methodological",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": false,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": [
+      "Au"
+    ],
+    "metallogenic_belt": null,
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": null,
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Bidimensional-empirical-mode-decomposition--BEMD--for-extractio_2010_Compute",
+    "deposit_class": "methodological",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": false,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": null,
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2123",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "OROG-AU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "pelitic metasediments",
+      "hornfels",
+      "carbonaceous slate"
+    ],
+    "alteration": [
+      "potassic",
+      "silicification"
+    ],
+    "structural_controls": [
+      "bedding-parallel fractures",
+      "Howley anticline",
+      "steeply dipping fold limbs"
+    ],
+    "minerals_mentioned": [
+      "quartz",
+      "pyrrhotite",
+      "arsenopyrite",
+      "loellingite",
+      "biotite",
+      "K feldspar",
+      "andalusite",
+      "cordierite",
+      "muscovite",
+      "albite",
+      "gold",
+      "fluorite",
+      "sphene",
+      "hornblende",
+      "magnetite",
+      "pyrite",
+      "graphite"
+    ],
+    "commodities": [
+      "Au"
+    ],
+    "metallogenic_belt": "Pine Creek inlier, northern Australia",
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Contact metamorphic aureole of Proterozoic I-type granite, within a fold and thrust belt",
+    "ages_ma": [
+      1835,
+      1818
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Magmatic brine from crystallizing I-type granite, with high F and Cl; metamorphic fluid from devolatilizing metasediments"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Upward fluid flow focused into bedding-parallel fractures; near-lithostatic pressure gradient"
+      },
+      "trap": {
+        "score": 5,
+        "evidence": "Fluid mixing with reduced carbonic fluid from carbonaceous slate; reduction triggers gold precipitation"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Quartz veins in bedding-parallel fractures within hornfels; crack-seal textures"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Carbonaceous slate acts as a redox barrier; no explicit seal mentioned"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Peak contact metamorphism at 550-620°C, 200 MPa; granite intrusion at 1835-1818 Ma"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Post-mineralization deformation and thrusting; some preservation of veins"
+      }
+    }
+  },
+  {
+    "paper_id": "2143",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "KUPFERSCHIEFER",
+    "deposit_type_conf": 1.0,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "Weissliegendes sandstone",
+      "Boundary Dolomite",
+      "Kupferschiefer mudstone",
+      "Zechstein Limestone"
+    ],
+    "alteration": [
+      "copper depletion",
+      "supergene alteration"
+    ],
+    "structural_controls": [
+      "fractures",
+      "impermeable horizons",
+      "Kupferschiefer-Weissliegendes contact",
+      "Cu-Pb zone contact"
+    ],
+    "minerals_mentioned": [
+      "chalcocite",
+      "djurleite",
+      "anilite",
+      "geerite",
+      "spionkopite",
+      "yarrowite",
+      "covellite",
+      "bornite",
+      "idaite",
+      "chalcopyrite",
+      "pyrite",
+      "galena",
+      "sphalerite",
+      "cobaltite",
+      "atacamite",
+      "gypsum",
+      "anhydrite",
+      "barite",
+      "celestine",
+      "calcite",
+      "dolomite"
+    ],
+    "commodities": [
+      "Cu",
+      "Pb",
+      "Zn",
+      "Ag"
+    ],
+    "metallogenic_belt": "Fore-Sudetic monocline, Lubin copper mining district, southwestern Poland",
+    "countries": [
+      "Poland"
+    ],
+    "tectonic_setting": "Fore-Sudetic monocline, Permian Zechstein basin, passive margin setting",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Metals sourced from ascending oxidizing fluids; copper leaching by saline waters"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Fluid transport via fractures and permeable horizons; diffusion/advection of H2S"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Chemical trap due to redox gradients; organic-rich shales and sulfate reduction"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Host rocks include sandstone, dolomite, and mudstone with porosity and permeability"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Impermeable horizons (e.g., clay-rich Kupferschiefer) act as seals"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Timing debated: early diagenesis vs. late diagenesis; low-temperature anilite suggests early"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Preserved in mines; some alteration by recent mine waters"
+      }
+    }
+  },
+  {
+    "paper_id": "2156",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "HS-EPITH",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "tholeiitic basalt",
+      "polymictic melange",
+      "serpentinite",
+      "mudstone",
+      "siltstone",
+      "graywacke",
+      "basaltic andesite"
+    ],
+    "alteration": [
+      "silica carbonate alteration",
+      "adularia",
+      "sericite",
+      "montmorillonite",
+      "kaolinite",
+      "silicification"
+    ],
+    "structural_controls": [
+      "Stony Creek fault",
+      "dilation zone",
+      "rheologic contrast"
+    ],
+    "minerals_mentioned": [
+      "electrum",
+      "native gold",
+      "pyrite",
+      "arsenian pyrite",
+      "cinnabar",
+      "metacinnabar",
+      "native mercury",
+      "realgar",
+      "orpiment",
+      "arsenopyrite",
+      "stibnite",
+      "pyargyrite",
+      "miargyrite",
+      "freibergite",
+      "polybasite",
+      "sphalerite",
+      "chalcopyrite",
+      "galena",
+      "adularia",
+      "sericite",
+      "montmorillonite",
+      "kaolinite",
+      "barite",
+      "marcasite",
+      "quartz",
+      "chalcedony",
+      "opal"
+    ],
+    "commodities": [
+      "Au",
+      "Ag",
+      "Hg",
+      "Sb",
+      "As",
+      "Cu",
+      "Pb",
+      "Zn"
+    ],
+    "metallogenic_belt": "northern Coast Ranges, California",
+    "countries": [
+      "USA"
+    ],
+    "tectonic_setting": "fore-arc basin, strike-slip and fold-thrust belt, associated with Clear Lake volcanic field",
+    "ages_ma": [
+      2.2
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Lead isotopes indicate crustal source, possibly Great Valley sequence or mixture of radiogenic and nonradiogenic sources; sulfur isotopes suggest magmatic sulfur"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Meteoric water circulated through sedimentary rocks, evolved to high δ18O; fluids migrated along Stony Creek fault and dilation zones"
+      },
+      "trap": {
+        "score": 5,
+        "evidence": "Boiling and phase separation in near-surface environment; steep thermal and pressure gradients; hydrothermal eruption breccias"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Sheeted vein complex in dilation zone at rheologic contrast between competent basalt and incompetent melange"
+      },
+      "seal": {
+        "score": 4,
+        "evidence": "Self-sealing by silica precipitation; sinter cap preserved"
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "K-Ar ages of alunite 0.75-2.2 Ma; maximum age from basaltic andesite 2.2 ± 0.2 Ma"
+      },
+      "preservation": {
+        "score": 5,
+        "evidence": "Subaerial sinter preserved, indicating minimal post-mineralization erosion"
+      }
+    }
+  },
+  {
+    "paper_id": "2182",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "DISS-AG",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "carbonaceous marly shale",
+      "chert-phyllite",
+      "serpentinite",
+      "mafic volcanic rocks"
+    ],
+    "alteration": [
+      "sericitization",
+      "tourmalinization",
+      "pyritization",
+      "silicification",
+      "dolomitization",
+      "propylitic alteration"
+    ],
+    "structural_controls": [
+      "Pickhandle thrust",
+      "lower Candelaria shear",
+      "south-verging thrusts"
+    ],
+    "minerals_mentioned": [
+      "pyrite",
+      "galena",
+      "sphalerite",
+      "chalcopyrite",
+      "arsenopyrite",
+      "native silver",
+      "cerargyrite",
+      "quartz",
+      "dolomite",
+      "sericite",
+      "tourmaline",
+      "iron oxides",
+      "manganese oxides"
+    ],
+    "commodities": [
+      "Ag",
+      "Au",
+      "Pb",
+      "Zn",
+      "Sb",
+      "As"
+    ],
+    "metallogenic_belt": "Cordilleran magmatic arc, Great Basin",
+    "countries": [
+      "USA"
+    ],
+    "tectonic_setting": "Extensional to transtensional intra-arc graben within the early Mesozoic Cordilleran magmatic arc",
+    "ages_ma": [
+      192
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Stable isotope data indicate dominantly felsic igneous source for sulfur; high K calc-alkaline dacite porphyry swarm genetically linked"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluids transported along permeable structures: Pickhandle thrust and lower Candelaria shear, enhanced by brecciation and delamination of host shales"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Ore precipitated in tabular zones along thrust and shear due to chemical (carbonaceous marly shales) and structural (permeable breccia zones) traps"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Host rocks include reactive carbonaceous marly shales (member 1 of Candelaria Formation) and mafic-ultramafic units; ore zones up to 30 m thick"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Overlying Pickhandle allochthon and less permeable units may have acted as seals; post-mineralization thrusts and later Basin-Range faulting affected preservation"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "U-Pb zircon age of porphyry dikes at 192 ± 3 Ma; mineralization is syn- to late-magmatic, estimated between 187 and 194 Ma"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Supergene oxidation to 200 m depth; K-Ar sericite ages (91-129 Ma) indicate partial resetting by Cretaceous thermal event, but deposit largely preserved"
+      }
+    }
+  },
+  {
+    "paper_id": "2197",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "SKARN",
+    "deposit_type_conf": 0.8,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "limestone",
+      "quartz monzonite"
+    ],
+    "alteration": [
+      "pervasive alteration",
+      "selvage alteration",
+      "albitization",
+      "oxidation"
+    ],
+    "structural_controls": [
+      "selvage joints",
+      "faults",
+      "laccolith roof flexure"
+    ],
+    "minerals_mentioned": [
+      "magnetite",
+      "hematite",
+      "apatite",
+      "clinopyroxene",
+      "diopside",
+      "augite",
+      "amphibole",
+      "biotite",
+      "plagioclase",
+      "alkali feldspar",
+      "albite",
+      "K feldspar",
+      "quartz",
+      "ilmenite",
+      "smectite-chlorite",
+      "calcite",
+      "aragonite",
+      "stilbite",
+      "chalcedony",
+      "dolomite",
+      "phlogopite",
+      "tremolite",
+      "scapolite",
+      "wollastonite",
+      "hydrogrossular",
+      "forsterite",
+      "vesuvianite",
+      "chloritoid",
+      "zircon",
+      "rutile",
+      "pyrite",
+      "anhydrite"
+    ],
+    "commodities": [
+      "Fe"
+    ],
+    "metallogenic_belt": "Iron Springs mining district, southwestern Utah, Basin and Range Province",
+    "countries": [
+      "United States"
+    ],
+    "tectonic_setting": "Miocene laccoliths emplaced in a continental arc setting, related to Sevier thrust faults",
+    "ages_ma": [
+      21.7,
+      21.5,
+      22.6,
+      21.5
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Iron derived from subsolidus alteration of quartz monzonite, with mass balance indicating sufficient Fe from selvage alteration of 40 km3 of intrusive rock."
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluid transported via selvage joints and fractures; Cl-bearing aqueous fluid with FeCl complexes; evidence from vein mineral assemblages and fluid inclusions."
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Strata-bound orebodies in Homestake Limestone; replacement at constant volume; precipitation due to cooling and possibly fluid-rock reaction."
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Limestone host provides reactive chemical trap; porosity about 20% in ore; volume-for-volume replacement."
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Peripheral shell and overlying impermeable sedimentary rocks (Temple Cap Sandstone, Carmel Formation) acted as seals; selvage joints did not penetrate peripheral shell."
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "K-Ar ages of biotite from laccoliths: 21.5-22.6 Ma; ore formation postdates solidus, with calcite-dolomite temperature of 485°C."
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Orebodies preserved at surface; some erosion has occurred; Stoddard Mountain pluton lacks mineralization due to different wall rock and shallower emplacement."
+      }
+    }
+  },
+  {
+    "paper_id": "2218",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "VMS",
+    "deposit_type_conf": 0.6,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "felsite",
+      "rhyolite",
+      "dacite",
+      "basaltic andesite",
+      "basalt"
+    ],
+    "alteration": [
+      "silicification",
+      "sericitization",
+      "chloritization",
+      "epidotization",
+      "calcification",
+      "dehydration",
+      "hornfelsing"
+    ],
+    "structural_controls": [
+      "porous pyroclastic horizons",
+      "flow-banded and flow-brecciated portions of flows"
+    ],
+    "minerals_mentioned": [
+      "pyrite",
+      "arsenopyrite",
+      "tremolite-actinolite",
+      "sericite",
+      "quartz",
+      "chlorite",
+      "hornblende",
+      "clinopyroxene",
+      "plagioclase",
+      "biotite",
+      "calcite",
+      "epidote",
+      "magnetite",
+      "vesuvianite"
+    ],
+    "commodities": [
+      "Pb",
+      "Zn",
+      "Mn",
+      "As",
+      "Sn",
+      "F",
+      "Cu"
+    ],
+    "metallogenic_belt": "Bushveld Complex, Kaapvaal Craton",
+    "countries": [
+      "South Africa"
+    ],
+    "tectonic_setting": "Intracontinental large igneous province, associated with the 2.06 Ga Bushveld magmatic event",
+    "ages_ma": [
+      2061,
+      2060,
+      2054
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Metals (Pb, Zn, Mn) derived from volcanic rocks and possibly from fluids originating from floor rocks and xenoliths within the Rustenburg Layered Suite."
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Hydrothermal fluids migrated through permeable pyroclastic horizons and flow margins, driven by heat from the Rustenburg Layered Suite."
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Precipitation of sulfides (pyrite, arsenopyrite) and enrichment of Pb, Zn, Mn in hydrated, altered roof rocks, particularly in porous zones."
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Roof rocks of the Rooiberg Group, especially felsites and pyroclastic units, provided permeable pathways and reactive host rocks."
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Overlying less altered volcanic rocks may have acted as a seal, but no specific seal is described."
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Two stages: early pyrite-arsenopyrite mineralization possibly related to granophyre intrusion; later Pb-Zn-Mn enrichment linked to emplacement of the Rustenburg Layered Suite at ~2.06 Ga."
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "The roof rocks are preserved in the Bushveld Complex roof, with only low-grade metamorphism, indicating good preservation despite later deformation."
+      }
+    }
+  },
+  {
+    "paper_id": "2232",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "OROG-AU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "wacke",
+      "conglomerate",
+      "tuffaceous sedimentary rock",
+      "siltstone",
+      "slaty argillite"
+    ],
+    "alteration": [
+      "albitization",
+      "sericitic alteration",
+      "chloritic alteration"
+    ],
+    "structural_controls": [
+      "F2 antiform hinge zone",
+      "Richardson fault",
+      "East Hozameen fault"
+    ],
+    "minerals_mentioned": [
+      "quartz",
+      "albite",
+      "carbonate",
+      "chlorite",
+      "sericite",
+      "pyrrhotite",
+      "arsenopyrite",
+      "pyrite",
+      "chalcopyrite",
+      "bornite",
+      "magnetite",
+      "gold",
+      "fuchsite",
+      "K feldspar",
+      "chromite"
+    ],
+    "commodities": [
+      "Au",
+      "As",
+      "Cu",
+      "Mo",
+      "Zn"
+    ],
+    "metallogenic_belt": "Cascade Mountains, southern Coast Plutonic Complex",
+    "countries": [
+      "Canada"
+    ],
+    "tectonic_setting": "Tectonic contact between Permian-Jurassic ocean floor/island-arc rocks (Hozameen Group) and Jurassic turbiditic sediments (Ladner Group), near Coquihalla serpentine belt",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Highly evolved meteoric waters as ore-forming fluids; metals likely derived from host rocks or deeper sources"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluid flow along permeable coarse clastic zones and structural conduits (F2 fold hinge, faults)"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Saddle reef morphology in tectonically thickened hinge zone of F2 antiform; chemical precipitation due to temperature decrease (350-380°C) and fluid-rock interaction"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Permeable, competent coarse clastic zones (wacke, conglomerate) within Ladner Group; up to 30 m thick orebodies"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Barren alteration envelope with K and Ba depletion; overlying siltstone and argillite may provide some seal"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Mineralization between mid-Cretaceous and late Eocene; limited isotopic and fluid inclusion data"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved at shallow depth (1-3 km); truncated by Richardson fault; some erosion but mineralization subcrops"
+      }
+    }
+  },
+  {
+    "paper_id": "2244",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "VMS",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "orthoamphibole-garnet-cordierite gneiss",
+      "sillimanite-muscovite-quartz schist",
+      "iron-formation",
+      "quartz porphyritic felsic metavolcanic rocks",
+      "mafic metavolcanic rocks",
+      "felsic metavolcanic rocks"
+    ],
+    "alteration": [
+      "orthoamphibole-cordierite-garnet alteration",
+      "sillimanite-muscovite-quartz alteration",
+      "potassic alteration",
+      "Fe-Mg alteration",
+      "silicification"
+    ],
+    "structural_controls": [
+      "D1 ductile fault",
+      "D2 folds",
+      "D3 Manitouwadge synform",
+      "D2 sheath folds",
+      "Fox Creek fault"
+    ],
+    "minerals_mentioned": [
+      "pyrite",
+      "pyrrhotite",
+      "chalcopyrite",
+      "sphalerite",
+      "galena",
+      "magnetite",
+      "orthoamphibole",
+      "cordierite",
+      "garnet",
+      "sillimanite",
+      "muscovite",
+      "biotite",
+      "hornblende",
+      "cummingtonite",
+      "plagioclase",
+      "microcline",
+      "staurolite",
+      "gahnite",
+      "corundum",
+      "cassiterite",
+      "hogbomite",
+      "nigerite",
+      "actinolite",
+      "grunerite",
+      "clinopyroxene",
+      "epidote",
+      "titanite"
+    ],
+    "commodities": [
+      "Cu",
+      "Zn",
+      "Pb",
+      "Ag",
+      "Au",
+      "Cd",
+      "Bi"
+    ],
+    "metallogenic_belt": "Manitouwadge greenstone belt, Wawa subprovince, Superior Province",
+    "countries": [
+      "Canada"
+    ],
+    "tectonic_setting": "Archean greenstone belt, volcanic arc or rifted arc setting, affected by polyphase deformation and upper amphibolite facies metamorphism",
+    "ages_ma": [
+      2720,
+      2723
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Metals sourced from felsic volcanic rocks and synvolcanic trondhjemite; hydrothermal fluids leached metals from volcanic pile."
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluids transported via permeable volcaniclastic aquifers and focused along D1 faults and fractures; stockwork zones indicate subsurface conduits."
+      },
+      "trap": {
+        "score": 5,
+        "evidence": "Chemical precipitation on seafloor or near-seafloor replacement; iron-formation horizons and alteration zones act as chemical traps; Cu-Zn zoning indicates temperature gradients."
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Massive and semimassive sulfide lenses hosted by iron-formation and altered volcanic rocks; stockwork zones in footwall alteration."
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Sillimanite-muscovite-quartz schist and iron-formation may have acted as seals; later deformation and metamorphism modified original permeability."
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "U-Pb zircon age of 2720 ± 3 Ma for synvolcanic trondhjemite and felsic volcanism; mineralization is syngenetic with volcanic activity."
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposits preserved despite polyphase deformation and upper amphibolite facies metamorphism; some remobilization but primary features retained."
+      }
+    }
+  },
+  {
+    "paper_id": "2262",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "OROG-AU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "basalt",
+      "basaltic andesite",
+      "dacite",
+      "volcaniclastic sandstone",
+      "siltstone"
+    ],
+    "alteration": [
+      "sericite",
+      "pyrite",
+      "carbonate",
+      "chlorite",
+      "ferroan calcite",
+      "albite"
+    ],
+    "structural_controls": [
+      "strike-slip shear zone",
+      "thrust fault",
+      "D2 sinistral shear",
+      "D3 thrust"
+    ],
+    "minerals_mentioned": [
+      "quartz",
+      "gold",
+      "pyrite",
+      "chalcopyrite",
+      "malachite",
+      "limonite",
+      "sericite",
+      "calcite",
+      "ferroan calcite",
+      "albite",
+      "chlorite",
+      "biotite"
+    ],
+    "commodities": [
+      "Au"
+    ],
+    "metallogenic_belt": "Al Wajh gold district, Midyan terrane, Arabian-Nubian Shield",
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "tectonic_setting": "Neoproterozoic accretionary orogen, Arabian-Nubian Shield",
+    "ages_ma": [
+      660,
+      620
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Oxygen isotopes suggest low-grade metamorphic fluid source; gold sourced from mafic volcanic rocks with elevated background Au"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluid transport along D2 strike-slip shear zones and D3 thrust faults; multiple deformation episodes facilitated fluid flow"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Gold precipitated in quartz veins within dilatant zones of shear zones and thrust faults; structural traps include fold crests and fault bends"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Quartz veins and sheeted zones in altered wall rock; limited extent and small tonnage"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal identified; veins are open to surface; sericite alteration may have provided some sealing"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Main mineralization during D2 and D3 deformation episodes, constrained between 700-660 Ma; minor D4 veins at ~620 Ma"
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Deposits are small and shallow; ancient mining to only 8 m depth; veins may pinch out at depth; no evidence of deep preservation"
+      }
+    }
+  },
+  {
+    "paper_id": "2274",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "VEIN-PBAG",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "quartzite",
+      "argillite",
+      "dolomitic argillite"
+    ],
+    "alteration": [
+      "recrystallization",
+      "bleaching"
+    ],
+    "structural_controls": [
+      "steeply dipping west-northwest-trending veins",
+      "vein-parallel faulting",
+      "Big Creek anticline",
+      "Osburn fault"
+    ],
+    "minerals_mentioned": [
+      "siderite",
+      "tetrahedrite",
+      "friebergite",
+      "galena",
+      "sphalerite",
+      "pyrite",
+      "quartz",
+      "calcite"
+    ],
+    "commodities": [
+      "Ag",
+      "Pb",
+      "Cu",
+      "Sb",
+      "Au"
+    ],
+    "metallogenic_belt": "Coeur d'Alene mining district, Silver Belt, Belt Supergroup, North American craton",
+    "countries": [
+      "USA"
+    ],
+    "tectonic_setting": "Cretaceous accretion and suturing of exotic terranes onto western Idaho, associated with regional compression and formation of granitic batholiths",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Metamorphic/formation fluids derived from Belt Supergroup metasedimentary rocks; high 87Sr/86Sr ratios indicate crustal source"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluids ascended along steep faults and fractures parallel to reverse faults; high temperature (325°C) and pressure (1-3 kbar) regime"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Siderite precipitation due to temperature increase and CO2 effervescence; U-shaped isotopic trends indicate deposition from vein margins inward"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Tabular veins in fractured metasedimentary rocks; sharp contacts with wall rock; vein widths up to 2 m"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal mentioned; veins are open to later faulting and brecciation"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Sr isotope data indicate Mesozoic or younger age; likely Late Cretaceous to early Tertiary; unsupported radiogenic Sr requires young formation"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Veins are undeformed except for minor postdepositional faulting; preserved at depths of 3-10 km"
+      }
+    }
+  },
+  {
+    "paper_id": "2287",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "PGE-REE",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "peridotite",
+      "pyroxenite",
+      "gabbronorite",
+      "gabbro",
+      "anorthosite",
+      "websterite",
+      "werhlite"
+    ],
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "olivine",
+      "clinopyroxene",
+      "orthopyroxene",
+      "plagioclase",
+      "ferrochromite",
+      "pyrrhotite",
+      "pentlandite",
+      "chalcopyrite",
+      "brown hornblende",
+      "biotite",
+      "sphene",
+      "quartz",
+      "sperrylite",
+      "testibiopalladinite",
+      "maslovite",
+      "cobaltite",
+      "altaite",
+      "stilpnomelane"
+    ],
+    "commodities": [
+      "PGE",
+      "Ni",
+      "Cu"
+    ],
+    "metallogenic_belt": "Cape Smith fold belt, Ungava trough, Quebec",
+    "countries": [
+      "Canada"
+    ],
+    "tectonic_setting": "Within-plate environment subject to hot spot volcanism in a distended continental regime, later ocean crust formation",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Parental magma derived from ~20% melting of garnet lherzolite; high CaO content (7.21-11.26%)"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "PGE transported by silicate magma; later migration of S-bearing liquid and fluid phases"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Sulfide precipitation due to decreasing sulfide capacity from CaO removal and increasing SiO2; R factor 100-1000"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Pegmatitic gabbro horizon as host; reef up to 1 m thick, 2 km long"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Overlying anorthosite and gabbro layers; no specific seal discussed"
+      },
+      "timing": {
+        "score": 1,
+        "evidence": "No absolute ages reported; relative timing from crystallization sequence"
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Intrusion preserved; some hydrothermal alteration and carbonatized zones noted"
+      }
+    }
+  },
+  {
+    "paper_id": "2303",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "LCT-LI",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "metasedimentary rocks",
+      "shale",
+      "sandstone"
+    ],
+    "alteration": [
+      "muscovitization",
+      "albitization",
+      "phyllic alteration",
+      "argillic alteration",
+      "tourmalinization",
+      "sericitization"
+    ],
+    "structural_controls": [
+      "brittle deformation",
+      "fractures",
+      "shear zones"
+    ],
+    "minerals_mentioned": [
+      "columbite",
+      "cassiterite",
+      "wolframite",
+      "scheelite",
+      "quartz",
+      "albite",
+      "K-feldspar",
+      "muscovite",
+      "tourmaline",
+      "amblygonite",
+      "spodumene",
+      "beryl",
+      "lepidolite",
+      "zinnwaldite",
+      "ilmenite",
+      "fluorapatite",
+      "bismuth",
+      "bismuthinite",
+      "pyrite",
+      "arsenopyrite",
+      "hematite",
+      "specularite",
+      "limonite",
+      "gold",
+      "bismutite",
+      "ilmenohematite",
+      "ilmenorutile",
+      "fluorite",
+      "topaz",
+      "microcline"
+    ],
+    "commodities": [
+      "Ta",
+      "Nb",
+      "Sn",
+      "Au",
+      "Bi",
+      "W"
+    ],
+    "metallogenic_belt": "Kibaran belt, Central African tin belt",
+    "countries": [
+      "Burundi"
+    ],
+    "tectonic_setting": "Mesoproterozoic Kibaran mobile belt, postorogenic extension related to G4 granite magmatism",
+    "ages_ma": [
+      962,
+      968
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Highly fractionated, peraluminous G4 granites (tin granites) derived from crustal melting, enriched in Sn, W, Nb, Ta, Li, Cs, Rb, B, F."
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Pegmatite lenses and hydrothermal vein systems along fractures and shear zones; fluid circulation related to granite emplacement."
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Pegmatite lenses with internal zoning; quartz cores surrounded by mineralized zones; hydrothermal veins in metasedimentary rocks."
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Pegmatite lenses up to 400 m wide and several km long; quartz-muscovite veins and quartz veins."
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Country rocks (metasediments) provide some seal; later brittle deformation allowed fluid escape."
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "U-Pb columbite ages: 962 ± 2 Ma (Kivuvu) and 968+33 Ma (Ruhembe); Pan-African overprint at ca 620 Ma."
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deep weathering and Pan-African brittle reworking redistributed Au and Bi; primary pegmatite minerals partially preserved."
+      }
+    }
+  },
+  {
+    "paper_id": "2310",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "GREISEN",
+    "deposit_type_conf": 0.7,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "monzogranite",
+      "leucogranite",
+      "tonalite"
+    ],
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "quartz",
+      "alkali feldspar",
+      "perthite",
+      "biotite",
+      "fluorite",
+      "topaz",
+      "beryl",
+      "hornblende",
+      "plagioclase",
+      "titanite"
+    ],
+    "commodities": [
+      "Sn",
+      "W",
+      "Mo",
+      "Cu",
+      "Au",
+      "Ag",
+      "As",
+      "Bi",
+      "Pb",
+      "Zn"
+    ],
+    "metallogenic_belt": "New England orogen, Lachlan fold belt, eastern Australia",
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "high-level epizonal plutons in a fold belt",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Magmatic aqueous phase scavenging metals from larger volumes of granite; elevated Mo, Cu, Au, S, Zn in interconnected miarolitic texture-bearing phases indicate hydrothermal enrichment from magmatic volatiles."
+      },
+      "transport": {
+        "score": 5,
+        "evidence": "Interconnected miarolitic texture provides direct evidence of magmatic volatile-phase permeability and connectivity, enabling advection of fluids through spanning clusters."
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Mineralization occurs in leucocratic segregations and apical portions of plutons; precipitation likely due to cooling and decompression, but specific trap mechanism not detailed."
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Host rocks are granitic phases with miarolitic cavities and aplitic groundmass; porosity from interconnected miaroles provides space for mineralization."
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No explicit seal described; overlying volcanics and sediments may act as cap, but not discussed."
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Permo-Triassic age inferred from regional geology, but no direct age data for mineralization or interconnected miarolitic texture."
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Texture preserved in high-level plutons; some erosion has exposed alluvial Sn deposits, indicating partial preservation."
+      }
+    }
+  },
+  {
+    "paper_id": "2317",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "HS-EPITH",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "ash-flow tuff",
+      "lava",
+      "volcanic breccia",
+      "andesite",
+      "dacite",
+      "rhyolite ash-flow tuff",
+      "quartzite",
+      "shale",
+      "limestone"
+    ],
+    "alteration": [
+      "adularia alteration",
+      "illitic alteration",
+      "propylitic alteration",
+      "quartz-alunite alteration",
+      "kaolinite alteration"
+    ],
+    "structural_controls": [
+      "east-northeast-striking conjugate normal faults",
+      "Calera fault",
+      "Manto fault",
+      "postmineral normal faults"
+    ],
+    "minerals_mentioned": [
+      "pyrite",
+      "sphalerite",
+      "galena",
+      "chalcopyrite",
+      "tetrahedrite",
+      "argentian tetrahedrite",
+      "electrum",
+      "adularia",
+      "quartz",
+      "illite",
+      "rhodonite",
+      "rhodochrosite",
+      "alunite",
+      "kaolinite",
+      "smectite",
+      "illite-smectite",
+      "albite",
+      "calcite",
+      "chlorite",
+      "muscovite",
+      "biotite",
+      "hornblende",
+      "plagioclase"
+    ],
+    "commodities": [
+      "Ag",
+      "Au"
+    ],
+    "metallogenic_belt": "Andean cordillera, southern Peru",
+    "countries": [
+      "Peru"
+    ],
+    "tectonic_setting": "extensional normal faulting within a Neogene calc-alkaline volcanic belt, related to Quechua 1 tectonism",
+    "ages_ma": [
+      17.8,
+      17.7,
+      17.9,
+      17.4,
+      17.0,
+      17.6,
+      18.4,
+      19.5,
+      18.3,
+      18.6,
+      19.4
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Lead isotope data and tellurium abundance suggest igneous source for metals; magmatic fluid component inferred from oxygen isotopes"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Hydrothermal fluids focused along normal faults; fluid flow steep, with some horizontal component"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Ore deposited at fault junctions, highly fractured wall rocks, and changes in vein orientation; open-space filling"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Veins hosted by early Miocene volcanic rocks; fractures and faults provide permeability"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Barren quartz caps at surface; alluvium covers some veins; postmineral tilting but no major erosion"
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "K-Ar and 40Ar/39Ar dating of adularia and alunite constrain mineralization at 17.8 ± 0.1 Ma, about 1 m.y. after Sarpane volcanism"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Veins preserved despite postmineral tilting and minor fault offset; some veins exposed by erosion, others buried by alluvium"
+      }
+    }
+  },
+  {
+    "paper_id": "2326",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "SEDEX",
+    "deposit_type_conf": 0.7,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "Upper Cambrian sandstone",
+      "Middle Cambrian mudstone",
+      "Upper Cambrian mudstone"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "Appalachian thrust belt",
+      "fractures",
+      "dissolution pores"
+    ],
+    "minerals_mentioned": [
+      "galena",
+      "sphalerite",
+      "barite"
+    ],
+    "commodities": [
+      "Pb",
+      "Zn",
+      "Ba"
+    ],
+    "metallogenic_belt": "Appalachian thrust belt, lower St. Lawrence area",
+    "countries": [
+      "Canada"
+    ],
+    "tectonic_setting": "Appalachian thrust belt",
+    "ages_ma": [
+      450
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Pb isotope data indicate mudstones as major lead source; sandstones contribute minor lead."
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Hydrothermal brines transported lead; permeability of sandstone controlled leaching efficiency."
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Fractures and dissolution pores in sandstone served as traps for vein and disseminated mineralization."
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Sandstone porosity and permeability provided reservoir space; vein-only deposits have restricted permeability."
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Mudstones may act as seals, but no direct evidence discussed."
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "Mineralization age ~450 Ma based on structural studies and model galena Pb ages; Rb-Sr dating of barite gives 490 ± 40 Ma."
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Deposits preserved in thrust belt, but no specific discussion of post-mineralization preservation."
+      }
+    }
+  },
+  {
+    "paper_id": "2329",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "OROG-AU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "Golden Mile Dolerite",
+      "komatiite",
+      "tholeiitic basalt",
+      "felsic volcanic-sedimentary unit"
+    ],
+    "alteration": [
+      "quartz-albite-muscovite-ankerite-pyrite"
+    ],
+    "structural_controls": [
+      "dextral fault",
+      "dilational site"
+    ],
+    "minerals_mentioned": [
+      "scheelite",
+      "quartz",
+      "carbonate",
+      "sulfide",
+      "pyrite",
+      "muscovite",
+      "albite",
+      "ankerite"
+    ],
+    "commodities": [
+      "Au"
+    ],
+    "metallogenic_belt": "Eastern Goldfields province, Yilgarn craton",
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Archean greenstone belt",
+    "ages_ma": [
+      2602
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Nd isotopes indicate komatiite as source of Nd and likely Au; komatiites have high Au content"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Fluid flow along dextral faults and through dilational sites in competent granophyre"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Gold deposition by desulfidation and oxidation in stockwork vein systems"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Quartz vein stockworks within Golden Mile Dolerite granophyre"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal mentioned; alteration zones may provide some sealing"
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "40Ar-39Ar age of 2602 ± 8 Ma from hydrothermal muscovite"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved; no post-mineralization alteration evident"
+      }
+    }
+  },
+  {
+    "paper_id": "2343",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "PGE",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "norite",
+      "pyroxenite",
+      "harzburgite",
+      "dunite",
+      "chromitite"
+    ],
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "chromite",
+      "orthopyroxene",
+      "olivine",
+      "plagioclase",
+      "bronzite",
+      "laurite"
+    ],
+    "commodities": [
+      "PGE",
+      "Cr"
+    ],
+    "metallogenic_belt": "Bushveld Complex, Kaapvaal Craton",
+    "countries": [
+      "South Africa"
+    ],
+    "tectonic_setting": "Layered mafic-ultramafic intrusion within a continental craton",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Primitive and evolved magmas from mantle-derived melts; PGE sourced from replenishing magma"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Lateral displacement of magma from feeder zone at Union section to distal facies"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Magma mixing triggers sulfur saturation and chromitite precipitation; sulfide segregation traps PGE"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Cumulate layers (chromitite, pyroxenite) host PGE; lateral thickness variation"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Overlying Main and Upper zone cumulates may act as seal; no detailed discussion"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Relative timing within Bushveld magmatic sequence; no absolute ages given"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Intrusion preserved; minor hydrothermal overprint suggested by Os isotope variation"
+      }
+    }
+  },
+  {
+    "paper_id": "2350",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "MUM-NICU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "mafic-ultramafic rocks",
+      "amphibole rocks",
+      "serpentinite"
+    ],
+    "alteration": [
+      "alkali metasomatism",
+      "hydrosilicate alteration",
+      "epidote",
+      "sericite",
+      "carbonate"
+    ],
+    "structural_controls": [
+      "synmetamorphic shear zone",
+      "NW-SE striking lenticular body",
+      "tension fractures"
+    ],
+    "minerals_mentioned": [
+      "chalcopyrite",
+      "pyrrhotite",
+      "pyrite",
+      "cubanite",
+      "violarite",
+      "pentlandite",
+      "bornite",
+      "sphalerite",
+      "valleriite",
+      "heazlewoodite",
+      "parkerite",
+      "mackinawite",
+      "molybdenite",
+      "ilmenite",
+      "hematite",
+      "rutile",
+      "michenerite",
+      "froodite",
+      "merenskyite",
+      "sudburyite",
+      "geversite",
+      "palladian bismuthian melonite",
+      "hessite",
+      "joseite",
+      "altaite",
+      "electrum",
+      "bismuthinite",
+      "actinolite",
+      "hornblende",
+      "anthophyllite",
+      "cummingtonite",
+      "chlorite",
+      "plagioclase",
+      "garnet",
+      "quartz",
+      "dolomite",
+      "siderite",
+      "epidote",
+      "sericite"
+    ],
+    "commodities": [
+      "Cu",
+      "Ni",
+      "PGE",
+      "Co",
+      "Au",
+      "Ag"
+    ],
+    "metallogenic_belt": "Arabo-Nubian Shield, South Eastern Desert, Egypt",
+    "countries": [
+      "Egypt"
+    ],
+    "tectonic_setting": "Neoproterozoic ophiolitic thrust complex, amphibolite facies metamorphism, synmetamorphic shear zone",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "PGE and base metals derived from original magmatic sulfide liquid; hydrothermal solutions from enclosing metasediments during metamorphism"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Transport by hydrothermal solutions along synmetamorphic shear zone; chloride complexes suggested for Cu and PGE"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Precipitation at sulfide-silicate contacts, fractures in plagioclase and garnet, and within massive sulfides due to decreasing temperature and fluid-rock interaction"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Hosted in mafic-ultramafic lens, with massive sulfides and stringers along shear plane"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal mentioned; mineralization hosted in metamorphic rocks with later carbonate veins"
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "Post-peak amphibolite facies metamorphism (650°C, 4-5 kbars); PGM precipitation during cooling from >500°C to ~250°C"
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Oxidized top part exploited in ancient times; deposit considered uneconomic; some supergene alteration"
+      }
+    }
+  },
+  {
+    "paper_id": "2361",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "OROG-AU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "conglomerate",
+      "shale",
+      "quartzite",
+      "tuff"
+    ],
+    "alteration": [
+      "chloritization",
+      "silicification",
+      "carbonatization"
+    ],
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "pyrrhotite",
+      "pyrite",
+      "chalcopyrite",
+      "gold",
+      "chlorite",
+      "muscovite",
+      "rutile",
+      "calcite",
+      "sphalerite",
+      "albite",
+      "galena",
+      "sudoite",
+      "tourmaline",
+      "carbonaceous matter",
+      "chloritoid",
+      "pyrophyllite",
+      "kyanite",
+      "quartz"
+    ],
+    "commodities": [
+      "Au"
+    ],
+    "metallogenic_belt": "Witwatersrand Basin, Kaapvaal Craton",
+    "countries": [
+      "South Africa"
+    ],
+    "tectonic_setting": "Archean foreland basin on the Kaapvaal Craton, affected by regional metamorphism (greenschist to lower amphibolite facies)",
+    "ages_ma": [
+      2716
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Gold and sulfur sourced from detrital pyrite and possibly hydrothermal fluids; pyrrhotite formed by desulfidation of pyrite during metamorphism"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Fluid flow along permeable conglomerate horizons and fractures; metamorphic fluids involved"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Chemical trapping by reduction of fluids in contact with carbonaceous matter and pyrite; structural traps in conglomerate reefs"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Conglomerate reefs and quartzite provide porous and permeable host rocks"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Overlying Ventersdorp metabasalts and shale units act as seals"
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "Pyrrhotite formed during peak regional metamorphism at ca. 2716 Ma (age of Ventersdorp lavas); gold mineralization likely syn-metamorphic"
+      },
+      "preservation": {
+        "score": 4,
+        "evidence": "Witwatersrand gold fields preserved in a stable cratonic setting; limited post-metamorphic deformation"
+      }
+    }
+  },
+  {
+    "paper_id": "2370",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "JACUTINGA-AU",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": false,
+    "host_rocks": [
+      "banded iron-formation",
+      "itabirite",
+      "dolomitic itabirite",
+      "hematitic iron ore"
+    ],
+    "alteration": [
+      "hydrothermal alteration",
+      "hematitization"
+    ],
+    "structural_controls": [
+      "shear zone"
+    ],
+    "minerals_mentioned": [
+      "gold",
+      "palladium",
+      "hematite",
+      "magnetite",
+      "specular hematite",
+      "phlogopite",
+      "K-feldspar",
+      "biotite",
+      "talc",
+      "quartz",
+      "manganese oxides"
+    ],
+    "commodities": [
+      "Au",
+      "Pd"
+    ],
+    "metallogenic_belt": "Quadrilátero Ferrífero, São Francisco Craton",
+    "countries": [
+      "Brazil"
+    ],
+    "tectonic_setting": "Proterozoic cratonic basin, southern São Francisco Craton",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Au and Pd possibly from underlying Rio das Velhas sequence or syngenetic in Itabira Group"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Hydrothermal fluids transporting Au and Pd as chloro-complexes"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Reaction with magnetite or Fe-dolomite causing precipitation; Mn oxides also involved"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Banded iron-formation (itabirite) and high-grade hematite ore as host"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal discussed; preservation likely due to structural setting"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "No absolute ages given; relative timing post-metamorphism"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposits preserved in Proterozoic rocks, but later deformation and oxidation noted"
+      }
+    }
+  },
+  {
+    "paper_id": "2372",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "OROG-AU",
+    "deposit_type_conf": 0.8,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "dolomitic itabirite",
+      "iron-formation"
+    ],
+    "alteration": [
+      "hydrothermal alteration",
+      "hematite veining"
+    ],
+    "structural_controls": [
+      "D1 shearing event",
+      "highly sheared iron-formations"
+    ],
+    "minerals_mentioned": [
+      "quartz",
+      "hematite",
+      "magnetite",
+      "goethite",
+      "talc",
+      "phlogopite",
+      "kaolinite",
+      "tourmaline",
+      "apatite",
+      "monazite",
+      "Fe-Mg-Ca carbonate",
+      "gold",
+      "palladium"
+    ],
+    "commodities": [
+      "Au",
+      "Pd"
+    ],
+    "metallogenic_belt": "Quadrilátero Ferrífero, southern São Francisco Craton",
+    "countries": [
+      "Brazil"
+    ],
+    "tectonic_setting": "continental-shelf environment, Proterozoic Lake Superior-type iron-formation, lower amphibolite facies metamorphism",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Au and Pd sourced from Archean Rio das Velhas Supergroup (basic to ultrabasic rocks and massive sulfide ore) based on Pb-Pb isotopes and geochemical anomalies"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Hydrothermal fluids transported Au and Pd as chloride complexes; D1 shearing provided pathways"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "pH increase due to reaction between hydrothermal fluids and dolomitic itabirite (forming talc/phlogopite) caused Au and Pd precipitation; also possible redox reaction with magnetite"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Jacutinga layers (hydrothermally altered ironstone) and hematite veins host the ore"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No explicit seal discussed; preservation may be due to structural setting"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Mineralization synchronous with D1 shearing and prograde regional metamorphism, but no absolute ages given"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved at Cauê mine; later weathering produced Mn oxides but not affecting primary ore"
+      }
+    }
+  },
+  {
+    "paper_id": "Late-Permian--Lopingian--terrestrial-ecosystems--A-global-co_2017_Earth-Scie(1)",
+    "deposit_class": "none",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Italy",
+      "China",
+      "Russia",
+      "Germany",
+      "Morocco",
+      "Niger",
+      "Laos",
+      "Brazil",
+      "Tanzania",
+      "Malawi",
+      "Zambia",
+      "India",
+      "South Africa"
+    ],
+    "tectonic_setting": null,
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Hydrochemistry-and-isotope-compositions-of-groundwater-f_2007_Journal-of-Geo",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "SANDSTONE-U",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "sandstone",
+      "conglomerate",
+      "shale",
+      "coal",
+      "mudstone"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "fault",
+      "fracture zone"
+    ],
+    "minerals_mentioned": [
+      "uraninite",
+      "pyrite",
+      "gypsum",
+      "calcite",
+      "dolomite",
+      "quartz",
+      "clay minerals",
+      "chlorite",
+      "illite",
+      "kaolinite",
+      "tourmaline",
+      "biotite",
+      "hornblende",
+      "plagioclase",
+      "K-feldspar",
+      "mica",
+      "siderite",
+      "anhydrite",
+      "smectite"
+    ],
+    "commodities": [
+      "U"
+    ],
+    "metallogenic_belt": "Tuha Basin, southwestern margin, Xinjiang, NW China",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Continental basin, internally drained, with basement of Proterozoic metasedimentary rocks and Paleozoic volcanic and granitic rocks",
+    "ages_ma": [
+      0.001
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Uranium sourced from intermediate-acidic volcanic rocks and sandstones, leached by oxidizing groundwaters"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Uranium transported by migrating groundwaters through permeable sandstone aquifers, flow from southwest to northeast"
+      },
+      "trap": {
+        "score": 5,
+        "evidence": "Reduction of uranium at oxidation-reduction boundaries by organic matter, H2S, and sulfides, forming tabular orebodies"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Hosted in porous Jurassic sandstone of Shuixigou Group, between impermeable mudstone strata"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Mudstone and shale aquitards overlie and underlie the aquifer, but no specific seal described"
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "U-Pb ages less than 1 Ma indicate ongoing mineralization, but no precise age given"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved in arid climate, but no detailed discussion of post-mineralization changes"
+      }
+    }
+  },
+  {
+    "paper_id": "The-role-of-microorganisms-on-the-mineralogical-and-geoc_2007_Journal-of-Geo",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "KARST-BAUXITE",
+    "deposit_type_conf": 1.0,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "limestone",
+      "dolomitic limestone"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "faults"
+    ],
+    "minerals_mentioned": [
+      "boehmite",
+      "diaspore",
+      "gibbsite",
+      "kaolinite",
+      "hematite",
+      "goethite",
+      "anatase",
+      "illite",
+      "clinochlore",
+      "chamosite",
+      "zircon",
+      "lithiophorite",
+      "brindleyite",
+      "rhabdophane",
+      "florencite",
+      "churchite",
+      "xenotime",
+      "pyrite",
+      "pyrrhotite",
+      "pentlandite",
+      "calcite"
+    ],
+    "commodities": [
+      "Al"
+    ],
+    "metallogenic_belt": "Parnassos-Ghiona zone, Mediterranean karst bauxite belt",
+    "countries": [
+      "Greece"
+    ],
+    "tectonic_setting": "Carbonate platform within the Parnassos-Ghiona geotectonic zone",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Al and Fe derived from weathering of underlying rocks; bacteria facilitate metal mobilization"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Percolating pore waters along faults; bacteria enhance mobility of Fe and other elements"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Carbonate rocks act as chemical trap; pH-Eh changes cause precipitation of Al and Fe minerals"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Bauxite horizons (B1, B2, B3) within limestone sequence; porous and permeable layers"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Overlying limestone and flysch provide cover; faults may breach seal locally"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Formed during Upper Jurassic to Middle Cretaceous; no absolute ages given"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposits preserved despite tectonism; pyrite oxidation indicates some alteration"
+      }
+    }
+  },
+  {
+    "paper_id": "Mesozoic-lithospheric-mantle-evolution-in-South-China--Evidence-fro_2024_Lit",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "Neoproterozoic slate",
+      "Carboniferous limestone",
+      "Carboniferous dolomite"
+    ],
+    "alteration": [
+      "serpentinization",
+      "epidotization",
+      "carbonatization",
+      "saponite",
+      "chlorite"
+    ],
+    "structural_controls": [
+      "NNE-trending Sanjiang-Rongshui Fault",
+      "NNE-trending Chidong Fault",
+      "NW- and NE-trending faults",
+      "NW-trending Du'an-Mashan fault"
+    ],
+    "minerals_mentioned": [
+      "phlogopite",
+      "olivine",
+      "diopside",
+      "orthoclase",
+      "apatite",
+      "magnetite",
+      "carbonate",
+      "biotite",
+      "serpentine",
+      "epidote",
+      "kaolinite",
+      "saponite",
+      "chlorite",
+      "Fe-Ti oxides"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Yangtze Craton, South China Block",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Intracontinental extension related to subduction and rollback of the Paleo-Pacific Plate",
+    "ages_ma": [
+      207.7,
+      95.6,
+      99.1,
+      102.3,
+      95.8,
+      96.8
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Paleoproterozoic-sediment-derived-magmas-reveal-a-late-orogenic-stag_2024_Li",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "quartz",
+      "alkali-feldspar",
+      "plagioclase",
+      "biotite",
+      "muscovite",
+      "garnet",
+      "zircon",
+      "apatite",
+      "monazite",
+      "allanite",
+      "xenotime",
+      "chlorite",
+      "sericite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Mineiro Belt, southern São Francisco Craton",
+    "countries": [
+      "Brazil"
+    ],
+    "tectonic_setting": "Late collisional orogenic stage, continental collision between Paleoproterozoic Mineiro Belt and Archean São Francisco Craton",
+    "ages_ma": [
+      1992
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Petrogenesis-of-the-Zenong-Group-volcanics-in-the-central-Lhasa-subt_2024_Li",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "plagioclase",
+      "amphibole",
+      "augite",
+      "biotite",
+      "quartz",
+      "K-feldspar",
+      "titanite",
+      "zircon"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "central Lhasa subterrane, Lhasa terrane, Tibet",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "continental arc formed by southward subduction of the Shiquanhe-Jiali Ocean",
+    "ages_ma": [
+      127,
+      126,
+      112,
+      103
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Pressure-Temperature-time-paths-from-metapelites-reveal-Neoproterozo_2024_Li",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "garnet-staurolite-muscovite schist",
+      "garnet-staurolite-kyanite-muscovite schist"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "S2 foliation",
+      "crenulation cleavage",
+      "pressure shadow zones",
+      "shear zones"
+    ],
+    "minerals_mentioned": [
+      "garnet",
+      "staurolite",
+      "kyanite",
+      "muscovite",
+      "quartz",
+      "chlorite",
+      "chloritoid",
+      "ilmenite",
+      "rutile",
+      "graphite",
+      "tourmaline",
+      "monazite",
+      "apatite",
+      "biotite",
+      "plagioclase",
+      "sillimanite",
+      "zoisite",
+      "margarite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Brasília Orogen, southernmost portion",
+    "countries": [
+      "Brazil"
+    ],
+    "tectonic_setting": "Collisional orogen related to West Gondwana amalgamation, continental underthrusting",
+    "ages_ma": [
+      630,
+      625,
+      605,
+      595,
+      575,
+      555,
+      700,
+      530
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Silurian-devonian-adakites-and-granitic-pegmatitic-dikes-in-North-Qi_2024_Li",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "Qinling Group quartz schist",
+      "biotite-plagioclase gneiss",
+      "graphite-bearing marble",
+      "amphibolite"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "NE-trending fault",
+      "fissure"
+    ],
+    "minerals_mentioned": [
+      "albite",
+      "quartz",
+      "perthite",
+      "microcline",
+      "biotite",
+      "zircon",
+      "apatite",
+      "sphene",
+      "tourmaline"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "North Qinling orogenic belt, Qinling Orogen",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Subduction to post-collisional setting of the Shangdan Ocean and Erlangping back-arc basin",
+    "ages_ma": [
+      439.8,
+      435.4,
+      419.6,
+      402.7
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Sulfur-and-metal-mobilization-during-the-life-cycle-of-an-oceanic-co_2024_Li",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "SMS",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "gabbro",
+      "olivine gabbro",
+      "oxide gabbro",
+      "gabbronorite",
+      "troctolite"
+    ],
+    "alteration": [
+      "granulite-amphibolite facies metasomatism",
+      "amphibolite-greenschist facies metasomatism",
+      "low temperature hydrothermal alteration"
+    ],
+    "structural_controls": [
+      "detachment fault",
+      "ductile shear zone",
+      "high angle fault"
+    ],
+    "minerals_mentioned": [
+      "pyrrhotite",
+      "chalcopyrite",
+      "pentlandite",
+      "pyrite",
+      "marcasite",
+      "magnetite",
+      "plagioclase",
+      "amphibole",
+      "biotite",
+      "hornblende",
+      "actinolite",
+      "epidote",
+      "chlorite",
+      "talc",
+      "smectite",
+      "calcite",
+      "iron-oxyhydroxide"
+    ],
+    "commodities": [
+      "Cu",
+      "Zn",
+      "Co",
+      "Ni",
+      "Au",
+      "Ag"
+    ],
+    "metallogenic_belt": "Atlantis Bank, Southwest Indian Ridge",
+    "countries": null,
+    "tectonic_setting": "slow to ultra-slow spreading mid-ocean ridge, oceanic core complex",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Gabbroic rocks, especially oxide gabbros, are enriched in S, Cu, Zn, Co; magmatic sulfides provide metal source."
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Seawater-derived hydrothermal fluids circulate along detachment faults and high-angle fractures; ductile and brittle deformation enhance permeability."
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Sulfide precipitation occurs due to cooling and fluid mixing; seafloor massive sulfides form at hydrothermal vents."
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Fractured and porous zones along detachment fault and in hanging wall provide space for sulfide accumulation."
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Low-temperature alteration minerals (smectite, carbonates) may seal fractures; no thick cap rock described."
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "Metal mobilization occurs during amphibolite-greenschist facies metasomatism over ~2 Ma exhumation; SMS deposits form over tens of thousands of years."
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Late-stage low-temperature alteration precipitates secondary sulfides; some sulfides may be reworked or oxidized."
+      }
+    }
+  },
+  {
+    "paper_id": "The-origin-of---2-5-Ga-arc-related-magmatic-charnockites-of-Karimnag_2024_Li",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "charnockite",
+      "blastoporphyritic granitoid",
+      "mafic granulite",
+      "high-Al metapelite",
+      "anatectic quartzofeldspathic gneiss"
+    ],
+    "alteration": [
+      "biotitization",
+      "chloritization",
+      "epidotization",
+      "silicification"
+    ],
+    "structural_controls": [
+      "N-striking tectonic foliation",
+      "steeply-dipping shear zones",
+      "E/ENE-striking shear zones"
+    ],
+    "minerals_mentioned": [
+      "quartz",
+      "alkali feldspar",
+      "plagioclase",
+      "orthopyroxene",
+      "clinopyroxene",
+      "biotite",
+      "garnet",
+      "hornblende",
+      "cordierite",
+      "sillimanite",
+      "sapphirine",
+      "spinel",
+      "corundum",
+      "kornite",
+      "epidote",
+      "chlorite",
+      "actinolite",
+      "zircon",
+      "monazite",
+      "rutile",
+      "ilmenite",
+      "myrmekite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Karimnagar granulite belt, Eastern Dharwar Craton",
+    "countries": [
+      "India"
+    ],
+    "tectonic_setting": "Late Neoarchean convergent margin with E-W shortening, subduction-related arc setting",
+    "ages_ma": [
+      2680,
+      2504,
+      2510,
+      2509,
+      2508,
+      2502
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Tracking-HFSE-associated-with-high-salinity-fluid-during-HP-metamor_2024_Lit",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "eclogite",
+      "felsic gneiss",
+      "quartzite"
+    ],
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "garnet",
+      "omphacite",
+      "barroisite",
+      "phengite",
+      "rutile",
+      "epidote",
+      "quartz",
+      "titanite",
+      "ilmenite",
+      "amphibole",
+      "plagioclase",
+      "hornblende",
+      "zircon",
+      "chlorite",
+      "K-feldspar",
+      "apatite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Zavkhan Terrane, Central Asian Orogenic Belt",
+    "countries": [
+      "Mongolia"
+    ],
+    "tectonic_setting": "subduction zone, high-pressure metamorphism in a mélange zone",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "Triassic-Jurassic-alkaline-magmatism-in-the-Ivrea-Verbano-Zone--Sout_2024_Li",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "Finero Phlogopite Peridotite"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "Rio Creves shear zone",
+      "mantle shear zones"
+    ],
+    "minerals_mentioned": [
+      "zircon",
+      "amphibole",
+      "phlogopite",
+      "albite",
+      "apatite",
+      "monazite",
+      "ilmenite",
+      "titanite",
+      "Nb-rich oxides",
+      "carbonates",
+      "allanite",
+      "calcite",
+      "sulfides",
+      "columbite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Ivrea-Verbano Zone, Southern Alps, Adriatic plate",
+    "countries": [
+      "Italy"
+    ],
+    "tectonic_setting": "Continental rifting, post-collisional extension, precursor to Alpine Tethys opening",
+    "ages_ma": [
+      221,
+      201,
+      198,
+      202,
+      191
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "U-Pb-ages-and-Hf-isotopic-composition-of-detrital-zircon-in-western-_2024_Li",
+    "deposit_class": "geochemical_petrology",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "sandstone",
+      "mudstone",
+      "conglomerate"
+    ],
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "zircon",
+      "quartz",
+      "feldspar",
+      "mica",
+      "pelite",
+      "chert"
+    ],
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Portugal"
+    ],
+    "tectonic_setting": "Triassic continental rift basin related to Pangea breakup, overlying Variscan basement of the South Portuguese Zone",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "s00126-023-01218-3",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "LAHN-DILL",
+    "deposit_type_conf": 1.0,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "volcaniclastic rocks",
+      "limestone",
+      "dolostone"
+    ],
+    "alteration": [
+      "albitisation",
+      "carbonate formation",
+      "chloritisation",
+      "silicification",
+      "haematitisation"
+    ],
+    "structural_controls": [
+      "NE-SW-trending folds",
+      "thrust faults",
+      "normal faults"
+    ],
+    "minerals_mentioned": [
+      "haematite",
+      "quartz",
+      "siderite",
+      "magnetite",
+      "calcite",
+      "pyrite",
+      "chalcopyrite",
+      "chamosite",
+      "ankerite",
+      "apatite",
+      "albite",
+      "phengitic white mica",
+      "sericite",
+      "leucoxene",
+      "chlorite"
+    ],
+    "commodities": [
+      "Fe"
+    ],
+    "metallogenic_belt": "Rhenohercynian Zone, Variscan Orogen",
+    "countries": [
+      "Germany"
+    ],
+    "tectonic_setting": "restricted shallow marine back-arc basin in the Rheic Ocean, associated with mafic volcanism",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Fe mobilised from footwall volcaniclastic rocks by H2CO3-rich fluids; mass-balance calculations show sufficient Fe in 136 m sequence"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Ascending fluids vented into marine basins or metasomatically replaced wall rocks; evidence of fluid flow through faults and permeable volcaniclastic rocks"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Chemical precipitation on seafloor (sedimentary-type) and metasomatic replacement of limestone (replacement-type); Fe-Si-rich gel formation and maturation"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Ore bodies up to 14 m thick, lateral extent up to 1 km; hosted in volcaniclastic rocks and limestone"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Hanging wall clastic sedimentary rocks and dolostone; low-grade metamorphic overprint preserved primary textures"
+      },
+      "timing": {
+        "score": 3,
+        "evidence": "Middle to Late Devonian boundary (Givetian/Frasnian); associated with volcanic activity"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Low-grade metamorphism (prehnite-pumpellyite to lower greenschist facies) preserved primary textures; Variscan deformation caused folding and faulting but did not destroy ore bodies"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01279-y",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "KUPFERSCHIEFER",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "dolomitic shale",
+      "bitumen-calcareous shale",
+      "sandstone",
+      "dolomite",
+      "limestone",
+      "mudstone"
+    ],
+    "alteration": [
+      "oxidation",
+      "silicification"
+    ],
+    "structural_controls": [
+      "reverse fault",
+      "E-W trending fault"
+    ],
+    "minerals_mentioned": [
+      "uraninite",
+      "brannerite",
+      "masuyite",
+      "liebigite",
+      "natrozippeite",
+      "cuprosklodowskite",
+      "nováčekite",
+      "graphite",
+      "illite",
+      "quartz",
+      "fergusonite",
+      "monazite",
+      "zircon",
+      "xenotime",
+      "hematite",
+      "chalcopyrite",
+      "bornite",
+      "chalcocite",
+      "covellite",
+      "pyrite",
+      "sphalerite",
+      "galena",
+      "native gold",
+      "platinum",
+      "palladium"
+    ],
+    "commodities": [
+      "Cu",
+      "Ag",
+      "Au",
+      "Pt",
+      "Pd",
+      "U",
+      "REE"
+    ],
+    "metallogenic_belt": "Fore-Sudetic Monocline, Zechstein Basin",
+    "countries": [
+      "Poland"
+    ],
+    "tectonic_setting": "Fore-Sudetic Monocline, Zechstein (Werra) cycle, Permian basin",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "U and metals sourced from Rotliegend sandstone or Zechstein salt, remobilized by oxidizing fluids"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Fluid migration along redox boundary (Rote Fäule) and through permeable sandstone/shale"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Reduction of uranyl ions by organic matter (charcoal) and precipitation at oxic-anoxic boundary"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "T1 dolomitic shale with high TOC, porous charred particles as adsorption sites"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Overlying Zechstein carbonates and evaporites may provide seal, but not explicitly discussed"
+      },
+      "timing": {
+        "score": 1,
+        "evidence": "No reliable ages; previous U-Pb dates (Jurassic) considered unreliable due to Pb loss"
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Secondary oxidation (Rote Fäule) partially leached Cu sulfides; uraninite altered to secondary U minerals"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01280-5",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "PORP-CUMO",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "monzonite",
+      "granite",
+      "syenite porphyry",
+      "monzogranite",
+      "granodiorite porphyry",
+      "quartz monzonite porphyry"
+    ],
+    "alteration": [
+      "kaolinite",
+      "chlorite",
+      "sericite"
+    ],
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "plagioclase",
+      "amphibole",
+      "biotite",
+      "K-feldspar",
+      "quartz",
+      "apatite",
+      "zircon",
+      "magnetite",
+      "epidote",
+      "sericite",
+      "chlorite",
+      "albite"
+    ],
+    "commodities": [
+      "Cu",
+      "Au"
+    ],
+    "metallogenic_belt": "Eastern Tethyan metallogenic domain (Sanjiang belt, Gangdese belt, Tibetan Plateau)",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Post-collisional setting after Neo-Tethys closure, involving lithospheric delamination and asthenospheric upwelling",
+    "ages_ma": [
+      41,
+      38,
+      34,
+      30,
+      24,
+      16,
+      15
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Metasomatized lithospheric mantle-derived magmas enriched in chalcophile elements; primitive lamprophyres have Cu ~20-90 ppm, Pd ~0.5-3 ppb, Pt ~0.4-3 ppb"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "High volatile contents (H2O ~4-5 wt%, Cl ~0.22 wt%) in ore-associated magmas; hydrothermal fluids released from magma transport metals"
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Sulfide saturation and precipitation in upper crustal magma chambers; fluid exsolution and metal precipitation in porphyry systems"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Porphyry intrusions and surrounding host rocks; alteration haloes with secondary minerals"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal discussed; preservation likely due to post-collisional tectonic stability"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Eocene to Miocene ages (41-15 Ma) for ore-associated suites; ages from zircon U-Pb and whole-rock dating"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposits exposed at surface; some alteration and mineralization preserved; no evidence of significant destruction"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01286-z",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "LCT-LI",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "Janggun Limestone",
+      "Yulri Schist",
+      "Buncheon Granite Gneiss",
+      "Wonnam Granite Gneiss"
+    ],
+    "alteration": [
+      "albitization",
+      "brecciation"
+    ],
+    "structural_controls": [
+      "N30°-70°E striking, 30°-70°W dipping dikes",
+      "fault"
+    ],
+    "minerals_mentioned": [
+      "muscovite",
+      "lepidolite",
+      "quartz",
+      "K-feldspar",
+      "albite",
+      "tourmaline",
+      "beryl",
+      "amblygonite",
+      "microlite",
+      "Mn-columbite",
+      "tantalite",
+      "apatite",
+      "cassiterite",
+      "zircon",
+      "spodumene",
+      "elbaite",
+      "dravite"
+    ],
+    "commodities": [
+      "Li",
+      "Cs",
+      "Ta",
+      "Nb",
+      "Be",
+      "Sn"
+    ],
+    "metallogenic_belt": "Yeongnam massif, Daebo Orogeny",
+    "countries": [
+      "South Korea"
+    ],
+    "tectonic_setting": "Jurassic Daebo Orogeny related to subduction of Paleo-Pacific (Izanagi) plate",
+    "ages_ma": [
+      169,
+      155
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Highly fractionated S-type granitic melt enriched in Li, F, B, P; crustal assimilation"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Faults and fractures; dike emplacement along N30°-70°E structures; immiscible melt-fluid phases"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Chemical traps: limestone host; physical traps: layered pegmatite zones; brecciation"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Layered pegmatite with border, intermediate, core zones; albitized zones"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Limestone and schist host rocks; brecciation indicates pressure release"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "K-Ar dating of lepidolite: 169±3 to 155±3 Ma (Jurassic)"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Exposed by Late Cretaceous uplift and erosion; some brecciation and albitization"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01287-y",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "PORP-CUMO",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "granodiorite",
+      "diorite porphyry",
+      "monzogranite",
+      "dacite porphyry",
+      "biotite granite",
+      "K-feldspar granite",
+      "granite"
+    ],
+    "alteration": [
+      "potassic",
+      "phyllic",
+      "propylitic"
+    ],
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "zircon",
+      "apatite",
+      "molybdenite",
+      "chalcopyrite",
+      "pyrite",
+      "hornblende",
+      "amphibole",
+      "plagioclase",
+      "biotite",
+      "K-feldspar",
+      "titanite",
+      "garnet"
+    ],
+    "commodities": [
+      "Cu",
+      "Mo",
+      "Au"
+    ],
+    "metallogenic_belt": "Delamerian Orogen, Tasmanides",
+    "countries": [
+      "Australia"
+    ],
+    "tectonic_setting": "Post-subduction setting related to Delamerian Orogeny, Andean-style convergent margin",
+    "ages_ma": [
+      480,
+      470,
+      460
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Hydrous, oxidized, S- and Cl-rich magmas derived from post-subduction processes; zircon and apatite chemistry indicate fertile magmas"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Magmatic-hydrothermal fluids exsolved from evolved melts; amphibole-dominated fractionation suggests high water content"
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Porphyry stocks and breccias; phyllic and potassic alteration zones; stockwork veins"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Granodiorite, diorite porphyry, and dacite porphyry host mineralization; shallow crustal emplacement"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal mentioned; overprinting alteration suggests some preservation"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Zircon U-Pb ages 490-465 Ma; molybdenite Re-Os ages ca. 480 Ma and 470-460 Ma"
+      },
+      "preservation": {
+        "score": 2,
+        "evidence": "Prospects are greenfield; limited exploration; no economic deposits discovered yet"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01290-3",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "REGR-REE",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "tonalite",
+      "granodiorite",
+      "monzogranite"
+    ],
+    "alteration": [
+      "sericitization",
+      "chloritization",
+      "albitization",
+      "deuteric alteration",
+      "supergene weathering"
+    ],
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "allanite-(Ce)",
+      "titanite",
+      "apatite",
+      "zircon",
+      "synchysite-(Ce)",
+      "calcite",
+      "thorite",
+      "illite",
+      "monazite",
+      "xenotime",
+      "fluorite",
+      "uraninite",
+      "kaolinite",
+      "halloysite",
+      "biotite",
+      "chlorite",
+      "plagioclase",
+      "K-feldspar",
+      "quartz",
+      "amphibole",
+      "epidote",
+      "pyrite",
+      "magnetite"
+    ],
+    "commodities": [
+      "REE",
+      "LREE",
+      "M-HREE"
+    ],
+    "metallogenic_belt": "Nanling Mountain Range, South China Block",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Intracontinental setting related to Paleo-Pacific plate subduction, within the Cathaysia Block",
+    "ages_ma": [
+      159.0,
+      159.2
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "REE sourced from allanite and other accessory minerals in granitic bedrock; LREE from magmatic allanite, M-HREE from Cl-rich deuteric fluids"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Cl-rich deuteric fluids transport M-HREE as chloride complexes; F- and carbonate-rich supergene fluids transport LREE"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Adsorption on kaolinite and halloysite in regolith; synchysite-(Ce) precipitation in weathered bedrock"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Regolith-hosted orebodies in completely weathered layer, thickness 2-14 m, controlled by geomorphology"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Humus and eluvial layers partially eroded; preservation in weathered profile depends on groundwater table"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Magmatic allanite crystallized at ca. 159 Ma; deuteric alteration at same time; supergene alteration postdates"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Regolith preserved in subtropical climate; some erosion of upper layers; HREE may be lost to groundwater"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01291-2",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "REE",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "Longs Peak granite",
+      "aplite",
+      "metasedimentary biotite schist"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "contact between granite and metasedimentary schist",
+      "foliation of schist"
+    ],
+    "minerals_mentioned": [
+      "fluorbritholite-(Ce)",
+      "allanite-(Ce)",
+      "monazite-(Ce)",
+      "bastnäsite-(Ce)",
+      "törnebohmite-(Ce)",
+      "cerite-(Ce)",
+      "fluorite",
+      "uraninite",
+      "thorite",
+      "apatite",
+      "amphibole",
+      "quartz",
+      "plagioclase",
+      "biotite",
+      "muscovite",
+      "K-feldspar",
+      "pyrite",
+      "chalcopyrite"
+    ],
+    "commodities": [
+      "REE",
+      "U",
+      "Th"
+    ],
+    "metallogenic_belt": "Rocky Mountain Front Range, Longs Peak batholith, Colorado",
+    "countries": [
+      "USA"
+    ],
+    "tectonic_setting": "anorogenic (A-type) peraluminous granite emplaced in Paleoproterozoic metamorphic rocks",
+    "ages_ma": [
+      1421.9
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Nd isotopes indicate mafic/ultramafic lower crust or upper mantle source, distinct from host granite"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluoride-silicate melt immiscibility during ascent and decompression; intrusion along foliation"
+      },
+      "trap": {
+        "score": 3,
+        "evidence": "Immiscible melt segregation and crystallization; slow cooling allowed aggregation"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Hosted in aplite dikes and along contacts with metasedimentary schists"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal described; preservation likely due to rapid quenching in north, but F loss in south"
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "Sm-Nd age of 1421.9 ± 24.4 Ma on monazite and allanite; consistent with host granite age"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Outcrops preserved; small size suggests sub-economic, but not significantly eroded"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01293-0",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "QZ-VEIN-SN",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "sandstone",
+      "limestone",
+      "slate",
+      "schist",
+      "migmatitic granite",
+      "biotite gneiss"
+    ],
+    "alteration": [
+      "silicic",
+      "chlorite",
+      "sericite",
+      "tourmaline",
+      "carbonate",
+      "potassic",
+      "sulfide"
+    ],
+    "structural_controls": [
+      "NW-trending fault",
+      "Wenquan fault",
+      "Kafang fault",
+      "Lüyintang fault"
+    ],
+    "minerals_mentioned": [
+      "cassiterite",
+      "scheelite",
+      "wolframite",
+      "beryl",
+      "pyrite",
+      "pyrrhotite",
+      "sphalerite",
+      "chalcopyrite",
+      "quartz",
+      "tourmaline",
+      "mica",
+      "feldspar",
+      "bismuthinite",
+      "tremolite",
+      "clinozoisite",
+      "arsenopyrite",
+      "chlorite",
+      "sericite",
+      "monazite"
+    ],
+    "commodities": [
+      "Sn",
+      "W"
+    ],
+    "metallogenic_belt": "Southeast Asian tin belt, Baoshan district, Sanjiang Tethyan domain",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Neo-Tethyan subduction and subsequent India-Asia continental collision",
+    "ages_ma": [
+      75.5,
+      75.9,
+      32.8,
+      32.2
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Tin sourced from Late Cretaceous granite (Shiganghe) and ~32 Ma magmatism along Chongshan shear zone (Tiechang); crustal Pb isotope signatures"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Fluid transport via faults and fractures; ore fluids with δD and δ18O indicating magmatic-hydrothermal origin"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Structural traps: NW-trending faults and fracture zones; chemical traps: wallrock alteration (silicic, chlorite, sericite, tourmaline) and carbonate sequences for distal skarn"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Host rocks: Ordovician Zhibenshan pluton, Cambrian Hetaoping Formation, Neoproterozoic–Cambrian Chongshan Group; orebodies in fracture zones and altered dykes"
+      },
+      "seal": {
+        "score": 3,
+        "evidence": "Impermeable wallrock alterations (silicic, carbonate) may act as seals; no explicit seal described"
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "Cassiterite U-Pb ages: 75.5±3.9 Ma and 75.9±4.8 Ma (Shiganghe); 32.8±1.3 Ma and 32.2±1.0 Ma (Tiechang); monazite U-Pb age: 32.2±1.0 Ma"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposits preserved at current erosion level; no evidence of significant post-mineralization disruption"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01294-z",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "PORP-AU-CU",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "diorite",
+      "granodiorite",
+      "granitic complex"
+    ],
+    "alteration": [
+      "potassic",
+      "chlorite-sericite",
+      "silicification"
+    ],
+    "structural_controls": [
+      "NNE-trending Xiangfanghe River",
+      "NW-NNW trending compressional faults"
+    ],
+    "minerals_mentioned": [
+      "biotite",
+      "K-feldspar",
+      "quartz",
+      "pyrite",
+      "chalcopyrite",
+      "molybdenite",
+      "chlorite",
+      "sericite",
+      "pyrrhotite",
+      "sphalerite",
+      "arsenopyrite",
+      "ilmenite",
+      "titanite",
+      "apatite",
+      "calcite",
+      "amphibole",
+      "plagioclase"
+    ],
+    "commodities": [
+      "Au",
+      "Cu",
+      "Mo"
+    ],
+    "metallogenic_belt": "Yanbian area, Central Asian Orogenic Belt",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Extensional setting related to subduction of Paleo-Pacific Ocean plate",
+    "ages_ma": [
+      112.82,
+      109.0
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Magmatic sulfur isotopic composition (δ34S 1.6-3.9‰) and fluid δ18O (2.4-5.5‰) indicate predominantly magmatic source."
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Hydrothermal fluids transported metals via fractures and veins; water-rock interaction facilitated metal transport."
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Chlorite-sericite alteration zone hosts mineralization; water-rock interaction and cooling triggered metal precipitation."
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Late Permian diorite and Early Cretaceous granitic complex provide host rock; stockwork and veinlet-hosted mineralization."
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No specific seal mentioned; post-mineralization diorite porphyry dike may provide some cover."
+      },
+      "timing": {
+        "score": 5,
+        "evidence": "Biotite 40Ar/39Ar plateau age 112.82±0.28 Ma and titanite SIMS U-Pb intercept age 109.0±2.4 Ma constrain mineralization at ~110 Ma."
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved; cut by post-mineralization dike but ore bodies remain intact."
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01295-y",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "REE-CARB",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "garnet-bearing amphibolitic gneiss"
+    ],
+    "alteration": [
+      "fenitization",
+      "sodic fenitization"
+    ],
+    "structural_controls": [
+      "steep-dipping dikes",
+      "breccia vent"
+    ],
+    "minerals_mentioned": [
+      "dolomite",
+      "apatite",
+      "pyrochlore",
+      "siderite",
+      "monazite",
+      "synchysite-(Ce)",
+      "bastnaesite-(Ce)",
+      "parisite-(Ce)",
+      "burbankite",
+      "barite",
+      "strontianite",
+      "calcite",
+      "quartz",
+      "fluorite",
+      "florencite",
+      "goyazite",
+      "aegirine",
+      "riebeckite",
+      "microcline",
+      "ankerite",
+      "goethite",
+      "hematite",
+      "psilomelane"
+    ],
+    "commodities": [
+      "REE",
+      "Nb"
+    ],
+    "metallogenic_belt": "Uluguru Mountains, East African Orogen",
+    "countries": [
+      "Tanzania"
+    ],
+    "tectonic_setting": "Intracontinental rift-related carbonatite within Neoproterozoic orogenic belt, associated with East African Rift System",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Mantle source indicated by C-O and Mg isotopes; δ13C -4.1 to -6.2‰, δ18O +6.5 to +7.31‰, δ26Mg -0.44 to +0.19‰; no recycled carbon"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Magmatic fractionation and carbothermal fluids; dike emplacement along fractures; fenitization indicates fluid-rock interaction"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Burbankite crystallization in late magmatic-transition stage; pseudomorphs after burbankite; REE-fluorocarbonates, barite, strontianite precipitation"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Dolomite carbonatite breccia and apatite dolomite carbonatite as host; REE-bearing dikes crosscut earlier units"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No explicit seal described; fenite aureole may provide some containment"
+      },
+      "timing": {
+        "score": 1,
+        "evidence": "No absolute ages reported; relative timing from field relationships"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Surface processes caused bastnaesite enrichment; pseudomorphs well-preserved; some supergene alteration"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01296-x",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "MUM-NICU",
+    "deposit_type_conf": 1.0,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "lherzolite",
+      "orthopyroxenite",
+      "gabbronorite"
+    ],
+    "alteration": [
+      "serpentinization"
+    ],
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "orthopyroxene",
+      "olivine",
+      "clinopyroxene",
+      "plagioclase",
+      "hornblende",
+      "pyrrhotite",
+      "pentlandite",
+      "chalcopyrite",
+      "serpentine"
+    ],
+    "commodities": [
+      "Ni",
+      "Cu",
+      "Co"
+    ],
+    "metallogenic_belt": "East Kunlun Orogenic Belt, Central East Kunlun belt",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Accretionary orogenic belt related to Proto- and Paleo-Tethys oceanic subduction and continental collision",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Multiple external crustal sulfur sources indicated by δ34S values (0.5‰ to 7.5‰) and radiogenic Os isotopes (γOs up to 3531)"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Sulfide droplets transported by flowing magma; orthopyroxene oikocrysts and olivine entrained and redeposited"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Coalescence of sulfide droplets in interstitial framework of orthopyroxene cumulate; capillary effects trap blebs in pore spaces"
+      },
+      "reservoir": {
+        "score": 4,
+        "evidence": "Coarse-grained orthopyroxenite and lherzolite host sulfides; pore bodies up to 3000 μm radius facilitate large bleb formation"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "No explicit seal discussed; preservation inferred from deposit existence"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "No direct age data; intrusion age ~420 Ma from regional context"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Deposit preserved; later alteration (serpentinization) but sulfides intact"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01307-x",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "LD-FE",
+    "deposit_type_conf": 0.95,
+    "no_deposit_reason": null,
+    "is_primary_research": true,
+    "host_rocks": [
+      "alkali basaltic volcaniclastic rocks"
+    ],
+    "alteration": [
+      "albitisation",
+      "chloritisation",
+      "carbonate formation",
+      "haematite formation"
+    ],
+    "structural_controls": [
+      "faults",
+      "schistosity"
+    ],
+    "minerals_mentioned": [
+      "haematite",
+      "quartz",
+      "siderite",
+      "magnetite",
+      "apatite",
+      "pyrite",
+      "chalcopyrite",
+      "ankerite",
+      "calcite",
+      "chlorite"
+    ],
+    "commodities": [
+      "Fe"
+    ],
+    "metallogenic_belt": "Rhenohercynian Zone, Variscan orogenic belt, Lahn Syncline, Rhenish Massif",
+    "countries": [
+      "Germany"
+    ],
+    "tectonic_setting": "rift-related crustal extension, intraplate volcanic activity in a restricted marine basin",
+    "ages_ma": [
+      383
+    ],
+    "mineral_system": {
+      "source": {
+        "score": 4,
+        "evidence": "Fe sourced from alkali basaltic volcaniclastic rocks via low-temperature fluid-rock interaction; mass balance indicates Fe mobilisation"
+      },
+      "transport": {
+        "score": 4,
+        "evidence": "Diffuse low-temperature venting of reduced, near-neutral to slightly alkaline fluids; fluid mixing with seawater"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Rapid Fe(II) oxidation and Fe-(oxyhydr)oxide precipitation in seawater column; formation of Fe-Si-rich gel on seafloor"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Ore bodies form lenses up to 5 m thick on top of volcaniclastic sequences; haematite-quartz and siderite-haematite ores"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Hanging wall clastic sedimentary rocks, tuff, limestone, breccias; but no specific seal described"
+      },
+      "timing": {
+        "score": 4,
+        "evidence": "Formation near Middle to Late Devonian boundary (~383 Ma); during waning volcanism"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Low metamorphic overprint (<300°C, prehnite-pumpellyite to lower greenschist facies); Variscan deformation caused folding and thrusting"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01313-z",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "KUPFERSCHIEFER",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": false,
+    "host_rocks": [
+      "dolomitic shale",
+      "sandstone"
+    ],
+    "alteration": [
+      "oxidation"
+    ],
+    "structural_controls": null,
+    "minerals_mentioned": [
+      "thucholite",
+      "chalcocite",
+      "chalcopyrite",
+      "quartz",
+      "calcite"
+    ],
+    "commodities": [
+      "Cu",
+      "Ag",
+      "U"
+    ],
+    "metallogenic_belt": "Fore-Sudetic Monocline, Kupferschiefer district, Poland",
+    "countries": [
+      "Poland"
+    ],
+    "tectonic_setting": "Zechstein basin, oxidized zone boundary",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "U-Th-rich hydrothermal fluids, copper-bearing solutions"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Hydrothermal fluids along permeable sandstone and shale horizons"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Oxic-anoxic boundary within T1 dolomitic shale, geochemical control"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Sandstone and shale host rocks, pipe-like structures"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Overlying Zechstein evaporites may provide seal"
+      },
+      "timing": {
+        "score": 2,
+        "evidence": "Post-sedimentary, related to hydrothermal events, no precise ages given"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Thucholite preserved, but oxidation alteration present"
+      }
+    }
+  },
+  {
+    "paper_id": "s00126-024-01328-6",
+    "deposit_class": "mineral_deposit",
+    "deposit_type": "KUPFERSCHIEFER",
+    "deposit_type_conf": 0.9,
+    "no_deposit_reason": null,
+    "is_primary_research": false,
+    "host_rocks": [
+      "Upper Permian Kupferschiefer shale",
+      "T1 shale",
+      "Weissliegend sandstone"
+    ],
+    "alteration": [
+      "Rote Fäule"
+    ],
+    "structural_controls": [
+      "small faults"
+    ],
+    "minerals_mentioned": [
+      "thucholite",
+      "uraninite",
+      "copper sulphides"
+    ],
+    "commodities": [
+      "Cu",
+      "U",
+      "Th"
+    ],
+    "metallogenic_belt": "Lubin district, Fore-Sudetic Monocline",
+    "countries": [
+      "Poland"
+    ],
+    "tectonic_setting": "Zechstein basin, post-Variscan foreland",
+    "ages_ma": null,
+    "mineral_system": {
+      "source": {
+        "score": 3,
+        "evidence": "Oxidised metal-bearing solutions from Upper Rotliegend sandstone"
+      },
+      "transport": {
+        "score": 3,
+        "evidence": "Migration along faults and permeable units"
+      },
+      "trap": {
+        "score": 4,
+        "evidence": "Thucholite concretions in T1 shale, with Cu sulphide inclusions"
+      },
+      "reservoir": {
+        "score": 3,
+        "evidence": "Shale matrix and pores"
+      },
+      "seal": {
+        "score": 2,
+        "evidence": "Evaporite units (Lower Anhydrite) may act as seal"
+      },
+      "timing": {
+        "score": 1,
+        "evidence": "No absolute ages provided"
+      },
+      "preservation": {
+        "score": 3,
+        "evidence": "Thucholite preserved, but secondary enrichment indicated"
+      }
+    }
+  },
+  {
+    "paper_id": "2022tc007299",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Japan"
+    ],
+    "tectonic_setting": "Continental arc on the Okhotsk Block, later separated and translated; subduction of Izanagi and Pacific Plates",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007349",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Azerbaijan"
+    ],
+    "tectonic_setting": "Active orogenic wedge in Arabia-Eurasia collision zone, with subduction beneath eastern Greater Caucasus",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007378",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": false,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "inverted normal faults",
+      "pure thrust faults",
+      "east-verging thrust decapitation faults",
+      "west-verging high-angle inverted normal faults"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": "Domeyko Cordillera, Central Andes, northern Chile",
+    "countries": [
+      "Chile"
+    ],
+    "tectonic_setting": "Positive tectonic inversion of Mesozoic rift basins in a subduction-related orogen (Central Andes forearc)",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007448",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "USA"
+    ],
+    "tectonic_setting": "Passive continental margin, post-rift, affected by hotspot passage",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007453",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "NE-trending fault",
+      "ductile-brittle shear zone"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Greece"
+    ],
+    "tectonic_setting": "N-S extension in continental Greece, active rift with horst-and-graben topography",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007465",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "Alhama de Murcia Fault",
+      "N1-AMF",
+      "N2a-AMF",
+      "N2b-AMF",
+      "S-AMF",
+      "F-AMF",
+      "push-up structures",
+      "frontal pressure ridge"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": "Eastern Betics Shear Zone (EBSZ), SE Iberia",
+    "countries": [
+      "Spain"
+    ],
+    "tectonic_setting": "Transpressive tectonic corridor accommodating Africa-Eurasia convergence; reverse-strike slip fault zone in SE Iberia",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007490",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "NE-striking fault",
+      "dextral strike-slip fault",
+      "normal fault"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Intracontinental rift system within the North China Craton, related to India-Asia collision and Pacific Plate subduction",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007522",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "Montello thrust",
+      "Bassano-Valdobbiadene thrust",
+      "NE-trending fault",
+      "ductile-brittle shear zone"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "Italy"
+    ],
+    "tectonic_setting": "Active mountain front of the eastern Southern Alps, a retro-belt of the Alps formed since the Middle Miocene, with ongoing Adria-Europe convergence.",
+    "ages_ma": null,
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007546",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": [
+      "Karakoram fault",
+      "Jaggang thrust",
+      "Zaduo thrust",
+      "Shiquanhe thrust",
+      "Narangjiapo thrust",
+      "Risum anticlinorium"
+    ],
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Western Tibetan Plateau, at intersection of Tianshuihai, Qiangtang, and Lhasa terranes, bounded by Karakoram fault and Bangong-Nujiang suture",
+    "ages_ma": [
+      159.9,
+      152.7,
+      159.9,
+      117.0,
+      118.5,
+      41.8,
+      24.8,
+      26.3,
+      17.4,
+      14.9,
+      58.9,
+      39.1,
+      49.6,
+      56.6
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007561",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "marble",
+      "schist",
+      "metaflysch",
+      "metaconglomerate",
+      "metabasite",
+      "serpentinite"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "Evia Shear Zone",
+      "Basal Thrust",
+      "low-angle normal fault",
+      "ductile shear zone",
+      "brittle-ductile shear zone"
+    ],
+    "minerals_mentioned": [
+      "white mica",
+      "phengite",
+      "glaucophane",
+      "albite",
+      "epidote",
+      "chlorite",
+      "pumpellyite",
+      "titanite",
+      "actinolite",
+      "lawsonite",
+      "zoisite",
+      "clinozoisite",
+      "biotite",
+      "quartz",
+      "calcite",
+      "aragonite",
+      "rutile",
+      "apatite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Attic-Cycladic Crystalline Massif, Hellenic orogen",
+    "countries": [
+      "Greece"
+    ],
+    "tectonic_setting": "Extensional exhumation of HP-LT rocks in a back-arc setting due to slab rollback",
+    "ages_ma": [
+      26,
+      23,
+      18,
+      15
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "2022tc007583",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": [
+      "granite",
+      "granodiorite",
+      "schist",
+      "phyllite",
+      "slate",
+      "meta-conglomerate",
+      "meta-sandstone",
+      "quartzite"
+    ],
+    "alteration": null,
+    "structural_controls": [
+      "ductile shear zone",
+      "basal décollement",
+      "thrust fault",
+      "strike-slip fault"
+    ],
+    "minerals_mentioned": [
+      "quartz",
+      "K-feldspar",
+      "plagioclase",
+      "biotite",
+      "muscovite",
+      "garnet",
+      "chlorite",
+      "sericite",
+      "amphibole",
+      "cordierite",
+      "magnetite",
+      "maghemite"
+    ],
+    "commodities": null,
+    "metallogenic_belt": "Wuyi-Yunkai orogen, South China Block",
+    "countries": [
+      "China"
+    ],
+    "tectonic_setting": "Intracontinental orogeny within the South China Block, Early Paleozoic Wuyi-Yunkai orogen",
+    "ages_ma": [
+      465,
+      447,
+      449,
+      442.3,
+      439,
+      435,
+      431,
+      386,
+      382
+    ],
+    "mineral_system": null
+  },
+  {
+    "paper_id": "tect.21557",
+    "deposit_class": "structural_tectonic",
+    "deposit_type": null,
+    "deposit_type_conf": 0.0,
+    "no_deposit_reason": "non_deposit_paper",
+    "is_primary_research": true,
+    "host_rocks": null,
+    "alteration": null,
+    "structural_controls": null,
+    "minerals_mentioned": null,
+    "commodities": null,
+    "metallogenic_belt": null,
+    "countries": null,
+    "tectonic_setting": null,
+    "ages_ma": null,
+    "mineral_system": null
+  }
+]

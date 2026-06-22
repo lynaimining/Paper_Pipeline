@@ -1,0 +1,38 @@
+{
+  "deduped_ids": [
+    "Altered-volcanic-ashes-in-coal-and-coal-bearing-sequences-_2017_Earth-Scienc(1)",
+    "Altered-volcanic-ashes-in-coal-and-coal-bearing-sequences-_2017_Earth-Scienc",
+    "Hexagonal-CNN-and-its-applications-in-sphalerite-bandi_2010_Computers---Geos",
+    "Semi-hierarchical-correspondence-cluster-analysis-an_2007_Journal-of-Geochem"
+  ],
+  "duplicate_groups": {
+    "dcfbc6689041ee6b935245a18928fbc5": {
+      "kept": "Weathered crust hydrocarbon reservoirs  review and perspectives",
+      "removed": [
+        "Altered-volcanic-ashes-in-coal-and-coal-bearing-sequences-_2017_Earth-Scienc(1)",
+        "Altered-volcanic-ashes-in-coal-and-coal-bearing-sequences-_2017_Earth-Scienc"
+      ],
+      "count": 3
+    },
+    "cbaf582e14a6ba637726c56c4895c19f": {
+      "kept": "A-FORTRAN-program-to-implement-the-method-of-finite-element_2010_Computers--",
+      "removed": [
+        "Hexagonal-CNN-and-its-applications-in-sphalerite-bandi_2010_Computers---Geos"
+      ],
+      "count": 2
+    },
+    "5598d559daeb2b950be1b3057b6a9672": {
+      "kept": "Bidimensional-empirical-mode-decomposition--BEMD--for-extractio_2010_Compute",
+      "removed": [
+        "Semi-hierarchical-correspondence-cluster-analysis-an_2007_Journal-of-Geochem"
+      ],
+      "count": 2
+    }
+  },
+  "stats": {
+    "input": 75,
+    "unique": 71,
+    "deduped": 4,
+    "groups": 3
+  }
+}

@@ -1,0 +1,41 @@
+# Output directories (large JSON results)
+output_*/
+eval_output*/
+
+# Large data files
+scripts/mrds_data/
+scripts/mrds.zip
+data/
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+*.env
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Checkpoint/temp files
+checkpoint_*.json
+*_checkpoint.json

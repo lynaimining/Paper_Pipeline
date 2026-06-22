@@ -1,0 +1,407 @@
+{
+  "Kalgoorlie": {
+    "lat": -30.75,
+    "lon": 121.47,
+    "country": "Australia"
+  },
+  "Super Pit": {
+    "lat": -30.78,
+    "lon": 121.5,
+    "country": "Australia"
+  },
+  "Olympic Dam": {
+    "lat": -30.44,
+    "lon": 136.89,
+    "country": "Australia"
+  },
+  "Mount Isa": {
+    "lat": -20.73,
+    "lon": 139.49,
+    "country": "Australia"
+  },
+  "Broken Hill": {
+    "lat": -31.96,
+    "lon": 141.47,
+    "country": "Australia"
+  },
+  "McArthur River": {
+    "lat": -16.44,
+    "lon": 136.08,
+    "country": "Australia"
+  },
+  "Century Mine": {
+    "lat": -18.73,
+    "lon": 138.72,
+    "country": "Australia"
+  },
+  "Ernest Henry": {
+    "lat": -20.38,
+    "lon": 140.74,
+    "country": "Australia"
+  },
+  "Cadia Valley": {
+    "lat": -33.48,
+    "lon": 149.03,
+    "country": "Australia"
+  },
+  "Northparkes": {
+    "lat": -32.95,
+    "lon": 148.15,
+    "country": "Australia"
+  },
+  "Telfer": {
+    "lat": -21.72,
+    "lon": 122.23,
+    "country": "Australia"
+  },
+  "Jundee": {
+    "lat": -26.3,
+    "lon": 120.58,
+    "country": "Australia"
+  },
+  "Sunrise Dam": {
+    "lat": -29.22,
+    "lon": 122.33,
+    "country": "Australia"
+  },
+  "Prominent Hill": {
+    "lat": -29.72,
+    "lon": 135.52,
+    "country": "Australia"
+  },
+  "Red Dome": {
+    "lat": -17.2,
+    "lon": 144.87,
+    "country": "Australia"
+  },
+  "Rosebery": {
+    "lat": -41.78,
+    "lon": 145.53,
+    "country": "Australia"
+  },
+  "Bushveld Complex": {
+    "lat": -25.0,
+    "lon": 28.5,
+    "country": "South Africa"
+  },
+  "Witwatersrand Basin": {
+    "lat": -26.2,
+    "lon": 27.8,
+    "country": "South Africa"
+  },
+  "Merensky Reef": {
+    "lat": -25.1,
+    "lon": 27.4,
+    "country": "South Africa"
+  },
+  "Sishen": {
+    "lat": -27.67,
+    "lon": 23.0,
+    "country": "South Africa"
+  },
+  "Palabora": {
+    "lat": -23.97,
+    "lon": 31.13,
+    "country": "South Africa"
+  },
+  "Jiaodong Gold Province": {
+    "lat": 37.5,
+    "lon": 120.5,
+    "country": "China"
+  },
+  "Linglong": {
+    "lat": 37.32,
+    "lon": 120.72,
+    "country": "China"
+  },
+  "Sanshandao": {
+    "lat": 37.38,
+    "lon": 120.19,
+    "country": "China"
+  },
+  "Xincheng": {
+    "lat": 37.52,
+    "lon": 120.59,
+    "country": "China"
+  },
+  "Bayan Obo": {
+    "lat": 41.8,
+    "lon": 109.97,
+    "country": "China"
+  },
+  "Dexing": {
+    "lat": 29.01,
+    "lon": 117.68,
+    "country": "China"
+  },
+  "Yulong": {
+    "lat": 31.41,
+    "lon": 96.52,
+    "country": "China"
+  },
+  "Qulong": {
+    "lat": 29.63,
+    "lon": 91.68,
+    "country": "China"
+  },
+  "Jiama": {
+    "lat": 30.11,
+    "lon": 91.68,
+    "country": "China"
+  },
+  "Daye": {
+    "lat": 30.1,
+    "lon": 114.9,
+    "country": "China"
+  },
+  "Jinchuan": {
+    "lat": 38.5,
+    "lon": 102.17,
+    "country": "China"
+  },
+  "Pulang": {
+    "lat": 28.03,
+    "lon": 99.5,
+    "country": "China"
+  },
+  "Tongkuangyu": {
+    "lat": 35.1,
+    "lon": 111.0,
+    "country": "China"
+  },
+  "Norilsk": {
+    "lat": 69.33,
+    "lon": 88.22,
+    "country": "Russia"
+  },
+  "Muruntau": {
+    "lat": 41.52,
+    "lon": 64.58,
+    "country": "Uzbekistan"
+  },
+  "Kumtor": {
+    "lat": 41.83,
+    "lon": 78.22,
+    "country": "Kyrgyzstan"
+  },
+  "Vasilkovskoe": {
+    "lat": 50.3,
+    "lon": 73.1,
+    "country": "Kazakhstan"
+  },
+  "Osarizawa": {
+    "lat": 40.22,
+    "lon": 140.6,
+    "country": "Japan"
+  },
+  "Obuasi": {
+    "lat": 6.2,
+    "lon": -1.68,
+    "country": "Ghana"
+  },
+  "Ahafo": {
+    "lat": 7.1,
+    "lon": -2.47,
+    "country": "Ghana"
+  },
+  "Geita": {
+    "lat": -2.87,
+    "lon": 32.23,
+    "country": "Tanzania"
+  },
+  "North Mara": {
+    "lat": -1.47,
+    "lon": 34.52,
+    "country": "Tanzania"
+  },
+  "Kibali": {
+    "lat": 3.56,
+    "lon": 29.55,
+    "country": "DR Congo"
+  },
+  "Kamoa-Kakula": {
+    "lat": -10.73,
+    "lon": 25.78,
+    "country": "DR Congo"
+  },
+  "Tenke Fungurume": {
+    "lat": -10.55,
+    "lon": 26.1,
+    "country": "DR Congo"
+  },
+  "Kansanshi": {
+    "lat": -12.07,
+    "lon": 25.85,
+    "country": "Zambia"
+  },
+  "Lumwana": {
+    "lat": -12.1,
+    "lon": 25.8,
+    "country": "Zambia"
+  },
+  "Loulo-Gounkoto": {
+    "lat": 13.67,
+    "lon": -10.72,
+    "country": "Mali"
+  },
+  "Tasiast": {
+    "lat": 20.38,
+    "lon": -12.65,
+    "country": "Mauritania"
+  },
+  "Akyem": {
+    "lat": 6.25,
+    "lon": -0.82,
+    "country": "Ghana"
+  },
+  "Grasberg": {
+    "lat": -4.05,
+    "lon": 137.12,
+    "country": "Indonesia"
+  },
+  "Batu Hijau": {
+    "lat": -8.97,
+    "lon": 116.87,
+    "country": "Indonesia"
+  },
+  "Porgera": {
+    "lat": -5.47,
+    "lon": 143.13,
+    "country": "Papua New Guinea"
+  },
+  "Lihir": {
+    "lat": -3.12,
+    "lon": 152.63,
+    "country": "Papua New Guinea"
+  },
+  "Ok Tedi": {
+    "lat": -5.22,
+    "lon": 141.18,
+    "country": "Papua New Guinea"
+  },
+  "Wafi-Golpu": {
+    "lat": -7.27,
+    "lon": 146.47,
+    "country": "Papua New Guinea"
+  },
+  "Freida River": {
+    "lat": -4.68,
+    "lon": 141.93,
+    "country": "Papua New Guinea"
+  },
+  "Neves-Corvo": {
+    "lat": 37.6,
+    "lon": -7.93,
+    "country": "Portugal"
+  },
+  "Aljustrel": {
+    "lat": 37.87,
+    "lon": -8.17,
+    "country": "Portugal"
+  },
+  "Rio Tinto Mine": {
+    "lat": 37.68,
+    "lon": -6.6,
+    "country": "Spain"
+  },
+  "Kiruna": {
+    "lat": 67.85,
+    "lon": 20.25,
+    "country": "Sweden"
+  },
+  "Kevitsa": {
+    "lat": 67.68,
+    "lon": 26.72,
+    "country": "Finland"
+  },
+  "Boliden": {
+    "lat": 64.87,
+    "lon": 20.38,
+    "country": "Sweden"
+  },
+  "Kupferschiefer": {
+    "lat": 51.4,
+    "lon": 16.2,
+    "country": "Poland"
+  },
+  "Lubin": {
+    "lat": 51.4,
+    "lon": 16.2,
+    "country": "Poland"
+  },
+  "KGHM": {
+    "lat": 51.4,
+    "lon": 16.0,
+    "country": "Poland"
+  },
+  "Sarcheshmeh": {
+    "lat": 29.76,
+    "lon": 55.74,
+    "country": "Iran"
+  },
+  "Sungun": {
+    "lat": 38.84,
+    "lon": 46.4,
+    "country": "Iran"
+  },
+  "Cerro Blanco": {
+    "lat": -24.07,
+    "lon": -67.0,
+    "country": "Argentina"
+  },
+  "Oyu Tolgoi": {
+    "lat": 43.0,
+    "lon": 106.85,
+    "country": "Mongolia"
+  },
+  "Erdenet": {
+    "lat": 49.03,
+    "lon": 104.08,
+    "country": "Mongolia"
+  },
+  "Tavan Tolgoi": {
+    "lat": 43.65,
+    "lon": 105.38,
+    "country": "Mongolia"
+  },
+  "Tsagaan Suvarga": {
+    "lat": 44.0,
+    "lon": 106.67,
+    "country": "Mongolia"
+  },
+  "Jadugora": {
+    "lat": 22.65,
+    "lon": 86.35,
+    "country": "India"
+  },
+  "Singhbhum": {
+    "lat": 22.8,
+    "lon": 86.1,
+    "country": "India"
+  },
+  "Malanjkhand": {
+    "lat": 22.05,
+    "lon": 80.7,
+    "country": "India"
+  },
+  "Rakha": {
+    "lat": 22.63,
+    "lon": 86.38,
+    "country": "India"
+  },
+  "Tampakan": {
+    "lat": 6.4,
+    "lon": 124.98,
+    "country": "Philippines"
+  },
+  "Didipio": {
+    "lat": 16.43,
+    "lon": 121.57,
+    "country": "Philippines"
+  },
+  "Padcal": {
+    "lat": 16.47,
+    "lon": 120.65,
+    "country": "Philippines"
+  }
+}

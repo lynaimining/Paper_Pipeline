@@ -1,0 +1,26 @@
+PIPELINE_VERSION=v4.0.0
+RELEASE_DATE=2026-06-21
+STATUS=定稿
+
+# 相对 v3 的核心变更
+SCHEMA_FIELDS=25        # 从15个扩展到25个
+BELT_DB_ENTRIES=225     # 从28个扩展到225个
+MRDS_DEPOSITS=102555    # USGS MRDS矿床数据库
+
+# 新增字段（v3没有）
+NEW_FIELDS=coordinates,deposit_type_evidence,minerals(分类),commodities(分类),deposit_scale,geochemistry,reference_deposits,ages(扩展),is_primary_research_reason
+
+# 数据工程改动
+GATE_VERSION=canonical  # 开放枚举，防旧版误杀51%矿种
+TRIAGE=3桶分流          # pass/warn/fail
+RECONCILE=对账机制
+DEDUP=content-hash
+SANITIZE=路径消毒
+
+# 测试验证
+TEST_MINERAL_39=100%坐标覆盖
+TEST_MIXED_32=86%矿床类型覆盖（剩余非矿床论文无位置属正常）
+COST_1244=~2.08USD
+
+# 拒绝采纳的改动（已验证误杀率100%）
+REJECTED=P0-A(QA前置门),P1-G(地质先验门)

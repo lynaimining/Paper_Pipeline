@@ -1,0 +1,5829 @@
+[
+  {
+    "paper_id": "Distribution of critical minerals in the Mount Evelyn Pb Zn Ag skarn deposit  Pine Creek Orogen  Northern Territory",
+    "extracted": {
+      "paper_id": "Distribution of critical minerals in the Mount Evelyn Pb Zn Ag skarn deposit  Pine Creek Orogen  Northern Territory",
+      "deposit_type": "SKARN",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为Pb-Zn-Ag skarn deposit，矿物组合包括exoskarn assemblage（calcite, dolomite, quartz, tremolite, diopside），属于典型的矽卡岩矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Mount Evelyn矿床为研究对象，通过LA-ICP-MS和自动矿物学分析，系统评估了关键矿产的分布和赋存状态，属于原创性研究。",
+      "countries": [
+        "Australia"
+      ],
+      "metallogenic_belt": "Pine Creek Orogen",
+      "coordinates": {
+        "latitude": -13.9,
+        "longitude": 131.8,
+        "precision": "矿区级",
+        "source": "根据Pine Creek Orogen位置及Kakadu Highway附近推断",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "sphalerite",
+          "galena",
+          "chalcopyrite",
+          "tetrahedrite",
+          "stannite",
+          "arsenopyrite",
+          "pyrrhotite",
+          "cassiterite",
+          "pyrite"
+        ],
+        "gangue_minerals": [
+          "calcite",
+          "dolomite",
+          "quartz",
+          "tremolite",
+          "diopside",
+          "apatite",
+          "biotite",
+          "muscovite",
+          "serpentine"
+        ],
+        "alteration_minerals": [
+          "serpentine",
+          "chlorite",
+          "smithsonite",
+          "hydrozincite",
+          "hemimorphite",
+          "anglesite",
+          "cerussite",
+          "azurite",
+          "aurichalcite",
+          "goethite",
+          "ankerite"
+        ]
+      },
+      "alteration": [
+        "exoskarn alteration",
+        "retrograde serpentinization",
+        "post-mineralization calcite veining",
+        "oxidation"
+      ],
+      "commodities": {
+        "primary": [
+          "Pb",
+          "Zn",
+          "Ag"
+        ],
+        "byproduct": [
+          "Cd",
+          "Au"
+        ],
+        "trace": [
+          "Se",
+          "Te",
+          "Tl",
+          "Ge",
+          "In",
+          "Sb",
+          "As",
+          "Co",
+          "Ni",
+          "Bi",
+          "Ga"
+        ]
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 81.554,
+          "unit": "kt",
+          "resource_type": "produced"
+        },
+        "grade": {
+          "Pb_percent": 5.5,
+          "Zn_percent": 7.5,
+          "Ag_ppm": 276
+        },
+        "scale_class": "small",
+        "production_status": "past producer",
+        "citation": "Butler, 1993"
+      },
+      "host_rocks": [
+        "limestone (Koolpin Formation)"
+      ],
+      "structural_controls": [
+        "discordant en-échelon fractures",
+        "northwest-trending shear zone",
+        "east-trending fault"
+      ],
+      "tectonic_setting": "Pine Creek Orogen, Central Domain, greenschist-facies metamorphism, I-type granitic magmatism",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Cd",
+            "In",
+            "Ga",
+            "Se",
+            "Te",
+            "Tl",
+            "Ge",
+            "Sb",
+            "As",
+            "Co",
+            "Ni",
+            "Bi"
+          ],
+          "depleted": []
+        },
+        "isotopes": null,
+        "fluid_inclusion": null,
+        "citation": "Table S1, Figure 6"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "Cullen Granite crops out ~1 km west, likely heat and fluid source."
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "Mineralization occurs in discordant veins and fractures within a shear zone."
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "Limestone host provides chemical trap for skarn formation."
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "Exoskarn assemblage (tremolite, diopside) and sulfide veins indicate deposition in fractures."
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "Deposit preserved at shallow depth, partially oxidized at surface."
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "Post-mineralization calcite veining and oxidation overprint primary mineralization."
+        },
+        "critical_mineral_potential": {
+          "score": 4,
+          "evidence": "High concentrations of In, Ga, Ge, Sb, Bi, Te, Tl in sulfides; sphalerite and galena are major carriers."
+        }
+      }
+    },
+    "tokens": {
+      "input": 9509,
+      "output": 1117
+    }
+  },
+  {
+    "paper_id": "2123",
+    "extracted": {
+      "paper_id": "2123",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述为石英脉型金矿，产于褶皱翼部，受碳质板岩控制，与花岗岩侵入和接触变质作用有关，属于造山型金矿。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Cosmopolitan Howley金矿为主要研究对象，详细研究了其流体混合成矿机制。",
+      "countries": [
+        "Australia"
+      ],
+      "metallogenic_belt": "Pine Creek inlier",
+      "coordinates": {
+        "latitude": -13.5,
+        "longitude": 131.5,
+        "precision": "省级",
+        "source": "Figure 1地质图",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "pyrrhotite",
+          "arsenopyrite",
+          "loellingite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "K feldspar",
+          "biotite",
+          "andalusite",
+          "cordierite"
+        ],
+        "alteration_minerals": [
+          "biotite",
+          "K feldspar",
+          "andalusite",
+          "cordierite"
+        ]
+      },
+      "alteration": [
+        "potassic alteration",
+        "silicification"
+      ],
+      "commodities": {
+        "primary": [
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "pelitic metasediments",
+        "hornfels",
+        "carbonaceous slate"
+      ],
+      "structural_controls": [
+        "bedding-parallel fractures",
+        "Howley anticline",
+        "steeply dipping fold limbs"
+      ],
+      "tectonic_setting": "contact metamorphic aureole of Proterozoic granites",
+      "ages": [
+        {
+          "age_ma": 1835,
+          "uncertainty": 6,
+          "method": "SHRIMP U-Pb zircon",
+          "material": "granite",
+          "interpretation": "侵入年龄",
+          "citation": "Stuart-Smith et al., 1993"
+        },
+        {
+          "age_ma": 1818,
+          "uncertainty": 5,
+          "method": "SHRIMP U-Pb zircon",
+          "material": "granite",
+          "interpretation": "侵入年龄",
+          "citation": "Stuart-Smith et al., 1993"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "F",
+            "Ba",
+            "Ga",
+            "Rb",
+            "Zr"
+          ],
+          "depleted": [
+            "Na",
+            "Ca"
+          ]
+        },
+        "isotopes": {
+          "sulfur_delta34s": "7.2 to -0.3‰",
+          "oxygen_delta18O_fluid": "13.6 to 11.8‰"
+        },
+        "fluid_inclusion": {
+          "temperature_c": "550-620",
+          "salinity_wt_nacl": "13.5-30.1"
+        },
+        "citation": "Table 2, Figure 7"
+      },
+      "reference_deposits": [
+        {
+          "name": "Mount Shoobridge",
+          "relation": "邻近矿床",
+          "similarity": "相似的氟含量和蚀变特征"
+        },
+        {
+          "name": "Enterprise",
+          "relation": "邻近矿床",
+          "similarity": "相似的氟含量"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "岩浆流体来自深部I型花岗岩，富含F、Cl，氧化状态高于NNO缓冲剂。"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "金以AuCl2络合物形式在高温（550-620°C）高盐度（1-5 m Cl）流体中迁移。"
+        },
+        "trap": {
+          "score": 5,
+          "evidence": "流体混合导致还原，金沉淀于碳质板岩附近的顺层裂隙中。"
+        },
+        "deposition": {
+          "score": 5,
+          "evidence": "氧化性岩浆流体与还原性含碳流体混合，降低fO2，导致金沉淀。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿床形成后经历变形，但部分保存。"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "矿床出露地表，可开采。"
+        },
+        "recovery": {
+          "score": 2,
+          "evidence": "论文未详细讨论开采情况。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 8779,
+      "output": 1067
+    }
+  },
+  {
+    "paper_id": "2143",
+    "extracted": {
+      "paper_id": "2143",
+      "deposit_type": "SEDEX",
+      "deposit_type_conf": 0.8,
+      "deposit_type_evidence": "论文明确描述为Kupferschiefer铜矿床，属于沉积岩容矿的层控铜矿床，常归类为SEDEX型。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究Kupferschiefer矿床中硫化物的低温蚀变，包括矿物学、地球化学和成因分析。",
+      "countries": [
+        "Poland"
+      ],
+      "metallogenic_belt": "Fore-Sudetic Monocline",
+      "coordinates": {
+        "latitude": 51.4,
+        "longitude": 16.2,
+        "precision": "矿区级",
+        "source": "Figure 1地质图",
+        "confidence": 0.8,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "chalcocite",
+          "djurleite",
+          "anilite",
+          "geerite",
+          "spionkopite",
+          "yarrowite",
+          "covellite",
+          "bornite",
+          "idaite",
+          "chalcopyrite",
+          "galena",
+          "sphalerite",
+          "pyrite",
+          "cobaltite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "dolomite",
+          "gypsum",
+          "anhydrite",
+          "atacamite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [
+        "copper depletion",
+        "supergene alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Pb",
+          "Zn"
+        ],
+        "byproduct": [
+          "Ag",
+          "Mo",
+          "Co",
+          "Ni"
+        ],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Weissliegendes sandstone",
+        "Boundary Dolomite",
+        "Kupferschiefer shale",
+        "Zechstein Limestone"
+      ],
+      "structural_controls": [
+        "impermeable horizons",
+        "fractures"
+      ],
+      "tectonic_setting": "Fore-Sudetic Monocline, Permian Zechstein Basin",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [],
+          "depleted": []
+        },
+        "isotopes": {
+          "sulfur_delta34s": "-44 to -35‰"
+        },
+        "fluid_inclusion": null,
+        "citation": "Sawlowicz, 1989; Sawlowicz and Wedepohl, 1992"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 2,
+          "evidence": "金属来源未明确讨论，可能来自盆地流体或基底"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "流体运移通过渗透性层和断裂，氧化性流体上升形成矿物分带"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "Kupferschiefer有机质和还原环境捕获金属，形成层控矿体"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "细菌硫酸盐还原或热化学硫酸盐还原导致硫化物沉淀"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "后期低温蚀变（铜淋滤）但矿床整体保存完好"
+        },
+        "modification": {
+          "score": 3,
+          "evidence": "低温蚀变导致铜硫化物成分变化，但未破坏矿床"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "矿床位于地下，通过采矿揭露"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10734,
+      "output": 839
+    }
+  },
+  {
+    "paper_id": "2156",
+    "extracted": {
+      "paper_id": "2156",
+      "deposit_type": "HOT SPRING AU",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为'hot spring-type gold deposit'，具有地表硅华、贵金属矿化、流体包裹体特征等典型热泉型金矿特征。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以McLaughlin矿床为研究对象，详细描述了矿床地质、金属分带、流体包裹体和同位素特征，属于原创性研究。",
+      "countries": [
+        "USA"
+      ],
+      "metallogenic_belt": "Coast Ranges",
+      "coordinates": {
+        "latitude": 38.83,
+        "longitude": -122.67,
+        "precision": "矿区级",
+        "source": "Figure 1地质图及区域位置推断",
+        "confidence": 0.8,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "electrum",
+          "sulfosalts",
+          "base metal sulfides"
+        ],
+        "gangue_minerals": [
+          "quartz"
+        ],
+        "alteration_minerals": [
+          "clay"
+        ]
+      },
+      "alteration": [
+        "clay alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Au",
+          "Ag",
+          "Hg"
+        ],
+        "byproduct": [],
+        "trace": [
+          "As",
+          "Sb",
+          "Tl",
+          "Cu",
+          "Pb",
+          "Zn"
+        ]
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 24.3,
+          "unit": "Mt",
+          "resource_type": "total resource"
+        },
+        "grade": {
+          "Au_ppm": 4.49
+        },
+        "scale_class": "large",
+        "production_status": "producing",
+        "citation": "Abstract, Introduction"
+      },
+      "host_rocks": [
+        "Coast Range ophiolite",
+        "Knoxville Formation",
+        "Clear Lake Volcanics"
+      ],
+      "structural_controls": [
+        "Stony Creek fault",
+        "dilation zone",
+        "rheologic contrasts"
+      ],
+      "tectonic_setting": "fore-arc environment, strike-slip and extensional tectonics",
+      "ages": [
+        {
+          "age_ma": 2.2,
+          "uncertainty": 0.2,
+          "method": "K-Ar whole rock",
+          "material": "basaltic andesite",
+          "interpretation": "maximum age of mineralization",
+          "citation": "Deposit Geology"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Au",
+            "Ag",
+            "Hg",
+            "As",
+            "Sb"
+          ],
+          "depleted": []
+        },
+        "isotopes": {
+          "oxygen_delta18O_quartz": "9 to 10 per mil",
+          "hydrogen": "meteoric water signature",
+          "lead": "crustal source"
+        },
+        "fluid_inclusion": {
+          "temperature_c": "121-263",
+          "salinity_wt_nacl": "2.4 average"
+        },
+        "citation": "Abstract, Fluid Inclusion Studies"
+      },
+      "reference_deposits": [
+        {
+          "name": "Geysers geothermal system",
+          "relation": "regional association",
+          "similarity": "associated with Clear Lake volcanic field"
+        },
+        {
+          "name": "Sulfur Bank mine",
+          "relation": "regional association",
+          "similarity": "associated with Clear Lake volcanic field"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "铅同位素指示地壳来源，可能来自Sierra Nevada岩基碎屑或混合来源"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "Stony Creek断层和扩容带作为流体通道"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "流变学差异形成的扩容带，自封闭系统导致压力超过静水压力"
+        },
+        "deposition": {
+          "score": 5,
+          "evidence": "沸腾和混合作用导致金属沉淀，金属分带明显"
+        },
+        "preservation": {
+          "score": 5,
+          "evidence": "原地保存的硅华表明无显著剥蚀"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期构造活动可能有一定改造"
+        },
+        "exposure": {
+          "score": 4,
+          "evidence": "露天开采，地表出露良好"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10758,
+      "output": 1027
+    }
+  },
+  {
+    "paper_id": "2182",
+    "extracted": {
+      "paper_id": "2182",
+      "deposit_type": "SEDEX",
+      "deposit_type_conf": 0.7,
+      "deposit_type_evidence": "论文描述为sediment-hosted disseminated silver(-gold-base metals) mineralization，产于碳质泥岩中，与达尔文型Pb-Ag-Zn脉状交代矿床对比，但未明确归类为SEDEX，根据特征推断",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究Candelaria矿区的岩脉年代学和构造背景，包括银矿化的成因和时代",
+      "countries": [
+        "USA"
+      ],
+      "metallogenic_belt": "Great Basin",
+      "coordinates": {
+        "latitude": 38.125,
+        "longitude": -118.0833,
+        "precision": "矿区级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.9,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "native silver",
+          "cerargyrite",
+          "pyrite",
+          "galena",
+          "sphalerite",
+          "chalcopyrite",
+          "arsenopyrite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "dolomite"
+        ],
+        "alteration_minerals": [
+          "sericite",
+          "tourmaline",
+          "chlorite",
+          "calcite",
+          "magnetite"
+        ]
+      },
+      "alteration": [
+        "sericitization",
+        "tourmalinization",
+        "propylitic alteration",
+        "silicification",
+        "dolomitization",
+        "sulfidation"
+      ],
+      "commodities": {
+        "primary": [
+          "Ag",
+          "Au"
+        ],
+        "byproduct": [
+          "Pb",
+          "Zn",
+          "Sb",
+          "As"
+        ],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 130,
+          "unit": "Moz",
+          "resource_type": "premining resource"
+        },
+        "grade": {
+          "Ag_ppm": 80,
+          "Au_ppm": 0.2
+        },
+        "scale_class": "large",
+        "production_status": "past producer",
+        "citation": "正文"
+      },
+      "host_rocks": [
+        "carbonaceous marly shales (Candelaria Formation member 1)",
+        "mafic-ultramafic units (Pickhandle allochthon)"
+      ],
+      "structural_controls": [
+        "Pickhandle thrust",
+        "lower Candelaria shear"
+      ],
+      "tectonic_setting": "Triassic-Jurassic cordilleran magmatic arc, intra-arc graben system",
+      "ages": [
+        {
+          "age_ma": 222,
+          "uncertainty": 2,
+          "method": "U-Pb zircon",
+          "material": "early felsite (rhyolite)",
+          "interpretation": "侵入年龄",
+          "citation": "正文"
+        },
+        {
+          "age_ma": 192,
+          "uncertainty": 3,
+          "method": "U-Pb zircon",
+          "material": "porphyry (dacite)",
+          "interpretation": "侵入年龄",
+          "citation": "正文"
+        },
+        {
+          "age_ma": 196,
+          "uncertainty": 24,
+          "method": "U-Pb zircon",
+          "material": "late felsite (rhyolite)",
+          "interpretation": "侵入年龄",
+          "citation": "正文"
+        },
+        {
+          "age_ma": 91,
+          "uncertainty": null,
+          "method": "K-Ar sericite",
+          "material": "alteration sericite",
+          "interpretation": "蚀变年龄",
+          "citation": "正文"
+        },
+        {
+          "age_ma": 132,
+          "uncertainty": null,
+          "method": "K-Ar sericite",
+          "material": "alteration sericite",
+          "interpretation": "蚀变年龄",
+          "citation": "正文"
+        },
+        {
+          "age_ma": 84,
+          "uncertainty": null,
+          "method": "K-Ar biotite",
+          "material": "granite porphyry stocks",
+          "interpretation": "侵入年龄",
+          "citation": "正文"
+        },
+        {
+          "age_ma": 97,
+          "uncertainty": null,
+          "method": "K-Ar biotite",
+          "material": "granite porphyry stocks",
+          "interpretation": "侵入年龄",
+          "citation": "正文"
+        }
+      ],
+      "geochemistry": null,
+      "reference_deposits": [
+        {
+          "name": "Darwin-type deposits (southeastern California)",
+          "relation": "类型对比",
+          "similarity": "相似的构造背景、岩浆组合、金属组成和可能的年龄"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "岩浆弧来源，高钾钙碱性岩浆"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "岩脉和断层系统作为通道"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "Pickhandle逆冲断层和下Candelaria剪切带"
+        },
+        "host_rock": {
+          "score": 4,
+          "evidence": "碳质泥岩和超镁铁质岩"
+        },
+        "fluid": {
+          "score": 3,
+          "evidence": "热液流体，含银、金等"
+        },
+        "energy": {
+          "score": 3,
+          "evidence": "岩浆热驱动"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "部分被新生代火山岩覆盖"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9593,
+      "output": 1328
+    }
+  },
+  {
+    "paper_id": "2197",
+    "extracted": {
+      "paper_id": "2197",
+      "deposit_type": "SKARN",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述为与石英二长岩侵入体相关的层控磁铁矿-赤铁矿-磷灰石矿床，产于石灰岩中，具有矽卡岩型矿床的典型特征（接触交代、蚀变矿物组合如透辉石、钠长石化等）。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Iron Springs矿区为研究对象，详细描述了石英二长岩的结晶、蚀变及其与铁矿化的关系，属于原创性研究。",
+      "countries": [
+        "USA"
+      ],
+      "metallogenic_belt": "Iron Springs mining district",
+      "coordinates": {
+        "latitude": 37.625,
+        "longitude": -113.25,
+        "precision": "矿区级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.9,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "magnetite",
+          "hematite",
+          "apatite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "alkali feldspar",
+          "albite",
+          "smectite-chlorite"
+        ],
+        "alteration_minerals": [
+          "diopside",
+          "K-feldspar",
+          "albite",
+          "magnetite",
+          "ilmenite",
+          "calcite",
+          "smectite-chlorite"
+        ]
+      },
+      "alteration": [
+        "pervasive high-temperature alteration",
+        "selvage alteration",
+        "albitization",
+        "diopsidization",
+        "oxidation"
+      ],
+      "commodities": {
+        "primary": [
+          "Fe"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 200,
+          "unit": "Mt",
+          "resource_type": "proven+probable"
+        },
+        "grade": {},
+        "scale_class": "large",
+        "production_status": "producing",
+        "citation": "Abstract: 'largest iron deposits in the western United States'; text: 'At least 2 × 10^8 metric tons of Fe'"
+      },
+      "host_rocks": [
+        "limestone",
+        "Temple Cap Sandstone",
+        "Navajo Sandstone",
+        "Iron Springs Formation"
+      ],
+      "structural_controls": [
+        "Sevier thrust faults",
+        "laccolith roof flexures",
+        "selvage joints",
+        "bedding-plane faults"
+      ],
+      "tectonic_setting": "Miocene calc-alkaline magmatism related to extension in southwestern Utah",
+      "ages": [
+        {
+          "age_ma": 21.7,
+          "uncertainty": 0.7,
+          "method": "K-Ar biotite",
+          "material": "biotite",
+          "interpretation": "冷却年龄",
+          "citation": "Armstrong (1970)"
+        },
+        {
+          "age_ma": 21.5,
+          "uncertainty": 0.4,
+          "method": "K-Ar biotite",
+          "material": "biotite",
+          "interpretation": "冷却年龄",
+          "citation": "Armstrong (1970)"
+        },
+        {
+          "age_ma": 22.6,
+          "uncertainty": 0.7,
+          "method": "K-Ar biotite",
+          "material": "biotite",
+          "interpretation": "冷却年龄",
+          "citation": "Armstrong (1970)"
+        },
+        {
+          "age_ma": 21.5,
+          "uncertainty": 0.9,
+          "method": "K-Ar biotite",
+          "material": "biotite",
+          "interpretation": "冷却年龄",
+          "citation": "McKee et al., in press"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Fe3+",
+            "Na",
+            "H2O"
+          ],
+          "depleted": [
+            "Fe2+",
+            "Ca",
+            "K",
+            "light REE",
+            "total Fe",
+            "Mg",
+            "P",
+            "Rb",
+            "Y",
+            "Ba",
+            "H2O-"
+          ]
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Table 2, Table 3, text"
+      },
+      "reference_deposits": [
+        {
+          "name": "Bull Valley igneous center",
+          "relation": "类似矿床",
+          "similarity": "含有类似的脉状和层控磁铁矿体"
+        },
+        {
+          "name": "Iron Peak laccolith",
+          "relation": "对比",
+          "similarity": "时代相近但更基性，无磁铁矿-赤铁矿层控矿体"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "铁来源于石英二长岩的亚固相蚀变，质量平衡计算表明40 km³的蚀变岩可提供矿石中的Fe、P、Si、Al、Mg。"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "流体沿裂隙（selvage joints）运移，形成磁铁矿-磷灰石脉。"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "石灰岩层控矿体，受岩体顶部弯曲和裂隙控制。"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "磁铁矿+赤铁矿+磷灰石在石灰岩中沉淀，形成层控矿体。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿体位于岩体接触带，部分被剥蚀，但仍有大量保存。"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期构造活动导致岩体变形和裂隙发育，但未显著改造矿体。"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "矿体部分出露地表，部分被覆盖。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 8945,
+      "output": 1374
+    }
+  },
+  {
+    "paper_id": "2218",
+    "extracted": {
+      "paper_id": "2218",
+      "deposit_type": "VMS",
+      "deposit_type_conf": 0.6,
+      "deposit_type_evidence": "论文提到As、Pb、Zn、Sn、F在顶板中富集，且与火山岩有关，但未明确矿床类型。根据Pb-Zn富集和火山岩容矿特征，推测为VMS型，但置信度较低。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究Bushveld杂岩体火山岩顶板的化学蚀变，包括元素迁移和富集，属于矿床地质学基础研究。",
+      "countries": [
+        "South Africa"
+      ],
+      "metallogenic_belt": "Bushveld Complex",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "pyrite",
+          "arsenopyrite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "chlorite",
+          "epidote",
+          "sericite",
+          "hornblende",
+          "tremolite-actinolite",
+          "biotite",
+          "plagioclase",
+          "clinopyroxene"
+        ],
+        "alteration_minerals": [
+          "tremolite-actinolite",
+          "sericite",
+          "chlorite",
+          "epidote",
+          "calcite",
+          "hornblende",
+          "biotite"
+        ]
+      },
+      "alteration": [
+        "silicification",
+        "sericitization",
+        "chloritization",
+        "epidotization",
+        "calcification",
+        "dehydration"
+      ],
+      "commodities": {
+        "primary": [
+          "Pb",
+          "Zn"
+        ],
+        "byproduct": [
+          "As",
+          "Sn",
+          "F"
+        ],
+        "trace": [
+          "Cu",
+          "Mn"
+        ]
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Rooiberg Group volcanic rocks (felsic lava flows, pyroclastic rocks)"
+      ],
+      "structural_controls": [
+        "porous pyroclastic horizons",
+        "flow-banded and flow-brecciated basal and upper portions of flows"
+      ],
+      "tectonic_setting": "continental intraplate, Bushveld Complex layered intrusion",
+      "ages": [
+        {
+          "age_ma": 2061,
+          "uncertainty": 2,
+          "method": "U-Pb zircon",
+          "material": "Rooiberg Group volcanic rocks",
+          "interpretation": "火山岩年龄",
+          "citation": "Walraven, 1995"
+        },
+        {
+          "age_ma": 2060,
+          "uncertainty": 27,
+          "method": "U-Pb zircon",
+          "material": "Rustenburg Layered Suite",
+          "interpretation": "侵入年龄",
+          "citation": "Walraven et al., 1990"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Pb",
+            "Zn",
+            "Mn",
+            "As",
+            "Sn",
+            "F",
+            "Hf"
+          ],
+          "depleted": [
+            "Ca",
+            "Sr",
+            "Na"
+          ]
+        },
+        "isotopes": null,
+        "fluid_inclusion": null,
+        "citation": "Figures 11, 12, 13, 15; Tables 2, 3"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 2,
+          "evidence": "岩浆来源，Bushveld杂岩体提供热液和部分金属"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "火山岩孔隙和流动构造作为流体通道"
+        },
+        "trap": {
+          "score": 2,
+          "evidence": "顶板岩石的渗透性差异和化学障"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "热液蚀变导致Pb、Zn、As等沉淀"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "顶板火山岩保存完好，低变质程度"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期花岗岩侵入可能改造"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "部分区域出露，但多数被覆盖"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10836,
+      "output": 941
+    }
+  },
+  {
+    "paper_id": "2232",
+    "extracted": {
+      "paper_id": "2232",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述为金矿化，受构造和岩性控制，产于褶皱枢纽带，具有鞍状矿脉形态，与钠质交代有关，成矿流体为演化的大气降水，温度350-380°C，深度1-3 km，符合造山型金矿特征。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究岩石地球化学和生物地球化学模式与金矿化的关系，以Carolin金矿为研究对象，属于原创性研究。",
+      "countries": [
+        "Canada"
+      ],
+      "metallogenic_belt": "Coast Plutonic Complex",
+      "coordinates": {
+        "latitude": 49.5,
+        "longitude": -121.25,
+        "precision": "省级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.7,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "pyrrhotite",
+          "arsenopyrite",
+          "pyrite",
+          "chalcopyrite",
+          "bornite",
+          "magnetite",
+          "gold"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "albite",
+          "carbonate",
+          "chlorite",
+          "sericite"
+        ],
+        "alteration_minerals": [
+          "albite",
+          "sericite",
+          "chlorite"
+        ]
+      },
+      "alteration": [
+        "albitization",
+        "sericitization",
+        "chloritization"
+      ],
+      "commodities": {
+        "primary": [
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": [
+          "As",
+          "Cu",
+          "Mo",
+          "Zn",
+          "Na",
+          "K",
+          "Ba"
+        ]
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 0.8,
+          "unit": "Mt",
+          "resource_type": "proven"
+        },
+        "grade": {
+          "Au_ppm": 3.2
+        },
+        "scale_class": "medium",
+        "production_status": "past producer",
+        "citation": "正文：Between 1982 and 1984 the mine produced 1,354 kg of gold from just under 800,000 metric tons of ore. The average grade of the ore mined was 3.2 ppm gold."
+      },
+      "host_rocks": [
+        "wacke",
+        "conglomerate",
+        "tuffaceous sedimentary rock",
+        "siltstone",
+        "argillite"
+      ],
+      "structural_controls": [
+        "F2 antiform hinge zone",
+        "Richardson fault",
+        "East Hozameen fault"
+      ],
+      "tectonic_setting": "Cascade Mountains, southern end of Coast Plutonic Complex, near tectonic contact between Hozameen Group and Ladner Group",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Na",
+            "Au",
+            "As"
+          ],
+          "depleted": [
+            "K",
+            "Ba"
+          ]
+        },
+        "isotopes": null,
+        "fluid_inclusion": {
+          "temperature_c": "350-380",
+          "salinity_wt_nacl": null
+        },
+        "citation": "正文：Limited isotopic and fluid inclusion data suggest that the ore-forming fluids were highly evolved meteoric waters and that mineralization occurred at a temperature of 350° to 380°C and at depths of 1 to 3 km."
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "成矿流体为演化的大气降水，可能来自深部循环，但未明确源岩。"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "流体沿断裂和褶皱枢纽带运移，温度350-380°C，深度1-3 km。"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "矿化受F2背形枢纽带和渗透性粗碎屑岩控制，形成鞍状矿脉。"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "金以包裹体形式产于黄铁矿和毒砂中，或呈环边，沉淀机制包括温度下降和流体-岩石反应。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿体被断层切割，但部分保存，地表有氧化露头。"
+        },
+        "exhumation": {
+          "score": 2,
+          "evidence": "矿区位于陡坡，有剥蚀，但矿体部分出露。"
+        },
+        "fertility": {
+          "score": 3,
+          "evidence": "存在钠质交代、金-砷异常，但规模中等。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10853,
+      "output": 1084
+    }
+  },
+  {
+    "paper_id": "2244",
+    "extracted": {
+      "paper_id": "2244",
+      "deposit_type": "VMS",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为volcanogenic massive sulfide deposits，Cu-Zn-Pb比例、矿化样式、与铁建造和蚀变带的关系，以及海底沉淀或近海底交代成因。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文基于详细野外填图和重新解释，聚焦于Manitouwadge绿岩带矿床的沉积环境、变形历史和成因，属于原创研究。",
+      "countries": [
+        "Canada"
+      ],
+      "metallogenic_belt": "Manitouwadge greenstone belt, Wawa subprovince, Superior Province",
+      "coordinates": {
+        "latitude": 49.15,
+        "longitude": -85.85,
+        "precision": "矿区级",
+        "source": "图2地质图及地名推断",
+        "confidence": 0.8,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "sphalerite",
+          "galena",
+          "chalcopyrite",
+          "pyrite",
+          "pyrrhotite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "magnetite",
+          "grunerite",
+          "actinolite",
+          "garnet",
+          "clinopyroxene"
+        ],
+        "alteration_minerals": [
+          "orthoamphibole",
+          "cordierite",
+          "garnet",
+          "sillimanite",
+          "muscovite",
+          "biotite",
+          "microcline"
+        ]
+      },
+      "alteration": [
+        "orthoamphibole-cordierite-garnet gneiss",
+        "sillimanite-muscovite-quartz schist",
+        "calc-silicate metasomatism"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Zn",
+          "Ag"
+        ],
+        "byproduct": [
+          "Pb",
+          "Au",
+          "Cd",
+          "Bi"
+        ],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 55.9,
+          "unit": "Mt",
+          "resource_type": "proven+probable"
+        },
+        "grade": {
+          "Cu_percent": 1.85,
+          "Zn_percent": 3.76,
+          "Ag_ppm": 46.9
+        },
+        "scale_class": "large",
+        "production_status": "past producer",
+        "citation": "Geco mine total production, H. Lockwood written commun. 1994"
+      },
+      "host_rocks": [
+        "mafic metavolcanic rocks",
+        "felsic metavolcanic rocks",
+        "iron-formation",
+        "orthoamphibole-cordierite-garnet gneiss",
+        "sillimanite-muscovite-quartz schist"
+      ],
+      "structural_controls": [
+        "D1 ductile faults",
+        "D2 folds and sheath folds",
+        "D3 Manitouwadge synform",
+        "D4 kinks and crenulation cleavage"
+      ],
+      "tectonic_setting": "Archean volcanic arc, thickened oceanic rift or rifted island arc",
+      "ages": [
+        {
+          "age_ma": 2720,
+          "uncertainty": 3,
+          "method": "U-Pb zircon",
+          "material": "foliated subvolcanic trondhjemite",
+          "interpretation": "synvolcanic intrusion age",
+          "citation": "Zaleski et al., 1994"
+        },
+        {
+          "age_ma": 2723,
+          "uncertainty": 2,
+          "method": "U-Pb zircon",
+          "material": "felsic volcanic rocks at Winston Lake",
+          "interpretation": "felsic volcanism age",
+          "citation": "Schandl et al., 1991"
+        },
+        {
+          "age_ma": 2693,
+          "uncertainty": null,
+          "method": "U-Pb detrital zircon",
+          "material": "metagraywacke",
+          "interpretation": "maximum depositional age of metagraywacke",
+          "citation": "Zaleski et al., 1995"
+        }
+      ],
+      "geochemistry": null,
+      "reference_deposits": [
+        {
+          "name": "Abitibi camp",
+          "relation": "类型对比",
+          "similarity": "相似的蚀变管道地球化学趋势"
+        },
+        {
+          "name": "Winston Lake Zn-Cu mine (Schreiber)",
+          "relation": "区域对比",
+          "similarity": "相似的年龄和绿岩带"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "岩浆热液来源，与2720 Ma的synvolcanic trondhjemite相关"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "透水火山碎屑岩含水层作为热液通道，蚀变带呈层控"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "铁建造和火山岩层作为化学和物理圈闭"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "海底沉淀或近海底交代，形成块状硫化物"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "经历多期变形和变质，但矿床得以保存"
+        },
+        "modification": {
+          "score": 4,
+          "evidence": "上角闪岩相变质和四期变形，导致矿物重结晶和构造重复"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "部分矿床被开采，地表露头可见"
+        }
+      }
+    },
+    "tokens": {
+      "input": 8747,
+      "output": 1330
+    }
+  },
+  {
+    "paper_id": "2262",
+    "extracted": {
+      "paper_id": "2262",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为mesothermal low sulfide gold-bearing quartz veins，具有剪切带控制、低硫化物、碳酸盐蚀变等特征，排除其他类型如epithermal或VMS。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文基于详细野外填图和地球化学采样，系统描述了Al Wajh金矿区的构造、脉体共生和蚀变特征，属于原创研究。",
+      "countries": [
+        "Saudi Arabia"
+      ],
+      "metallogenic_belt": "Arabian-Nubian Shield",
+      "coordinates": {
+        "latitude": 26.1667,
+        "longitude": 36.6667,
+        "precision": "矿区级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.8,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "gold",
+          "pyrite",
+          "chalcopyrite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "carbonate"
+        ],
+        "alteration_minerals": [
+          "sericite",
+          "limonite",
+          "malachite"
+        ]
+      },
+      "alteration": [
+        "sericite alteration",
+        "carbonate alteration",
+        "pyrite alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 155634,
+          "unit": "t",
+          "resource_type": "proven+probable"
+        },
+        "grade": {
+          "Au_ppm": 3.8
+        },
+        "scale_class": "small",
+        "production_status": "past producer",
+        "citation": "Table 1"
+      },
+      "host_rocks": [
+        "basalt",
+        "volcaniclastic sandstone",
+        "siltstone",
+        "andesite",
+        "dacite"
+      ],
+      "structural_controls": [
+        "strike-slip faults",
+        "thrust faults",
+        "shear zones",
+        "fold crests"
+      ],
+      "tectonic_setting": "Neoproterozoic accretionary orogen (Arabian-Nubian Shield)",
+      "ages": [
+        {
+          "age_ma": 660,
+          "uncertainty": 4,
+          "method": "U-Pb zircon",
+          "material": "diorite/granodiorite",
+          "interpretation": "主变形事件年龄",
+          "citation": "Hedge, 1984"
+        },
+        {
+          "age_ma": 620,
+          "uncertainty": 7,
+          "method": "U-Pb model age",
+          "material": "granite",
+          "interpretation": "D4剪切事件年龄",
+          "citation": "Hedge, 1984"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {},
+        "isotopes": {
+          "oxygen_delta18o": "14.0 to 15.0‰"
+        },
+        "fluid_inclusion": {},
+        "citation": "Table 2"
+      },
+      "reference_deposits": [
+        {
+          "name": "Mahd adh Dhahab",
+          "relation": "类型对比",
+          "similarity": "同为金矿，但Mahd adh Dhahab为epithermal，Al Wajh为mesothermal"
+        },
+        {
+          "name": "Sukhaybarat",
+          "relation": "类型对比",
+          "similarity": "同为金矿，但Sukhaybarat为剪切带中石英脉，Al Wajh类似"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "氧同位素数据表明流体来自低变质岩或沉积岩，可能为变质流体"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "D2和D3构造（走滑断层和逆冲断层）控制流体通道"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "剪切带、褶皱核部、逆冲断层上盘等构造圈闭"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "石英脉中金沉淀，与碳酸盐蚀变相关"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "矿床规模小，可能剥蚀较浅"
+        },
+        "metamorphism": {
+          "score": 3,
+          "evidence": "低绿片岩相变质作用"
+        },
+        "magmatism": {
+          "score": 2,
+          "evidence": "区域上有660 Ma和620 Ma岩浆活动，但直接与成矿关系不明确"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9490,
+      "output": 1087
+    }
+  },
+  {
+    "paper_id": "2274",
+    "extracted": {
+      "paper_id": "2274",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.7,
+      "deposit_type_evidence": "论文描述为与区域压缩和花岗岩基侵入相关的变质热液过程，成矿时代为晚白垩世或早第三纪，属于造山型金矿范畴。但主要金属为Pb-Ag，且脉石为菱铁矿，与典型造山型金矿有差异。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Sunshine矿为研究对象，提供大量新的氧、碳、锶同位素数据，旨在阐明成矿条件，属于原创性研究。",
+      "countries": [
+        "USA"
+      ],
+      "metallogenic_belt": "Coeur d'Alene mining district",
+      "coordinates": {
+        "latitude": 47.5,
+        "longitude": -115.8,
+        "precision": "矿区级",
+        "source": "Figure 1地质图",
+        "confidence": 0.8,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "galena",
+          "sphalerite",
+          "tetrahedrite",
+          "friebergite"
+        ],
+        "gangue_minerals": [
+          "siderite",
+          "quartz",
+          "calcite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "Ag",
+          "Pb"
+        ],
+        "byproduct": [
+          "Cu",
+          "Sb",
+          "Au"
+        ],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 340,
+          "unit": "Moz",
+          "resource_type": "production"
+        },
+        "grade": null,
+        "scale_class": "large",
+        "production_status": "producing",
+        "citation": "Abstract"
+      },
+      "host_rocks": [
+        "Belt Supergroup metasedimentary rocks (Prichard, Burke, Revett, St. Regis, Wallace, Striped Peak Formations)"
+      ],
+      "structural_controls": [
+        "steeply dipping reverse faults",
+        "Big Creek anticline",
+        "Osburn fault"
+      ],
+      "tectonic_setting": "Cretaceous accretion and suturing of exotic terranes onto western Idaho, associated with regional compression and formation of granitic batholiths",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": null,
+        "isotopes": {
+          "sulfur_delta34s": null,
+          "lead_206_204": null,
+          "oxygen_delta18o_siderite": "13.1 to 17.7‰",
+          "carbon_delta13c_siderite": "-9.9 to -6.4‰",
+          "oxygen_delta18o_quartz": "13.4 to 15.5‰",
+          "oxygen_delta18o_wallrock": "10.7 to 15.5‰",
+          "oxygen_delta18o_fluid": "7.8 to 12.4‰ (from siderite), 6.9 to 8.9‰ (from quartz)"
+        },
+        "fluid_inclusion": {
+          "temperature_c": "325",
+          "salinity_wt_nacl": null
+        },
+        "citation": "Abstract, Table 2, Figure 3"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "流体δ18O高（7.8-12.4‰），表明与高18O的Belt超群变质沉积岩在高温源区发生交换。"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "流体沿陡倾断裂上升，温度约325°C，压力高，CO2逸出可能发生在晚期。"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "脉体呈板状，受断裂控制，围岩为变质沉积岩，化学性质可能有利于沉淀。"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "温度变化导致菱铁矿δ18O从边缘向中心降低，晚期CO2逸出导致δ13C分散。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "脉体未变形，仅少量角砾化和断层错动，表明保存较好。"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "矿区位于地表，已开采，暴露程度高。"
+        },
+        "fertility": {
+          "score": 5,
+          "evidence": "累计产量超过3.4亿盎司银，1亿磅铜，1.4亿磅铅，6500万磅锑，2500盎司金，属于大型富矿。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 12150,
+      "output": 1097
+    }
+  },
+  {
+    "paper_id": "2287",
+    "extracted": {
+      "paper_id": "2287",
+      "deposit_type": "PGE-REEf",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述Delta sill中存在PGE矿化，包括三个PGE富集层位，其中上部gabbronorite中的强富集层被称为reef。矿床类型为与基性-超基性侵入岩相关的PGE矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Delta sill为研究对象，详细描述了其地质、岩石学、地球化学特征，并通过实验和数据分析探讨PGE富集的物理化学控制因素，属于原创性研究。",
+      "countries": [
+        "Canada"
+      ],
+      "metallogenic_belt": "Cape Smith fold belt",
+      "coordinates": {
+        "latitude": 61.4667,
+        "longitude": -74.5,
+        "precision": "矿区级",
+        "source": "Figure 2地质图及文中描述",
+        "confidence": 0.8,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "pyrrhotite",
+          "pentlandite",
+          "chalcopyrite",
+          "ferrochromite",
+          "isoferroplatinum"
+        ],
+        "gangue_minerals": [
+          "olivine",
+          "clinopyroxene",
+          "orthopyroxene",
+          "plagioclase",
+          "brown hornblende",
+          "biotite",
+          "sphene",
+          "quartz"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "PGE",
+          "Ni",
+          "Cu"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "peridotite",
+        "pyroxenite",
+        "gabbronorite",
+        "anorthosite"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "within-plate environment subject to hot spot volcanism in a distended continental regime",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Cr",
+            "Ni",
+            "Cu"
+          ],
+          "depleted": []
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Tables 1-2"
+      },
+      "reference_deposits": [
+        {
+          "name": "Lac Cross, Katinik, Raglan horizons",
+          "relation": "区域对比",
+          "similarity": "同属Cape Smith fold belt，含PGE的Ni-Cu硫化物矿床"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "岩浆来源于约20%部分熔融的garnet lherzolite，母岩浆为basaltic komatiite (MgO=13.58-15.66%)"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "PGE通过岩浆分异和硫化物熔体迁移，受硫逸度和氧逸度控制"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "PGE富集于三个层位：peridotite中的Ir-Ru富集与ferrochromite结晶有关；lower gabbronorite中的硫化物沉淀；upper gabbronorite reef中的硫化物熔体迁移"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "PGE沉淀机制包括：铬铁矿结晶、硫化物熔体不混溶、流体相参与"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "岩体保存完整，但部分残余液体可能流失或被后期侵入体破坏"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "存在后期热液活动（碳酸盐化），但影响有限"
+        },
+        "recovery": {
+          "score": 1,
+          "evidence": "论文未提及开采或经济评价"
+        }
+      }
+    },
+    "tokens": {
+      "input": 11872,
+      "output": 919
+    }
+  },
+  {
+    "paper_id": "2303",
+    "extracted": {
+      "paper_id": "2303",
+      "deposit_type": "PEGMATITE",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为Ta-Nb矿化赋存于花岗伟晶岩中，属于稀有金属伟晶岩型矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究Burundi地区Kivuvu和Ruhembe伟晶岩中铌钽矿化的U-Pb定年，属于原创性研究。",
+      "countries": [
+        "Burundi"
+      ],
+      "metallogenic_belt": "Kibaran belt",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "columbite",
+          "cassiterite",
+          "wolframite",
+          "scheelite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "albite",
+          "K-feldspar",
+          "muscovite",
+          "tourmaline",
+          "amblygonite",
+          "spodumene",
+          "beryl",
+          "lepidolite",
+          "zinnwaldite",
+          "fluorapatite",
+          "ilmenite"
+        ],
+        "alteration_minerals": [
+          "sericite",
+          "kaolinite",
+          "hematite",
+          "limonite",
+          "bismutite"
+        ]
+      },
+      "alteration": [
+        "muscovitization",
+        "albitization",
+        "phyllic alteration",
+        "argillic alteration",
+        "tourmalinization",
+        "kaolinization"
+      ],
+      "commodities": {
+        "primary": [
+          "Ta",
+          "Nb",
+          "Sn"
+        ],
+        "byproduct": [
+          "W",
+          "Be",
+          "Bi",
+          "Li",
+          "Au"
+        ],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "metasedimentary rocks",
+        "granite"
+      ],
+      "structural_controls": [
+        "fractures",
+        "shear zones"
+      ],
+      "tectonic_setting": "Kibaran mobile belt, postorogenic extension",
+      "ages": [
+        {
+          "age_ma": 962,
+          "uncertainty": 2,
+          "method": "U-Pb columbite",
+          "material": "columbite",
+          "interpretation": "伟晶岩侵位年龄",
+          "citation": "Figure 3, Table 1"
+        },
+        {
+          "age_ma": 968,
+          "uncertainty": 33,
+          "method": "U-Pb columbite",
+          "material": "columbite",
+          "interpretation": "伟晶岩侵位年龄",
+          "citation": "Figure 3, Table 1"
+        },
+        {
+          "age_ma": 628,
+          "uncertainty": 110,
+          "method": "U-Pb columbite lower intercept",
+          "material": "columbite",
+          "interpretation": "Pan-African热液叠加年龄",
+          "citation": "Figure 3"
+        },
+        {
+          "age_ma": 622,
+          "uncertainty": 56,
+          "method": "U-Pb columbite lower intercept",
+          "material": "columbite",
+          "interpretation": "Pan-African热液叠加年龄",
+          "citation": "Figure 3"
+        }
+      ],
+      "geochemistry": null,
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "G4花岗岩为高度分异过铝质花岗岩，提供成矿元素"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "伟晶岩沿围岩层理和裂隙侵位"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "伟晶岩内部分带，石英核和矿物带"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "岩浆结晶分异形成铌钽矿物，后期热液叠加"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "深风化作用破坏原生矿物，但铌钽矿物稳定"
+        },
+        "modification": {
+          "score": 3,
+          "evidence": "Pan-African期脆性变形和热液叠加导致金、铋再活化"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "地表出露有限，多为残积和冲积层"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9406,
+      "output": 993
+    }
+  },
+  {
+    "paper_id": "2310",
+    "extracted": {
+      "paper_id": "2310",
+      "deposit_type": null,
+      "deposit_type_conf": 0.0,
+      "deposit_type_evidence": "论文主要讨论岩浆挥发相渗透性的地质证据，未明确指定矿床类型，但提及与Sn、W、Mo、Cu、Au等矿化相关，属于岩浆热液系统。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文基于野外观察和理论模型，提出岩浆挥发相渗透性的新证据，属于原创研究。",
+      "countries": [
+        "Australia"
+      ],
+      "metallogenic_belt": "New England orogen",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "cassiterite",
+          "molybdenite",
+          "chalcopyrite",
+          "gold"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "alkali feldspar",
+          "fluorite",
+          "topaz",
+          "beryl"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "Sn",
+          "W",
+          "Mo",
+          "Cu",
+          "Au"
+        ],
+        "byproduct": [
+          "Ag",
+          "As",
+          "Bi",
+          "Pb"
+        ],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "leucogranite",
+        "monzogranite",
+        "tonalite"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "造山带（New England orogen）",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Rb",
+            "Y",
+            "Th",
+            "U",
+            "heavy REE",
+            "S",
+            "Cu",
+            "Zn",
+            "Mo",
+            "Au",
+            "As",
+            "F",
+            "Sn",
+            "Bi"
+          ],
+          "depleted": [
+            "Ba",
+            "Sr",
+            "Cr",
+            "Ni",
+            "V",
+            "Co"
+          ]
+        },
+        "isotopes": {},
+        "fluid_inclusion": {
+          "temperature_c": null,
+          "salinity_wt_nacl": null
+        },
+        "citation": "Table 1"
+      },
+      "reference_deposits": [
+        {
+          "name": "Bamford Hill",
+          "relation": "类似构造",
+          "similarity": "互连晶洞构造，与W-Mo-Bi矿化相关"
+        },
+        {
+          "name": "Mount Morgan",
+          "relation": "类似构造",
+          "similarity": "互连晶洞构造，与Cu-Au矿化相关"
+        },
+        {
+          "name": "Bemboka pluton",
+          "relation": "类似构造",
+          "similarity": "互连晶洞构造，与Mo矿化相关"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "岩浆来源，I型和A型花岗岩，高硅富挥发分"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "互连晶洞构造指示岩浆挥发相渗透性，形成连通网络"
+        },
+        "trap": {
+          "score": 2,
+          "evidence": "岩体顶部和围岩接触带，但未详细描述圈闭机制"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "矿化以浸染状和脉状产于晶洞和细晶岩中"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "浅成侵位，剥蚀程度中等"
+        },
+        "energy": {
+          "score": 3,
+          "evidence": "岩浆热驱动，挥发相上升"
+        },
+        "metal_carrier": {
+          "score": 4,
+          "evidence": "岩浆挥发相携带金属元素，如Mo、Cu、Au等"
+        }
+      }
+    },
+    "tokens": {
+      "input": 8559,
+      "output": 862
+    }
+  },
+  {
+    "paper_id": "2317",
+    "extracted": {
+      "paper_id": "2317",
+      "deposit_type": "EPITHERMAL",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为'epithermal precious metal deposits'，且具有典型特征：开放空间充填的脉状矿体、低硫型矿物组合（adularia-illite）、浅成热液蚀变（adularia, illite, propylitic）。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Orcopampa矿区为主要研究对象，详细描述了地质背景、矿化特征、蚀变类型和年代学数据，属于原创性研究。",
+      "countries": [
+        "Peru"
+      ],
+      "metallogenic_belt": null,
+      "coordinates": {
+        "latitude": -15.2783,
+        "longitude": -72.295,
+        "precision": "矿区级",
+        "source": "Figure 1地质图及文中坐标（15°16.7' S, 72°17.7' W）",
+        "confidence": 0.9,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "pyrite",
+          "sphalerite",
+          "galena",
+          "chalcopyrite",
+          "tetrahedrite",
+          "argentian tetrahedrite",
+          "silver sulfosalts",
+          "electrum"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "rhodonite",
+          "rhodochrosite",
+          "adularia",
+          "calcite"
+        ],
+        "alteration_minerals": [
+          "adularia",
+          "illite",
+          "muscovite",
+          "calcite",
+          "albite",
+          "chlorite",
+          "kaolinite",
+          "smectite",
+          "mixed-layer illite-smectite",
+          "alunite"
+        ]
+      },
+      "alteration": [
+        "adularia alteration",
+        "illitic alteration",
+        "propylitic alteration",
+        "acid sulfate alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Ag",
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": null,
+        "grade": null,
+        "scale_class": "large",
+        "production_status": "producing",
+        "citation": "文中提到总产量约60 Moz银和400,000 oz金，但未给出储量/品位数据。"
+      },
+      "host_rocks": [
+        "Santa Rosa volcanics (andesite, laharic breccia)",
+        "Manto tuff (rhyolite ash-flow tuff)",
+        "Sarpane volcanics (andesite, dacite)"
+      ],
+      "structural_controls": [
+        "east-northeast-striking conjugate normal faults",
+        "fault intersections",
+        "highly fractured wall rocks",
+        "changes in vein orientation"
+      ],
+      "tectonic_setting": "Neogene calc-alkaline volcanic arc, Andean orogeny, extensional regime (least principal stress parallel to belt)",
+      "ages": [
+        {
+          "age_ma": 20.0,
+          "uncertainty": null,
+          "method": "K-Ar",
+          "material": "Manto tuff",
+          "interpretation": "火山岩年龄",
+          "citation": "McKee et al., 1994a"
+        },
+        {
+          "age_ma": 19.4,
+          "uncertainty": 0.6,
+          "method": "K-Ar",
+          "material": "biotite from Sarpane volcanics dome",
+          "interpretation": "火山岩年龄",
+          "citation": "Table 1, sample 11"
+        },
+        {
+          "age_ma": 18.6,
+          "uncertainty": 0.6,
+          "method": "K-Ar",
+          "material": "hornblende from Sarpane volcanics dome",
+          "interpretation": "火山岩年龄",
+          "citation": "Table 1, sample 10"
+        },
+        {
+          "age_ma": 18.3,
+          "uncertainty": 0.6,
+          "method": "K-Ar",
+          "material": "hornblende from Sarpane volcanics dome",
+          "interpretation": "火山岩年龄",
+          "citation": "Table 1, sample 9"
+        },
+        {
+          "age_ma": 19.5,
+          "uncertainty": 0.6,
+          "method": "K-Ar",
+          "material": "alunite from Santiago Norte",
+          "interpretation": "蚀变年龄",
+          "citation": "Table 1, sample 8"
+        },
+        {
+          "age_ma": 18.4,
+          "uncertainty": 0.6,
+          "method": "K-Ar",
+          "material": "alunite from Santiago Norte",
+          "interpretation": "蚀变年龄",
+          "citation": "Table 1, sample 7"
+        },
+        {
+          "age_ma": 18.4,
+          "uncertainty": 0.5,
+          "method": "K-Ar",
+          "material": "alunite from Santiago Norte",
+          "interpretation": "蚀变年龄",
+          "citation": "Table 1, sample 6"
+        },
+        {
+          "age_ma": 17.8,
+          "uncertainty": 0.1,
+          "method": "K-Ar and 40Ar/39Ar",
+          "material": "adularia from veins and wall rocks",
+          "interpretation": "矿化年龄",
+          "citation": "Table 1, samples 1-5,12,13; 文中建议值"
+        }
+      ],
+      "geochemistry": null,
+      "reference_deposits": [
+        {
+          "name": "Arcata",
+          "relation": "同区域对比",
+          "similarity": "同属高基底金属浅成热液贵金属矿区"
+        },
+        {
+          "name": "Cailloma",
+          "relation": "同区域对比",
+          "similarity": "同属高基底金属浅成热液贵金属矿区"
+        },
+        {
+          "name": "Shila",
+          "relation": "同区域对比",
+          "similarity": "同属高基底金属浅成热液贵金属矿区"
+        },
+        {
+          "name": "Suickutambo",
+          "relation": "同区域对比",
+          "similarity": "同属高基底金属浅成热液贵金属矿区"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "岩浆热液来源，与Sarpane火山岩有关，流体包裹体显示岩浆蒸汽参与"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "流体沿正断层向上运移，断层交汇处和破碎带为通道"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "开放空间充填，断层交汇处、岩性变化处、破碎带为容矿空间"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "温度降低、流体混合、沸腾导致矿物沉淀，多阶段矿化"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "部分矿脉被剥蚀，但Calera脉被冲积物覆盖得以保存"
+        },
+        "exhumation": {
+          "score": 3,
+          "evidence": "区域倾斜10-20°，部分矿脉出露地表"
+        },
+        "metamorphism": {
+          "score": 1,
+          "evidence": "无变质作用影响"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9802,
+      "output": 1696
+    }
+  },
+  {
+    "paper_id": "2326",
+    "extracted": {
+      "paper_id": "2326",
+      "deposit_type": "MVT",
+      "deposit_type_conf": 0.7,
+      "deposit_type_evidence": "论文描述为后生层控重晶石-方铅矿（闪锌矿次要）矿床，赋存于砂岩中，受构造控制，与MVT矿床特征相似，但未明确命名。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究砂岩孔隙度和渗透性在铅源研究中的作用，通过铅同位素分析探讨成矿物质来源。",
+      "countries": [
+        "Canada"
+      ],
+      "metallogenic_belt": "Appalachian thrust belt",
+      "coordinates": {
+        "latitude": 48.3,
+        "longitude": -68.7,
+        "precision": "矿区级",
+        "source": "Figure 2地图坐标网格",
+        "confidence": 0.8,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "galena",
+          "sphalerite"
+        ],
+        "gangue_minerals": [
+          "barite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "Pb",
+          "Ba"
+        ],
+        "byproduct": [
+          "Zn"
+        ],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Upper Cambrian sandstone",
+        "Middle and Upper Cambrian mudstone"
+      ],
+      "structural_controls": [
+        "thrust faults",
+        "fractures",
+        "dissolution pores"
+      ],
+      "tectonic_setting": "Appalachian thrust belt",
+      "ages": [
+        {
+          "age_ma": 450,
+          "uncertainty": 50,
+          "method": "model galena Pb age",
+          "material": "galena",
+          "interpretation": "成矿年龄",
+          "citation": "Text"
+        },
+        {
+          "age_ma": 490,
+          "uncertainty": 40,
+          "method": "Rb-Sr",
+          "material": "barite",
+          "interpretation": "重晶石沉淀年龄",
+          "citation": "Text"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {},
+        "isotopes": {
+          "lead_206_204": "17.971-18.023",
+          "lead_207_204": "15.570-15.587",
+          "lead_208_204": "37.780-37.858"
+        },
+        "fluid_inclusion": {},
+        "citation": "Table 1, Table 2"
+      },
+      "reference_deposits": [
+        {
+          "name": "St-Fabien",
+          "relation": "主要研究矿床之一",
+          "similarity": "同为砂岩容矿的Ba-Pb-Zn矿床"
+        },
+        {
+          "name": "Cap Enragé",
+          "relation": "主要研究矿床之一",
+          "similarity": "同为砂岩容矿的Ba-Pb-Zn矿床"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "铅同位素表明泥岩为主要铅源，砂岩贡献较小"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "热液流体通过断裂和孔隙运移"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "砂岩孔隙和断裂作为容矿空间"
+        },
+        "deposition": {
+          "score": 2,
+          "evidence": "未详细讨论沉淀机制"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "未讨论保存条件"
+        },
+        "modification": {
+          "score": 1,
+          "evidence": "未讨论后期改造"
+        },
+        "exposure": {
+          "score": 1,
+          "evidence": "未讨论暴露情况"
+        }
+      }
+    },
+    "tokens": {
+      "input": 6404,
+      "output": 883
+    }
+  },
+  {
+    "paper_id": "2329",
+    "extracted": {
+      "paper_id": "2329",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为'Archean lode gold deposit'，属于造山型金矿。关键特征：石英脉网状系统、蚀变组合（石英-钠长石-白云母-铁白云石-黄铁矿）、构造控制（晚期右旋断层）。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Mount Charlotte金矿为研究对象，通过Sm-Nd同位素示踪成矿物质来源，属于原创性研究。",
+      "countries": [
+        "Australia"
+      ],
+      "metallogenic_belt": "Eastern Goldfields province, Yilgarn craton",
+      "coordinates": {
+        "latitude": -30.75,
+        "longitude": 121.47,
+        "precision": "矿区级",
+        "source": "Kalgoorlie金矿区已知坐标",
+        "confidence": 0.9,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "gold",
+          "pyrite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "carbonates",
+          "scheelite"
+        ],
+        "alteration_minerals": [
+          "muscovite",
+          "albite",
+          "ankerite"
+        ]
+      },
+      "alteration": [
+        "quartz-albite-muscovite-ankerite-pyrite alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Golden Mile Dolerite (tholeiitic sill)",
+        "komatiitic basalt",
+        "high-Mg basalt",
+        "tholeiitic basalt",
+        "felsic volcanic-sedimentary unit"
+      ],
+      "structural_controls": [
+        "dextral faults",
+        "dilational sites in quartz-granophyric unit"
+      ],
+      "tectonic_setting": "Archean greenstone belt",
+      "ages": [
+        {
+          "age_ma": 2602,
+          "uncertainty": 8,
+          "method": "40Ar-39Ar",
+          "material": "hydrothermal muscovite",
+          "interpretation": "金矿化年龄",
+          "citation": "Kent and McDougall (1995)"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": null,
+        "isotopes": {
+          "sulfur_delta34s": null,
+          "lead_206_204": null,
+          "neodymium_epsilon": "3.3 to 9.0 (at 2602 Ma)",
+          "strontium_87_86": "0.70134 to 0.70145 (measured)"
+        },
+        "fluid_inclusion": null,
+        "citation": "Table 1"
+      },
+      "reference_deposits": [
+        {
+          "name": "Golden Mile (Kalgoorlie)",
+          "relation": "邻近矿床对比",
+          "similarity": "同一金矿区，但Mount Charlotte矿化较晚"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "Nd同位素示踪表明成矿流体中Nd主要来自科马提岩，金可能也来自科马提岩"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "流体沿右旋断层运移，在Golden Mile Dolerite的石英-花斑岩单元中沉淀"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "机械能力强的花斑岩变形产生扩容空间，流体流动和金的沉淀"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "金的沉淀与热液蚀变同步，通过脱硫和氧化作用"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿化后无重大地质事件，但论文未详细讨论保存条件"
+        },
+        "metamorphism": {
+          "score": 2,
+          "evidence": "区域变质作用发生在矿化之前，但论文未详细讨论"
+        },
+        "exhumation": {
+          "score": 1,
+          "evidence": "论文未涉及剥露过程"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10356,
+      "output": 969
+    }
+  },
+  {
+    "paper_id": "2343",
+    "extracted": {
+      "paper_id": "2343",
+      "deposit_type": "PGE-Cr",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确研究Bushveld杂岩体中的铬铁矿层和铂族元素矿化，属于层状侵入体型PGE-Cr矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文基于大量钻孔数据、全岩分析和电子探针分析，提出岩相模型解释岩浆侧向运移和混合对成矿的控制，属于原创研究。",
+      "countries": [
+        "South Africa"
+      ],
+      "metallogenic_belt": "Bushveld Complex",
+      "coordinates": {
+        "latitude": -25.5,
+        "longitude": 27.5,
+        "precision": "国家级",
+        "source": "论文图1地质图及区域描述",
+        "confidence": 0.8,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "chromite",
+          "laurite"
+        ],
+        "gangue_minerals": [
+          "orthopyroxene",
+          "olivine",
+          "plagioclase",
+          "clinopyroxene"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "Cr",
+          "PGE"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": null,
+        "grade": null,
+        "scale_class": "world-class",
+        "production_status": "producing",
+        "citation": "论文引言提及Bushveld Complex为世界最大层状侵入体，且Merensky reef正在开采"
+      },
+      "host_rocks": [
+        "norite",
+        "pyroxenite",
+        "harzburgite",
+        "dunite",
+        "anorthosite"
+      ],
+      "structural_controls": [
+        "层状构造",
+        "岩浆房底部地形起伏"
+      ],
+      "tectonic_setting": "克拉通内裂谷环境",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Cr",
+            "PGE"
+          ],
+          "depleted": []
+        },
+        "isotopes": {
+          "osmium_187_188": "elevated values in laurite"
+        },
+        "fluid_inclusion": null,
+        "citation": "Table 2, Table 4, 正文"
+      },
+      "reference_deposits": [
+        {
+          "name": "Stillwater Complex",
+          "relation": "类型对比",
+          "similarity": "相似的层状侵入体，含PGE矿化"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "岩浆源区为地幔，有U型和A型两种母岩浆"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "岩浆通过Union section附近的通道上升，侧向运移至远端"
+        },
+        "trap": {
+          "score": 5,
+          "evidence": "岩浆混合导致硫饱和，形成硫化物熔体，捕获PGE"
+        },
+        "deposition": {
+          "score": 5,
+          "evidence": "铬铁矿层和PGE矿化通过岩浆混合和硫化物熔离形成"
+        },
+        "preservation": {
+          "score": 4,
+          "evidence": "层状侵入体保存完好，未受强烈变形"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "局部热液叠加可能影响Os同位素"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "部分区域出露，但主要靠钻孔研究"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9064,
+      "output": 842
+    }
+  },
+  {
+    "paper_id": "2350",
+    "extracted": {
+      "paper_id": "2350",
+      "deposit_type": "MAGMATIC Cu-Ni-PGE",
+      "deposit_type_conf": 0.8,
+      "deposit_type_evidence": "论文明确描述为Cu-Ni-PGE矿床，原为岩浆硫化物矿床，后经历角闪岩相变质和热液活化。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究Abu Swayel矿床的铂族矿物，包括矿物学、地球化学和成因。",
+      "countries": [
+        "Egypt"
+      ],
+      "metallogenic_belt": "Arabo-Nubian Shield",
+      "coordinates": {
+        "latitude": 22.75,
+        "longitude": 33.625,
+        "precision": "矿区级",
+        "source": "论文中明确经纬度范围22°40'-22°50'N, 33°33'-33°40'E",
+        "confidence": 0.95,
+        "extraction_method": "明确经纬度"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "chalcopyrite",
+          "pyrrhotite",
+          "pyrite",
+          "cubanite",
+          "violarite",
+          "pentlandite",
+          "bornite",
+          "sphalerite",
+          "valleriite",
+          "heazlewoodite",
+          "parkerite",
+          "mackinawite",
+          "molybdenite",
+          "michenerite",
+          "froodite",
+          "merenskyite",
+          "palladian bismuthian melonite",
+          "sudburyite",
+          "geversite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "dolomite",
+          "siderite",
+          "plagioclase",
+          "garnet",
+          "amphibole",
+          "chlorite",
+          "epidote",
+          "sericite"
+        ],
+        "alteration_minerals": [
+          "actinolite",
+          "hornblende",
+          "anthophyllite",
+          "cummingtonite",
+          "chlorite",
+          "epidote",
+          "sericite",
+          "garnet",
+          "quartz",
+          "dolomite",
+          "siderite"
+        ]
+      },
+      "alteration": [
+        "alkali metasomatism",
+        "amphibolite facies metamorphism"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Ni",
+          "PGE"
+        ],
+        "byproduct": [
+          "Co"
+        ],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 85000,
+          "unit": "t",
+          "resource_type": "proven+probable"
+        },
+        "grade": {
+          "Cu_percent": 2.8,
+          "Ni_percent": 1.53
+        },
+        "scale_class": "small",
+        "production_status": "past producer",
+        "citation": "论文引言"
+      },
+      "host_rocks": [
+        "mafic-ultramafic rocks",
+        "amphibole rocks",
+        "serpentinite"
+      ],
+      "structural_controls": [
+        "synmetamorphic shear zone",
+        "fractures",
+        "foliation"
+      ],
+      "tectonic_setting": "Arabo-Nubian Shield, ophiolitic thrust complex",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Pd",
+            "Pt",
+            "Au",
+            "Ag",
+            "Bi",
+            "Te",
+            "Sb"
+          ],
+          "depleted": []
+        },
+        "isotopes": {},
+        "fluid_inclusion": {
+          "temperature_c": "250-650",
+          "salinity_wt_nacl": null
+        },
+        "citation": "全文"
+      },
+      "reference_deposits": [
+        {
+          "name": "New Rambler mine, Wyoming",
+          "relation": "类型对比",
+          "similarity": "低温热液沉淀的Pd铋碲化物"
+        },
+        {
+          "name": "Bucko Lake intrusion, Thompson Belt, Manitoba",
+          "relation": "类型对比",
+          "similarity": "低温热液沉淀的Pd铋碲化物"
+        },
+        {
+          "name": "Sudbury area",
+          "relation": "类型对比",
+          "similarity": "低温热液沉淀的Pd铋碲化物"
+        },
+        {
+          "name": "Merensky reef, South Africa",
+          "relation": "成因对比",
+          "similarity": "低温平衡过程"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "PGE和贱金属来源于原始岩浆硫化物，后经变质热液活化。"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "热液沿同变质剪切带运移，温度从>500°C降至250°C。"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "硫化物在剪切带和裂隙中沉淀，与硅酸盐接触。"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "温度降低导致PGM和硫化物沉淀，早期高温（>500°C）形成Pd-Bi melonite，晚期低温（250-450°C）形成froodite等。"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "矿床部分被氧化，但原生硫化物保存。"
+        },
+        "modification": {
+          "score": 4,
+          "evidence": "角闪岩相变质作用和热液活化显著改变了原始岩浆组构和矿物组合。"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "地表氧化带深度约10米，现代未开采。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10386,
+      "output": 1265
+    }
+  },
+  {
+    "paper_id": "2361",
+    "extracted": {
+      "paper_id": "2361",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述Witwatersrand金矿田为太古宙变质碎屑岩中的金矿化，属于造山型金矿（OROG-AU）的典型代表。关键特征包括：区域变质作用（300-400°C, 1.5-7 kbars）、含金砾岩层、黄铁矿与磁黄铁矿共生、绿泥石-绢云母蚀变。排除其他类型理由：非VMS（无火山喷流沉积特征）、非Skarn（无矽卡岩矿物组合）、非IOCG（无大量磁铁矿-赤铁矿）。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以磁黄铁矿为主要研究对象，详细描述了其分布、结构、矿物组合及与变质作用的关系，属于原创性研究。",
+      "countries": [
+        "South Africa"
+      ],
+      "metallogenic_belt": "Witwatersrand Basin",
+      "coordinates": {
+        "latitude": -26.5,
+        "longitude": 27.5,
+        "precision": "国家级",
+        "source": "Figure 1地质图及文字描述",
+        "confidence": 0.8,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "gold",
+          "chalcopyrite",
+          "sphalerite",
+          "galena"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "albite",
+          "rutile",
+          "tourmaline",
+          "carbonaceous matter"
+        ],
+        "alteration_minerals": [
+          "chlorite",
+          "muscovite",
+          "chloritoid",
+          "pyrophyllite",
+          "kyanite",
+          "sudoite"
+        ]
+      },
+      "alteration": [
+        "chloritization",
+        "sericitization",
+        "carbonatization"
+      ],
+      "commodities": {
+        "primary": [
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "conglomerate",
+        "quartzite",
+        "shale",
+        "tuff"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "Archean cratonic basin with regional metamorphism and deformation",
+      "ages": [
+        {
+          "age_ma": 2716,
+          "uncertainty": null,
+          "method": "SHRIMP U-Pb zircon",
+          "material": "metabasalts",
+          "interpretation": "Ventersdorp Supergroup metabasalt age",
+          "citation": "Armstrong et al., 1991"
+        }
+      ],
+      "geochemistry": null,
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "金来源于太古宙地壳，但具体源岩未明确"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "变质流体运移，温度300-400°C，压力1.5-7 kbars"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "砾岩层中的孔隙和化学圈闭（如碳质物）"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "硫化物沉淀与变质作用相关，磁黄铁矿替代黄铁矿"
+        },
+        "preservation": {
+          "score": 4,
+          "evidence": "区域变质作用后保存，未受后期重大改造"
+        },
+        "exhumation": {
+          "score": 2,
+          "evidence": "未详细讨论剥露过程"
+        },
+        "metamorphism": {
+          "score": 5,
+          "evidence": "区域变质作用（300-400°C, 1.5-7 kbars）是磁黄铁矿形成的关键"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10109,
+      "output": 884
+    }
+  },
+  {
+    "paper_id": "2370",
+    "extracted": {
+      "paper_id": "2370",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.7,
+      "deposit_type_evidence": "论文讨论的是Jacutinga型金矿床，属于造山型金矿的一种特殊类型，赋存于条带状铁建造中，缺乏硫化物，以自然金和钯金为特征。",
+      "is_primary_research": false,
+      "is_primary_research_reason": "本文是对Olivo et al. (1995)文章的讨论，并非原创研究，主要提出不同观点和补充。",
+      "countries": [
+        "Brazil"
+      ],
+      "metallogenic_belt": "Quadrilátero Ferrífero",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "gold",
+          "palladium-bearing gold"
+        ],
+        "gangue_minerals": [
+          "hematite",
+          "specular hematite",
+          "quartz",
+          "talc",
+          "manganese oxides"
+        ],
+        "alteration_minerals": [
+          "phlogopite",
+          "magnetite"
+        ]
+      },
+      "alteration": [
+        "hydrothermal alteration",
+        "hematitization"
+      ],
+      "commodities": {
+        "primary": [
+          "Au",
+          "Pd"
+        ],
+        "byproduct": [],
+        "trace": [
+          "Mn"
+        ]
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "banded iron-formation (itabirite)",
+        "dolomitic itabirite",
+        "hematitic iron ore"
+      ],
+      "structural_controls": [
+        "shear zones",
+        "contacts between itabirite and hematitic iron ore"
+      ],
+      "tectonic_setting": "São Francisco craton",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Mn"
+          ],
+          "depleted": []
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "文中提及Mn含量1.46%"
+      },
+      "reference_deposits": [
+        {
+          "name": "Cauê iron mine",
+          "relation": "讨论对象",
+          "similarity": "Jacutinga型金矿"
+        },
+        {
+          "name": "Gongo Soco",
+          "relation": "对比",
+          "similarity": "同样产出Jacutinga型金矿"
+        },
+        {
+          "name": "Maquiné mine",
+          "relation": "对比",
+          "similarity": "观察到镜铁矿晕"
+        },
+        {
+          "name": "Candonga mine",
+          "relation": "历史参考",
+          "similarity": "早期描述的Jacutinga矿床"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 2,
+          "evidence": "作者质疑Olivo et al.提出的Rio das Velhas来源，认为Itabira铁建造本身可能富集Au和Pd"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "流体为氧化性，Au和Pd以氯络合物形式运移"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "沉淀机制包括与磁铁矿反应、pH变化、锰氧化物氧化作用"
+        },
+        "deposit_architecture": {
+          "score": 2,
+          "evidence": "矿体位于铁建造与高品位铁矿接触带"
+        },
+        "preservation": {
+          "score": 1,
+          "evidence": "未讨论"
+        },
+        "modification": {
+          "score": 1,
+          "evidence": "未讨论"
+        },
+        "footprint": {
+          "score": 1,
+          "evidence": "未讨论"
+        }
+      }
+    },
+    "tokens": {
+      "input": 4800,
+      "output": 811
+    }
+  },
+  {
+    "paper_id": "2372",
+    "extracted": {
+      "paper_id": "2372",
+      "deposit_type": "OROG-AU",
+      "deposit_type_conf": 0.8,
+      "deposit_type_evidence": "论文描述为含钯金矿床，赋存于太古代苏必利尔湖型铁建造中，受剪切带控制，与区域变质和热液活动有关，属于造山型金矿。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文是对之前研究（Olivo et al., 1995）的回复和进一步解释，但核心内容仍围绕Cauê铁矿的Au-Pd矿床地质和构造控制，属于主研究。",
+      "countries": [
+        "Brazil"
+      ],
+      "metallogenic_belt": "São Francisco克拉通南部",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "gold",
+          "palladium"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "hematite",
+          "magnetite",
+          "goethite",
+          "talc",
+          "phlogopite",
+          "kaolinite",
+          "tourmaline",
+          "apatite",
+          "monazite"
+        ],
+        "alteration_minerals": [
+          "talc",
+          "phlogopite",
+          "kaolinite",
+          "hematite"
+        ]
+      },
+      "alteration": [
+        "碳酸盐矿物与热液反应形成滑石和金云母",
+        "磁铁矿氧化为赤铁矿"
+      ],
+      "commodities": {
+        "primary": [
+          "Au",
+          "Pd"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "jacutinga（热液蚀变铁岩）",
+        "白云质铁英岩（推测原岩）",
+        "太古代苏必利尔湖型铁建造"
+      ],
+      "structural_controls": [
+        "D1剪切事件",
+        "断层和裂隙"
+      ],
+      "tectonic_setting": "São Francisco克拉通南部边缘，大陆架沉积环境",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [],
+          "depleted": []
+        },
+        "isotopes": {
+          "lead_206_204": "Pb-Pb同位素数据（未给出具体值）"
+        },
+        "fluid_inclusion": null,
+        "citation": "Olivo et al., in press"
+      },
+      "reference_deposits": [
+        {
+          "name": "Gongo Soco",
+          "relation": "类型对比",
+          "similarity": "含锰的jacutinga型金矿"
+        },
+        {
+          "name": "Conceição",
+          "relation": "类型对比",
+          "similarity": "同一成矿带内的含钯金矿床"
+        },
+        {
+          "name": "Maquiné",
+          "relation": "类型对比",
+          "similarity": "同一成矿带内的含钯金矿床"
+        },
+        {
+          "name": "Pitangui",
+          "relation": "类型对比",
+          "similarity": "同一成矿带内的含钯金矿床"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "Au和Pd来源于太古代Rio das Velhas超群中的基性-超基性岩和块状硫化物矿石，Pb-Pb同位素证据支持。"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "热液流体以氯络合物形式搬运Au和Pd，流体性质为氧化性。"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "白云质铁英岩与热液反应导致pH升高，以及磁铁矿氧化为赤铁矿，促使Au和Pd沉淀。"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "pH升高和氧逸度变化是主要沉淀机制，形成赤铁矿-石英-滑石-金云母脉。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿床受后期变形和风化影响，但部分矿体保存完好。"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "区域变质作用（低角闪岩相）和后期热液活动对矿床有改造。"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "矿床因采矿活动暴露，地表可见。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 5577,
+      "output": 989
+    }
+  },
+  {
+    "paper_id": "Hydrochemistry-and-isotope-compositions-of-groundwater-f_2007_Journal-of-Geo",
+    "extracted": {
+      "paper_id": "Hydrochemistry-and-isotope-compositions-of-groundwater-f_2007_Journal-of-Geo",
+      "deposit_type": "SANDSTONE-U",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文标题和摘要明确描述为砂岩型铀矿床（sandstone-hosted uranium deposit），全文多次提及tabular sandstone uranium deposit和interstratified oxidized-zone roll-type sandstone-hosted uranium deposit。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究Shihongtan铀矿区地下水的水化学和同位素组成，以评估水的起源和水-岩相互作用，属于原创性研究。",
+      "countries": [
+        "China"
+      ],
+      "metallogenic_belt": "Tuha Basin",
+      "coordinates": {
+        "latitude": 42.0,
+        "longitude": 89.0,
+        "precision": "省级",
+        "source": "文本描述：Xinjiang Province, NW China; Tuha Basin",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "uraninite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "dolomite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "U"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Jurassic sandstone",
+        "Shuixigou Group sandstone"
+      ],
+      "structural_controls": [
+        "faults",
+        "fractures"
+      ],
+      "tectonic_setting": "continental basin",
+      "ages": [
+        {
+          "age_ma": 422,
+          "uncertainty": 5,
+          "method": "U-Pb zircon",
+          "material": "granitoid",
+          "interpretation": "Caledonian granitoid age",
+          "citation": "Section 2"
+        },
+        {
+          "age_ma": 268,
+          "uncertainty": 5,
+          "method": "U-Pb zircon",
+          "material": "granitoid",
+          "interpretation": "Hercynian granitoid age",
+          "citation": "Section 2"
+        },
+        {
+          "age_ma": 1,
+          "uncertainty": null,
+          "method": "U-Pb",
+          "material": "uranium ore",
+          "interpretation": "uranium mineralization age",
+          "citation": "Section 1"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "U",
+            "B",
+            "Sr"
+          ],
+          "depleted": []
+        },
+        "isotopes": {
+          "oxygen_delta18o": "-9.3 to -2.8‰",
+          "hydrogen_deltad": "-85.5 to -20.8‰",
+          "boron_delta11b": "+1.5 to +39.1‰",
+          "strontium_87_86": "0.70595 to 0.70975"
+        },
+        "fluid_inclusion": null,
+        "citation": "Table 1, Table 2"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "铀来源于地下水与岩石相互作用，可能来自花岗岩和火山岩"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "地下水沿断裂和孔隙砂岩流动，从西南向东北方向迁移"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "氧化-还原界面导致铀沉淀，形成板状和卷状矿体"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "铀在还原条件下沉淀，与有机质和硫化物有关"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿体位于泥岩隔水层之间的砂岩中，地下水持续流动但矿化仍在进行"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "地下水流动导致矿化前沿缓慢迁移，U-Pb年龄小于1Ma表明矿化仍在继续"
+        },
+        "exposure": {
+          "score": 1,
+          "evidence": "矿床位于盆地边缘，部分出露，但主要在地下"
+        }
+      }
+    },
+    "tokens": {
+      "input": 12189,
+      "output": 997
+    }
+  },
+  {
+    "paper_id": "The-role-of-microorganisms-on-the-mineralogical-and-geoc_2007_Journal-of-Geo",
+    "extracted": {
+      "paper_id": "The-role-of-microorganisms-on-the-mineralogical-and-geoc_2007_Journal-of-Geo",
+      "deposit_type": "Bauxite",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文明确描述为Parnassos-Ghiona bauxite deposits，属于喀斯特型铝土矿。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究微生物在铝土矿矿物学和地球化学特征中的作用，包括详细的矿物学、地球化学分析和微生物化石观察。",
+      "countries": [
+        "Greece"
+      ],
+      "metallogenic_belt": "Parnassos-Ghiona zone",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "boehmite",
+          "diaspore",
+          "gibbsite",
+          "hematite",
+          "goethite",
+          "pyrite"
+        ],
+        "gangue_minerals": [
+          "kaolinite",
+          "anatase",
+          "illite",
+          "clinochlore",
+          "chamosite",
+          "zircon",
+          "calcite"
+        ],
+        "alteration_minerals": [
+          "lithiophorite",
+          "brindleyite",
+          "rhabdophane",
+          "florencite",
+          "churchite",
+          "xenotime"
+        ]
+      },
+      "alteration": [
+        "pyritization",
+        "oxidation"
+      ],
+      "commodities": {
+        "primary": [
+          "Al"
+        ],
+        "byproduct": [],
+        "trace": [
+          "Cr",
+          "Ni",
+          "V",
+          "Zn",
+          "Zr",
+          "REE",
+          "As",
+          "Ba",
+          "Co",
+          "Cu",
+          "U",
+          "Mo",
+          "Sb",
+          "Se",
+          "Au",
+          "Pt",
+          "Pd"
+        ]
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 300,
+          "unit": "Mt",
+          "resource_type": "reserves"
+        },
+        "grade": null,
+        "scale_class": "large",
+        "production_status": "producing",
+        "citation": "Papastavrou, 1986"
+      },
+      "host_rocks": [
+        "limestone",
+        "dolomitic limestone"
+      ],
+      "structural_controls": [
+        "faults"
+      ],
+      "tectonic_setting": "Parnassos-Ghiona geotectonic zone, part of Mediterranean karst bauxite belt",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "As",
+            "Ba",
+            "Co",
+            "Cu",
+            "U",
+            "V",
+            "Mo",
+            "Sb",
+            "S",
+            "SiO2"
+          ],
+          "depleted": [
+            "REE",
+            "Pt",
+            "Pd"
+          ]
+        },
+        "isotopes": null,
+        "fluid_inclusion": null,
+        "citation": "Table 1"
+      },
+      "reference_deposits": [
+        {
+          "name": "Minjera bauxite deposit, Croatia",
+          "relation": "类型对比",
+          "similarity": "黑色、灰色和黄色黄铁矿化铝土矿"
+        },
+        {
+          "name": "Dogankuzu and Mortas bauxite deposits, Turkey",
+          "relation": "类型对比",
+          "similarity": "黄铁矿化铝土矿，硫同位素指示细菌硫酸盐还原"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 2,
+          "evidence": "铝土矿来源于碳酸盐岩风化，但具体源岩未明确"
+        },
+        "transport": {
+          "score": 2,
+          "evidence": "孔隙水渗透导致元素迁移，受pH-Eh控制"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "断层控制黑色铝土矿的形成，黄铁矿在还原条件下沉淀"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "微生物促进黄铁矿和氧化物的成核和生长"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "黄铁矿在次生氧化阶段被针铁矿交代"
+        },
+        "modification": {
+          "score": 3,
+          "evidence": "多阶段黄铁矿形成和氧化，反映Eh-pH条件变化"
+        },
+        "delineation": {
+          "score": 1,
+          "evidence": "未讨论勘探标志"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10694,
+      "output": 968
+    }
+  },
+  {
+    "paper_id": "Sulfur-and-metal-mobilization-during-the-life-cycle-of-an-oceanic-co_2024_Li",
+    "extracted": {
+      "paper_id": "Sulfur-and-metal-mobilization-during-the-life-cycle-of-an-oceanic-co_2024_Li",
+      "deposit_type": "SMS",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确研究海底块状硫化物（SMS）矿床，关键词包括'seafloor massive sulfide deposits'，且全文围绕SMS形成机制。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文通过ODP Hole 735B岩心样品进行全岩和原位硫化物分析，研究硫和金属在洋核杂岩中的迁移，属于原创性研究。",
+      "countries": [],
+      "metallogenic_belt": null,
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "pyrrhotite",
+          "chalcopyrite",
+          "pentlandite",
+          "pyrite",
+          "marcasite"
+        ],
+        "gangue_minerals": [
+          "plagioclase",
+          "pyroxene",
+          "olivine",
+          "magnetite",
+          "amphibole",
+          "biotite",
+          "epidote",
+          "chlorite",
+          "talc",
+          "smectite",
+          "carbonates",
+          "iron-oxyhydroxide",
+          "calcite"
+        ],
+        "alteration_minerals": [
+          "amphibole",
+          "actinolite",
+          "epidote",
+          "chlorite",
+          "talc",
+          "smectite",
+          "carbonates",
+          "iron-oxyhydroxide"
+        ]
+      },
+      "alteration": [
+        "granulite-amphibolite facies metasomatism",
+        "amphibolite-greenschist facies metasomatism",
+        "low temperature hydrothermal alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Zn",
+          "Co",
+          "Ni"
+        ],
+        "byproduct": [],
+        "trace": [
+          "S",
+          "Pb",
+          "Ag",
+          "Cd",
+          "In",
+          "As",
+          "Se",
+          "Mo",
+          "Au"
+        ]
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "gabbro",
+        "olivine gabbro",
+        "gabbronorite",
+        "oxide gabbro",
+        "troctolite"
+      ],
+      "structural_controls": [
+        "detachment fault",
+        "ductile deformation",
+        "fractures",
+        "veins"
+      ],
+      "tectonic_setting": "slow to ultra-slow spreading mid-ocean ridge (Southwest Indian Ridge)",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "S",
+            "Cu",
+            "Zn",
+            "Co",
+            "Ni"
+          ],
+          "depleted": []
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Figure 2, Supplementary Tables 2-3"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "论文通过质量平衡计算表明，沿拆离断层的热液蚀变过程中金属迁移足以形成OCC相关的SMS矿床，源区为辉长岩类岩石。"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "高温热液流体（>300°C）沿拆离断层循环，导致硫化物淋滤和金属迁移。"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "硫化物沉淀发生在低温热液循环阶段，形成次生硫化物。"
+        },
+        "deposit": {
+          "score": 3,
+          "evidence": "论文讨论SMS矿床的形成，但未具体描述矿床规模或品位。"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "论文未详细讨论保存机制。"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "论文未详细讨论暴露机制。"
+        },
+        "energy": {
+          "score": 3,
+          "evidence": "热液活动由岩浆热和构造变形驱动。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10261,
+      "output": 893
+    }
+  },
+  {
+    "paper_id": "s00126-023-01218-3",
+    "extracted": {
+      "paper_id": "s00126-023-01218-3",
+      "deposit_type": "VMS",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述为Lahn-Dill型铁矿，属于火山成因块状硫化物矿床（VMS）相关类型，但以铁氧化物为主，与典型VMS不同。论文将其归类为火山相关Fe-氧化物矿床，与Algoma型铁建造相似。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Fortuna和Briloner Eisenberg两个矿床为研究对象，通过岩石学、地球化学等方法研究成矿过程，属于原创性研究。",
+      "countries": [
+        "Germany"
+      ],
+      "metallogenic_belt": "Rhenish Massif",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "haematite",
+          "magnetite",
+          "siderite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "dolomite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "Fe"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 4.7,
+          "unit": "Mt",
+          "resource_type": "proven"
+        },
+        "grade": {
+          "Fe_percent": 40
+        },
+        "scale_class": "medium",
+        "production_status": "past producer",
+        "citation": "Dengler 1963; Quade 1969"
+      },
+      "host_rocks": [
+        "volcaniclastic rocks",
+        "limestone",
+        "dolostone"
+      ],
+      "structural_controls": [
+        "faults",
+        "folds"
+      ],
+      "tectonic_setting": "back-arc basin",
+      "ages": null,
+      "geochemistry": null,
+      "reference_deposits": [
+        {
+          "name": "Algoma-type iron formation",
+          "relation": "类型对比",
+          "similarity": "相似的Fe-Si-rich凝胶沉积"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "铁来源于深部蚀变的火山碎屑岩，通过热液流体淋滤"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "热液流体沿断裂和渗透性岩石运移，形成H2O-CO2-Fe-rich流体"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "海底沉淀或交代围岩形成矿体"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "化学沉淀形成沉积型矿石，或交代作用形成交代型矿石"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "低变质作用（<300°C）保存了原始结构"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期变形和断裂导致矿体复杂化"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "部分矿体因构造抬升暴露地表"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9105,
+      "output": 738
+    }
+  },
+  {
+    "paper_id": "s00126-024-01279-y",
+    "extracted": {
+      "paper_id": "s00126-024-01279-y",
+      "deposit_type": "SEDEX",
+      "deposit_type_conf": 0.7,
+      "deposit_type_evidence": "论文研究Kupferschiefer页岩中的thucholite，该页岩属于波兰Lubin地区的Cu-Ag矿床，矿床类型为沉积喷流型（SEDEX），但论文主要关注thucholite的地球化学特征，而非矿床成因。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究thucholite的有机和无机地球化学特征，包括矿物组成、元素分布、有机质来源等，属于原创性研究。",
+      "countries": [
+        "Poland"
+      ],
+      "metallogenic_belt": "Fore-Sudetic Monocline",
+      "coordinates": {
+        "latitude": 51.5706,
+        "longitude": 15.9806,
+        "precision": "矿区级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.9,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "uraninite",
+          "chalcopyrite",
+          "bornite",
+          "chalcocite",
+          "covellite",
+          "galena",
+          "sphalerite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "dolomite",
+          "anhydrite",
+          "gypsum",
+          "barite"
+        ],
+        "alteration_minerals": [
+          "hematite",
+          "goethite"
+        ]
+      },
+      "alteration": [
+        "oxidation",
+        "hematitization"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Ag"
+        ],
+        "byproduct": [
+          "U",
+          "REE",
+          "Au",
+          "Pt",
+          "Pd"
+        ],
+        "trace": [
+          "As",
+          "Se",
+          "Cd",
+          "In"
+        ]
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "dolomitic shale",
+        "bituminous calcareous shale",
+        "sandstone",
+        "dolomite",
+        "limestone"
+      ],
+      "structural_controls": [
+        "faults",
+        "fractures",
+        "anticlines"
+      ],
+      "tectonic_setting": "Fore-Sudetic Monocline, Zechstein Basin",
+      "ages": [
+        {
+          "age_ma": 175,
+          "uncertainty": 5,
+          "method": "U-Pb",
+          "material": "uraninite in thucholite",
+          "interpretation": "thucholite formation age",
+          "citation": "Kucha and Przybyłowicz 1999; Alderton et al. 2016"
+        },
+        {
+          "age_ma": 180,
+          "uncertainty": 5,
+          "method": "U-Pb",
+          "material": "uraninite in thucholite",
+          "interpretation": "thucholite formation age",
+          "citation": "Kucha and Przybyłowicz 1999; Alderton et al. 2016"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "U",
+            "REE",
+            "Y",
+            "Th",
+            "Pb",
+            "As",
+            "Se"
+          ],
+          "depleted": [
+            "Sr",
+            "Ba"
+          ]
+        },
+        "isotopes": {
+          "sulfur_delta34s": null,
+          "lead_206_204": null
+        },
+        "fluid_inclusion": null,
+        "citation": "Table 1, Table 2, Figure 5"
+      },
+      "reference_deposits": [
+        {
+          "name": "Witwatersrand (South Africa)",
+          "relation": "类型对比",
+          "similarity": "thucholite产于砂岩中"
+        },
+        {
+          "name": "Viitaniemi (Finland)",
+          "relation": "类型对比",
+          "similarity": "thucholite产于伟晶岩中"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "U和REE来源于放射性碎屑矿物（如独居石、锆石）或流体，有机质来源于木炭"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "碎屑颗粒迁移至沉积盆地，铀酰离子吸附于有机质"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "氧化-还原界面，有机质吸附U和REE形成thucholite"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "低温燃烧形成的木炭碎片，吸附U和REE"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "埋藏于页岩中，后期可能受微生物影响"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期氧化作用导致部分矿物蚀变"
+        },
+        "exposure": {
+          "score": 1,
+          "evidence": "未提及"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10563,
+      "output": 1114
+    }
+  },
+  {
+    "paper_id": "s00126-024-01280-5",
+    "extracted": {
+      "paper_id": "s00126-024-01280-5",
+      "deposit_type": "porphyry Cu",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文明确描述为post-collisional porphyry Cu deposits，全文围绕斑岩铜矿成矿作用讨论",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以原始数据（PGE、主微量元素）为主，研究东特提斯域后碰撞斑岩铜矿的成矿潜力",
+      "countries": [
+        "China"
+      ],
+      "metallogenic_belt": "Eastern Tethyan metallogenic domain (Sanjiang and Gangdese belts)",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [],
+        "gangue_minerals": [
+          "plagioclase",
+          "amphibole",
+          "biotite",
+          "K-feldspar",
+          "quartz",
+          "apatite",
+          "zircon",
+          "magnetite"
+        ],
+        "alteration_minerals": [
+          "kaolinite",
+          "chlorite",
+          "sericite"
+        ]
+      },
+      "alteration": [
+        "kaolinite alteration",
+        "chlorite alteration",
+        "sericite alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Au"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "monzonite",
+        "granite",
+        "syenite porphyry",
+        "monzogranite",
+        "granodiorite porphyry"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "post-collisional",
+      "ages": [
+        {
+          "age_ma": 41,
+          "uncertainty": null,
+          "method": "not specified",
+          "material": "Yulong deposit",
+          "interpretation": "成矿年龄",
+          "citation": "Figure 1"
+        },
+        {
+          "age_ma": 38,
+          "uncertainty": null,
+          "method": "not specified",
+          "material": "Duoxiasongduo deposit",
+          "interpretation": "成矿年龄",
+          "citation": "Figure 1"
+        },
+        {
+          "age_ma": 34,
+          "uncertainty": null,
+          "method": "not specified",
+          "material": "Machangqing deposit",
+          "interpretation": "成矿年龄",
+          "citation": "Figure 1"
+        },
+        {
+          "age_ma": 30,
+          "uncertainty": null,
+          "method": "not specified",
+          "material": "Chongmuda deposit",
+          "interpretation": "成矿年龄",
+          "citation": "Figure 1"
+        },
+        {
+          "age_ma": 24,
+          "uncertainty": null,
+          "method": "not specified",
+          "material": "Nuri deposit",
+          "interpretation": "成矿年龄",
+          "citation": "Figure 1"
+        },
+        {
+          "age_ma": 15,
+          "uncertainty": null,
+          "method": "not specified",
+          "material": "Jiama deposit",
+          "interpretation": "成矿年龄",
+          "citation": "Figure 1"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "K",
+            "Sr",
+            "La",
+            "Yb"
+          ],
+          "depleted": [
+            "Y",
+            "Yb"
+          ]
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Figures 3-4, Supplementary Tables 4-5"
+      },
+      "reference_deposits": [
+        {
+          "name": "Chuquicamata",
+          "relation": "类型对比",
+          "similarity": "相似的Pd和Pt含量范围"
+        },
+        {
+          "name": "El Abra",
+          "relation": "类型对比",
+          "similarity": "相似的Pd和Pt含量范围"
+        },
+        {
+          "name": "Escondida",
+          "relation": "类型对比",
+          "similarity": "相似的Pd和Pt含量范围"
+        },
+        {
+          "name": "Urumieh-Dokhtar magmatic arc (UDMA)",
+          "relation": "类型对比",
+          "similarity": "后碰撞含矿样品"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "成矿岩浆来源于交代岩石圈地幔的部分熔融，富含亲铜元素"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "岩浆分异过程中少量硫化物沉淀，导致Pd和Pt适度亏损"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "斑岩系统，流体出溶沉淀铜"
+        },
+        "driver": {
+          "score": 4,
+          "evidence": "高氧化态和高水含量有利于成矿"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "后碰撞环境，剥蚀程度中等"
+        },
+        "fertility": {
+          "score": 4,
+          "evidence": "中等亲铜元素含量（Cu约50 ppm）足以形成大型斑岩铜矿"
+        },
+        "exploration": {
+          "score": 3,
+          "evidence": "Pd和Pt含量可作为勘探指标"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9632,
+      "output": 1203
+    }
+  },
+  {
+    "paper_id": "s00126-024-01286-z",
+    "extracted": {
+      "paper_id": "s00126-024-01286-z",
+      "deposit_type": "LCT pegmatite",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为Li-Cs-Ta (LCT) type pegmatite，含锂辉石、锂云母、铯榴石等稀有元素矿物",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Boam矿区Li-pegmatite为研究对象，通过白云母-锂云母系列的微结构和地球化学研究，探讨岩浆-热液转变过程",
+      "countries": [
+        "South Korea"
+      ],
+      "metallogenic_belt": null,
+      "coordinates": {
+        "latitude": 36.898,
+        "longitude": 129.35,
+        "precision": "矿区级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.9,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "lepidolite",
+          "spodumene",
+          "beryl",
+          "amblygonite",
+          "tantalite",
+          "cassiterite",
+          "microlite",
+          "zircon"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "K-feldspar",
+          "albite",
+          "tourmaline",
+          "apatite",
+          "calcite"
+        ],
+        "alteration_minerals": [
+          "muscovite",
+          "lepidolite",
+          "albite"
+        ]
+      },
+      "alteration": [
+        "albitization",
+        "muscovitization"
+      ],
+      "commodities": {
+        "primary": [
+          "Li",
+          "Cs",
+          "Ta"
+        ],
+        "byproduct": [
+          "Nb",
+          "Be",
+          "Sn"
+        ],
+        "trace": [
+          "Rb",
+          "Mn"
+        ]
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 70000,
+          "unit": "t",
+          "resource_type": "proven+probable"
+        },
+        "grade": {
+          "Li_ppm": 2490
+        },
+        "scale_class": "medium",
+        "production_status": "past producer",
+        "citation": "KIGAM 2015"
+      },
+      "host_rocks": [
+        "Janggun Limestone",
+        "Yulri Schist",
+        "Buncheon Granite Gneiss"
+      ],
+      "structural_controls": [
+        "faults",
+        "fractures",
+        "subparallel dike orientation"
+      ],
+      "tectonic_setting": "Jurassic Daebo Orogeny related to subduction of Paleo-Pacific (Izanagi) plate",
+      "ages": [
+        {
+          "age_ma": 169,
+          "uncertainty": 3,
+          "method": "K-Ar",
+          "material": "lepidolite",
+          "interpretation": "pegmatite emplacement age",
+          "citation": "Choi et al. 2014"
+        },
+        {
+          "age_ma": 155,
+          "uncertainty": 3,
+          "method": "K-Ar",
+          "material": "lepidolite",
+          "interpretation": "pegmatite emplacement age",
+          "citation": "Choi et al. 2014"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Li",
+            "Cs",
+            "Rb",
+            "Nb",
+            "Ta",
+            "B",
+            "F"
+          ],
+          "depleted": [
+            "Sr",
+            "Ba"
+          ]
+        },
+        "isotopes": null,
+        "fluid_inclusion": null,
+        "citation": "Table 1, Figure 6"
+      },
+      "reference_deposits": [
+        {
+          "name": "Leinster pegmatite (Southeastern Ireland)",
+          "relation": "类型对比",
+          "similarity": "相似的成矿序列：初始石英-钾长石形成，锂云母层矿化，钠长石化，角砾岩化"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "S-type花岗岩深部侵入体，高度分异富挥发分熔体"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "断裂和裂隙控制伟晶岩脉侵位"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "碳酸盐岩围岩提供化学障"
+        },
+        "deposition": {
+          "score": 5,
+          "evidence": "岩浆-热液转变过程中硅酸盐熔体-含水熔体-含水流体不混溶导致稀有元素富集"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "晚白垩世抬升剥露，部分保存"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期钠长石化和角砾岩化改造"
+        },
+        "fertility": {
+          "score": 4,
+          "evidence": "Li-Cs-Ta富集，Li储量7万吨，平均品位2490 ppm"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10828,
+      "output": 1132
+    }
+  },
+  {
+    "paper_id": "s00126-024-01287-y",
+    "extracted": {
+      "paper_id": "s00126-024-01287-y",
+      "deposit_type": "PORPHYRY",
+      "deposit_type_conf": 0.95,
+      "deposit_type_evidence": "论文明确描述为porphyry Cu-Mo±Au mineralization，并对比典型斑岩型矿床的蚀变和矿化特征",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Delamerian造山带四个斑岩型远景区为研究对象，通过锆石和磷灰石地球化学评估成矿潜力，属于原创性研究",
+      "countries": [
+        "Australia"
+      ],
+      "metallogenic_belt": "Delamerian Orogen",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "chalcopyrite",
+          "molybdenite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "K-feldspar",
+          "biotite",
+          "chlorite",
+          "epidote",
+          "albite"
+        ],
+        "alteration_minerals": [
+          "muscovite",
+          "pyrite"
+        ]
+      },
+      "alteration": [
+        "phyllic",
+        "potassic",
+        "propylitic"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Mo",
+          "Au"
+        ],
+        "byproduct": [
+          "Re",
+          "Ag"
+        ],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "granodiorite",
+        "diorite porphyry",
+        "monzogranite",
+        "dacite porphyry",
+        "biotite granite",
+        "K-feldspar granite"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "Andean-style convergent subduction belt, post-subduction",
+      "ages": [
+        {
+          "age_ma": 480,
+          "uncertainty": null,
+          "method": "Re-Os molybdenite",
+          "material": "molybdenite",
+          "interpretation": "成矿年龄",
+          "citation": "Hong et al. 2023"
+        },
+        {
+          "age_ma": 470,
+          "uncertainty": null,
+          "method": "Re-Os molybdenite",
+          "material": "molybdenite",
+          "interpretation": "成矿年龄",
+          "citation": "Hong et al. 2023"
+        },
+        {
+          "age_ma": 460,
+          "uncertainty": null,
+          "method": "Re-Os molybdenite",
+          "material": "molybdenite",
+          "interpretation": "成矿年龄",
+          "citation": "Hong et al. 2023"
+        },
+        {
+          "age_ma": 490,
+          "uncertainty": null,
+          "method": "U-Pb zircon",
+          "material": "zircon",
+          "interpretation": "侵入年龄",
+          "citation": "Hong et al. 2023"
+        },
+        {
+          "age_ma": 465,
+          "uncertainty": null,
+          "method": "U-Pb zircon",
+          "material": "zircon",
+          "interpretation": "侵入年龄",
+          "citation": "Hong et al. 2023"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "REE",
+            "Ce",
+            "Yb"
+          ],
+          "depleted": [
+            "Eu"
+          ]
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Figure 2, Figure 3, Figure 4"
+      },
+      "reference_deposits": [
+        {
+          "name": "Thursday's Gossan",
+          "relation": "区域对比",
+          "similarity": "同属Delamerian造山带，与斑岩侵入体相关的Cu-Mo±Au矿化"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "岩浆来源于俯冲带，具有高氧逸度和富S-Cl特征"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "断裂和裂隙系统控制流体运移，但未详细描述"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "斑岩侵入体及围岩中的裂隙和角砾岩带"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "流体沸腾和冷却导致硫化物沉淀，发育典型斑岩型蚀变分带"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "未明确讨论保存条件，但区域剥蚀程度可能影响"
+        },
+        "metals": {
+          "score": 4,
+          "evidence": "Cu-Mo±Au为主，伴生Re、Ag"
+        },
+        "fluids": {
+          "score": 4,
+          "evidence": "岩浆流体富含S和Cl，高氧逸度"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10277,
+      "output": 1093
+    }
+  },
+  {
+    "paper_id": "s00126-024-01290-3",
+    "extracted": {
+      "paper_id": "s00126-024-01290-3",
+      "deposit_type": "REE-regolith",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文明确描述为'regolith-hosted rare earth element deposits'，属于风化壳型稀土矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Zuokeng矿床为研究对象，通过矿物学、地球化学和同位素分析研究REE迁移机制，属于原创性研究。",
+      "countries": [
+        "China"
+      ],
+      "metallogenic_belt": "Nanling Mountain Range",
+      "coordinates": {
+        "latitude": 24.0833,
+        "longitude": 114.0,
+        "precision": "省级",
+        "source": "图1地质图及文本描述（Xinfeng County, Guangdong Province）",
+        "confidence": 0.8,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "synchysite-(Ce)",
+          "monazite",
+          "xenotime"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "illite",
+          "kaolinite",
+          "microcline",
+          "TiO2"
+        ],
+        "alteration_minerals": [
+          "allanite",
+          "titanite",
+          "apatite",
+          "zircon",
+          "thorite",
+          "uraninite",
+          "fluorite",
+          "epidote"
+        ]
+      },
+      "alteration": [
+        "sericitization",
+        "chloritization",
+        "kaolinization"
+      ],
+      "commodities": {
+        "primary": [
+          "REE"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 171.6,
+          "unit": "Mt",
+          "resource_type": "proven+probable"
+        },
+        "grade": {
+          "REO_percent": 0.108
+        },
+        "scale_class": "large",
+        "production_status": "prospect",
+        "citation": "正文：'The ore resource comprises 171.6 Mt with REE oxide reserves of 185.6 kt at an average grade of 0.108 wt% REOs'"
+      },
+      "host_rocks": [
+        "tonalite",
+        "granodiorite",
+        "monzogranite"
+      ],
+      "structural_controls": [
+        "weathering profile",
+        "fractures"
+      ],
+      "tectonic_setting": "South China Block, intracontinental orogenic events, subduction of Paleo-Pacific plate",
+      "ages": [
+        {
+          "age_ma": 159,
+          "uncertainty": null,
+          "method": "U-Pb zircon",
+          "material": "allanite Domain 4",
+          "interpretation": "hydrothermal overgrowth age",
+          "citation": "正文：'consistent U–Pb ages (ca. 159 Ma) of Domains 4 and 1'"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "LREE",
+            "M-HREE"
+          ],
+          "depleted": []
+        },
+        "isotopes": {
+          "sulfur_delta34s": null,
+          "lead_206_204": null
+        },
+        "fluid_inclusion": {
+          "temperature_c": null,
+          "salinity_wt_nacl": null
+        },
+        "citation": "图9, 表S1"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "REE来源于花岗岩基岩中的主要矿物（如allanite），allanite贡献57.5-89.8%的REE。"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "REE通过Cl-rich deuteric流体和F-碳酸盐地下水迁移，形成 hydrothermal domains 和 synchysite-(Ce)。"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "REE在风化壳中吸附于高岭石和伊利石，形成离子吸附型矿床。"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "REE在风化过程中通过流体-矿物反应沉淀为 synchysite-(Ce) 和 calcite。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "风化壳保存于花岗岩体顶部，受地形控制，厚度2-14米。"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期风化作用导致矿物分解和REE再分配。"
+        },
+        "exhumation": {
+          "score": 2,
+          "evidence": "风化作用暴露地表，形成风化壳。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10040,
+      "output": 1072
+    }
+  },
+  {
+    "paper_id": "s00126-024-01291-2",
+    "extracted": {
+      "paper_id": "s00126-024-01291-2",
+      "deposit_type": "REE",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文明确描述为岩浆REE矿化，矿物组合包括氟铈矿、独居石、褐帘石等，属于岩浆型REE矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文主要研究科罗拉多州Jamestown附近两个岩浆REE矿点的岩石成因，包括详细的矿物学、地球化学和年代学分析。",
+      "countries": [
+        "USA"
+      ],
+      "metallogenic_belt": "Front Range of Colorado",
+      "coordinates": {
+        "latitude": 40.1291,
+        "longitude": -105.36441,
+        "precision": "矿区级",
+        "source": "Figure 3b卫星图像坐标",
+        "confidence": 0.95,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "allanite-(Ce)",
+          "monazite-(Ce)",
+          "fluorbritholite-(Ce)",
+          "törnebohmite-(Ce)",
+          "cerite-(Ce)",
+          "bastnäsite-(Ce)",
+          "fluorite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "plagioclase",
+          "alkali feldspar",
+          "biotite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "REE"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Longs Peak granite batholith",
+        "Idaho Springs Group metasedimentary schists and gneisses"
+      ],
+      "structural_controls": [
+        "contact between granite and metasedimentary rocks",
+        "roof pendants"
+      ],
+      "tectonic_setting": "anorogenic (A-type) magmatism",
+      "ages": [
+        {
+          "age_ma": 1420,
+          "uncertainty": 25,
+          "method": "U-Th-Pb microprobe",
+          "material": "monazite-(Ce)",
+          "interpretation": "REE矿化年龄",
+          "citation": "Allaz et al. 2015"
+        },
+        {
+          "age_ma": 1442,
+          "uncertainty": 8,
+          "method": "U-Th-Pb microprobe",
+          "material": "uraninite",
+          "interpretation": "REE矿化年龄",
+          "citation": "Allaz et al. 2015"
+        },
+        {
+          "age_ma": 1422,
+          "uncertainty": 24,
+          "method": "Nd-Sm laser ablation",
+          "material": "monazite-(Ce) and allanite-(Ce)",
+          "interpretation": "REE矿化年龄",
+          "citation": "本文"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "REE",
+            "Y",
+            "Th",
+            "U",
+            "Pb"
+          ],
+          "depleted": []
+        },
+        "isotopes": {
+          "sulfur_delta34s": null,
+          "lead_206_204": null
+        },
+        "fluid_inclusion": null,
+        "citation": "Table 2, ESM1"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "Nd同位素显示岩浆源区为较基性的下地壳或上地幔，初始εNd1.42Ga = -1.0 to -2.2"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "REE通过氟化物-硅酸盐熔体不混溶作用运移和富集"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "REE矿物在花岗岩与变质岩接触带附近聚集，形成球状或块状集合体"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "REE矿物以氟化物、磷酸盐和硅酸盐形式沉淀，如氟铈矿、独居石、褐帘石等"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿化年龄1.42 Ga，表明长期保存于前寒武纪基底中"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "南部矿点显示后期流体活动导致氟流失和角闪石形成"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "矿点出露于地表，但规模小，可能为剥蚀残留"
+        }
+      }
+    },
+    "tokens": {
+      "input": 11073,
+      "output": 1066
+    }
+  },
+  {
+    "paper_id": "s00126-024-01293-0",
+    "extracted": {
+      "paper_id": "s00126-024-01293-0",
+      "deposit_type": "hydrothermal vein-type Sn",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述Shiganghe为石英脉型锡矿床（quartz-vein-type Sn deposit），Tiechang为远端矽卡岩型锡矿床（distal skarn Sn deposit）。Shiganghe矿石类型为锡石-石英和锡石-石英-电气石脉，Tiechang矿石类型包括锡石-石英-电气石脉、锡石-石英细脉和锡石-硫化物脉。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Shiganghe和Tiechang锡矿床为主要研究对象，进行了锡石和独居石U-Pb定年及锡石微量元素分析，旨在约束成矿时代和形成环境。",
+      "countries": [
+        "China"
+      ],
+      "metallogenic_belt": "Sanjiang Tethyan domain, Southeast Asian tin belt",
+      "coordinates": {
+        "latitude": 25.0,
+        "longitude": 99.0,
+        "precision": "省级",
+        "source": "Figure 2地质图及文字描述（云南西部保山地区）",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "cassiterite",
+          "scheelite",
+          "wolframite",
+          "beryl",
+          "pyrite",
+          "pyrrhotite",
+          "sphalerite",
+          "chalcopyrite",
+          "bismuthinite",
+          "arsenopyrite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "tourmaline",
+          "mica",
+          "feldspar",
+          "tremolite",
+          "clinozoisite"
+        ],
+        "alteration_minerals": [
+          "chlorite",
+          "sericite",
+          "carbonate"
+        ]
+      },
+      "alteration": [
+        "silicic",
+        "chlorite",
+        "sericite",
+        "tourmaline",
+        "carbonate",
+        "potassic",
+        "sulfide"
+      ],
+      "commodities": {
+        "primary": [
+          "Sn",
+          "W"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 4100,
+          "unit": "t",
+          "resource_type": "reserves"
+        },
+        "grade": {
+          "Sn_percent": 0.413,
+          "WO3_percent": 0.613
+        },
+        "scale_class": "medium",
+        "production_status": "prospect",
+        "citation": "Zhang et al. 1985"
+      },
+      "host_rocks": [
+        "Hetaoping Formation sandstone, limestone, slate, schist",
+        "Chongshan Group meta-pyroclastic rocks, schist, migmatitic gneiss",
+        "migmatitic granite"
+      ],
+      "structural_controls": [
+        "NW-trending Wenquan and Kafang faults",
+        "NW-trending Lüyintang and Wenquan faults",
+        "secondary faults"
+      ],
+      "tectonic_setting": "Neo-Tethyan subduction and subsequent India-Asia continental collision",
+      "ages": [
+        {
+          "age_ma": 75.5,
+          "uncertainty": 3.9,
+          "method": "LA-ICP-MS U-Pb cassiterite",
+          "material": "cassiterite",
+          "interpretation": "mineralization age",
+          "citation": "Tera-Wasserburg lower intercept age"
+        },
+        {
+          "age_ma": 75.9,
+          "uncertainty": 4.8,
+          "method": "LA-ICP-MS U-Pb cassiterite",
+          "material": "cassiterite",
+          "interpretation": "mineralization age",
+          "citation": "Tera-Wasserburg lower intercept age"
+        },
+        {
+          "age_ma": 32.8,
+          "uncertainty": 1.3,
+          "method": "LA-ICP-MS U-Pb cassiterite",
+          "material": "cassiterite",
+          "interpretation": "mineralization age",
+          "citation": "Tera-Wasserburg lower intercept age"
+        },
+        {
+          "age_ma": 32.2,
+          "uncertainty": 1.0,
+          "method": "LA-ICP-MS U-Pb monazite",
+          "material": "monazite",
+          "interpretation": "mineralization age",
+          "citation": "Tera-Wasserburg lower intercept age"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [],
+          "depleted": []
+        },
+        "isotopes": {
+          "sulfur_delta34s": "-2.3 to +0.4‰ (Shiganghe); +6.5 to +9.1‰ (Tiechang)",
+          "lead_206_204": null
+        },
+        "fluid_inclusion": {
+          "temperature_c": "264-320 (Shiganghe cassiterite); 277-347 (Shiganghe quartz); 369-457 (Tiechang cassiterite-quartz veins); 304-325 (Tiechang cassiterite-sulfide veins)",
+          "salinity_wt_nacl": null
+        },
+        "citation": "Zhang 1996a, c; Song 2022"
+      },
+      "reference_deposits": [
+        {
+          "name": "Xiaolonghe",
+          "relation": "类型对比",
+          "similarity": "同为花岗岩相关的锡矿床，成矿年龄相近（74-72 Ma）"
+        },
+        {
+          "name": "Lailishan",
+          "relation": "类型对比",
+          "similarity": "同为花岗岩相关的锡矿床，成矿年龄相近（52-47 Ma）"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "成矿物质来源于花岗岩岩浆，Shiganghe与晚白垩世花岗岩有关，Tiechang与约32 Ma岩浆作用有关"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "NW向断裂及次级断裂控制矿脉分布，流体沿断裂运移"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "构造破碎带、蚀变辉绿岩脉、混合岩化花岗岩为容矿空间"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "流体温度降低、硫化物沉淀导致锡石沉淀，Tiechang分为氧化物阶段和硫化物阶段"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "矿床位于构造活动区，但部分矿体保存较好"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期构造活动可能对矿体有改造"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "部分矿体出露地表，但多数为隐伏矿体"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10673,
+      "output": 1596
+    }
+  },
+  {
+    "paper_id": "s00126-024-01294-z",
+    "extracted": {
+      "paper_id": "s00126-024-01294-z",
+      "deposit_type": "PORPHYRY",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文标题和摘要明确描述为'porphyry Au-Cu deposit'，全文多次提及'porphyry'，且具有典型的斑岩型蚀变分带（钾化、绿泥石-绢云母化）和浸染状-网脉状矿化特征。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Xiaoxi'nancha斑岩型Au-Cu矿床为研究对象，通过原位定年、地球化学和同位素分析，系统研究了成矿流体特征和成矿过程，属于原创性研究。",
+      "countries": [
+        "China"
+      ],
+      "metallogenic_belt": "Yanbian-Dongning region, Central Asian Orogenic Belt",
+      "coordinates": {
+        "latitude": 43.0,
+        "longitude": 130.0,
+        "precision": "省级",
+        "source": "图1b地质图及区域位置描述",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "chalcopyrite",
+          "pyrite",
+          "molybdenite",
+          "pyrrhotite",
+          "sphalerite",
+          "arsenopyrite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "biotite",
+          "K-feldspar",
+          "sericite",
+          "chlorite",
+          "apatite",
+          "titanite",
+          "ilmenite"
+        ],
+        "alteration_minerals": [
+          "biotite",
+          "K-feldspar",
+          "chlorite",
+          "sericite"
+        ]
+      },
+      "alteration": [
+        "potassic alteration",
+        "chlorite-sericite alteration",
+        "quartz-polymetallic sulphide alteration"
+      ],
+      "commodities": {
+        "primary": [
+          "Au",
+          "Cu"
+        ],
+        "byproduct": [
+          "Mo"
+        ],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 31,
+          "unit": "t",
+          "resource_type": "proven"
+        },
+        "grade": {
+          "Au_ppm": 4.58,
+          "Cu_percent": 7.8
+        },
+        "scale_class": "large",
+        "production_status": "producing",
+        "citation": "摘要"
+      },
+      "host_rocks": [
+        "Late Permian diorite",
+        "Early Cretaceous granitic complex",
+        "granodiorite",
+        "diorite porphyry"
+      ],
+      "structural_controls": [
+        "NNE-trending Xiangfanghe River",
+        "NW-NNW trending compressional faults"
+      ],
+      "tectonic_setting": "Central Asian Orogenic Belt, subduction of Paleo-Pacific Ocean plate, Cretaceous extensional setting",
+      "ages": [
+        {
+          "age_ma": 112.0,
+          "uncertainty": 0.3,
+          "method": "40Ar/39Ar",
+          "material": "biotite (potassic alteration)",
+          "interpretation": "pre-mineralization hydrothermal biotite age",
+          "citation": "摘要"
+        },
+        {
+          "age_ma": 109.0,
+          "uncertainty": 2.4,
+          "method": "SIMS U-Pb",
+          "material": "titanite (hydrothermal, with chalcopyrite)",
+          "interpretation": "mineralization age",
+          "citation": "摘要"
+        },
+        {
+          "age_ma": 109.4,
+          "uncertainty": 1.7,
+          "method": "Re-Os",
+          "material": "molybdenite",
+          "interpretation": "Mo mineralization age",
+          "citation": "引言"
+        },
+        {
+          "age_ma": 109.5,
+          "uncertainty": 2.0,
+          "method": "Re-Os",
+          "material": "molybdenite",
+          "interpretation": "Mo mineralization age",
+          "citation": "引言"
+        },
+        {
+          "age_ma": 110.3,
+          "uncertainty": 1.5,
+          "method": "Re-Os",
+          "material": "molybdenite",
+          "interpretation": "Mo mineralization age",
+          "citation": "引言"
+        },
+        {
+          "age_ma": 111.1,
+          "uncertainty": 3.1,
+          "method": "Re-Os",
+          "material": "molybdenite",
+          "interpretation": "Mo mineralization age",
+          "citation": "引言"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [],
+          "depleted": []
+        },
+        "isotopes": {
+          "sulfur_delta34s": "pyrite 2.3 to 3.9‰, chalcopyrite 1.6 to 3.8‰, molybdenite 2.3 to 3.7‰",
+          "oxygen_delta18O_fluid": "2.4 to 5.5‰ (average 4.0‰)"
+        },
+        "fluid_inclusion": {
+          "temperature_c": "236-351 (mean 309) from Al-in-chlorite; 306 from quartz-apatite pair",
+          "salinity_wt_nacl": ""
+        },
+        "citation": "摘要, 结果"
+      },
+      "reference_deposits": [
+        {
+          "name": "Jinchang",
+          "relation": "类型对比",
+          "similarity": "同区域斑岩型Au-Cu矿床"
+        },
+        {
+          "name": "Nongping",
+          "relation": "类型对比",
+          "similarity": "同区域斑岩型Au-Cu矿床"
+        },
+        {
+          "name": "Naozhi",
+          "relation": "类型对比",
+          "similarity": "同区域浅成低温热液型Au矿床"
+        },
+        {
+          "name": "Wufeng-Wuxing",
+          "relation": "类型对比",
+          "similarity": "同区域浅成低温热液型Au矿床"
+        },
+        {
+          "name": "Duhuangling",
+          "relation": "类型对比",
+          "similarity": "同区域浅成低温热液型Au矿床"
+        },
+        {
+          "name": "Ciweigou",
+          "relation": "类型对比",
+          "similarity": "同区域浅成低温热液型Au矿床"
+        },
+        {
+          "name": "Jiusangou",
+          "relation": "类型对比",
+          "similarity": "同区域浅成低温热液型Au矿床"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "S同位素（δ34S=1.6-3.9‰）和O同位素（δ18O流体=2.4-5.5‰）指示岩浆来源；全岩Sr-Nd-Pb同位素显示源区为交代岩石圈地幔部分熔融。"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "NW-NNW向断裂控制矿体空间分布；多期次岩浆活动提供热液通道。"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "水-岩反应导致流体冷却和金属溶解度降低，是主要成矿机制；绿泥石-绢云母化蚀变带是主要矿化阶段。"
+        },
+        "deposit": {
+          "score": 5,
+          "evidence": "明确为斑岩型Au-Cu矿床，具有典型蚀变分带和浸染状-网脉状矿化。"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿床位于NE China，经历了中生代构造活动，但矿体保存较好，有露头和钻孔控制。"
+        },
+        "exposure": {
+          "score": 3,
+          "evidence": "部分矿体出露地表，有露天开采；深部由钻孔控制。"
+        },
+        "efficiency": {
+          "score": 3,
+          "evidence": "成矿流体效率中等，水-岩反应是主要沉淀机制，但未详细讨论金属沉淀效率。"
+        }
+      }
+    },
+    "tokens": {
+      "input": 11347,
+      "output": 1862
+    }
+  },
+  {
+    "paper_id": "s00126-024-01295-y",
+    "extracted": {
+      "paper_id": "s00126-024-01295-y",
+      "deposit_type": "carbonatite",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文明确描述为碳酸岩（carbonatite），属于REE矿化的碳酸岩型矿床。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Wigu Hill碳酸岩为研究对象，系统开展了岩石学、地球化学和矿物学研究，属于原创性研究。",
+      "countries": [
+        "Tanzania"
+      ],
+      "metallogenic_belt": null,
+      "coordinates": {
+        "latitude": -7.0,
+        "longitude": 37.5,
+        "precision": "省级",
+        "source": "论文描述位于坦桑尼亚东部Uluguru山脉南部，结合区域地质图推断",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "synchysite-(Ce)",
+          "bastnaesite",
+          "monazite",
+          "florencite",
+          "goyazite"
+        ],
+        "gangue_minerals": [
+          "dolomite",
+          "calcite",
+          "ankerite",
+          "quartz",
+          "barite",
+          "Ca-strontianite",
+          "fluorite",
+          "apatite",
+          "pyrochlore"
+        ],
+        "alteration_minerals": [
+          "aegirine",
+          "riebeckite",
+          "Fe/Mn oxides",
+          "goethite",
+          "hematite",
+          "psilomelane"
+        ]
+      },
+      "alteration": [
+        "fenitization",
+        "brecciation",
+        "carbothermal alteration",
+        "surface weathering"
+      ],
+      "commodities": {
+        "primary": [
+          "REE"
+        ],
+        "byproduct": [
+          "Nb"
+        ],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 3.3,
+          "unit": "Mt",
+          "resource_type": "inferred"
+        },
+        "grade": {
+          "LREO_percent": 2.6
+        },
+        "scale_class": "medium",
+        "production_status": "exploration",
+        "citation": "Eggleston and Sides 2011"
+      },
+      "host_rocks": [
+        "garnet-bearing amphibolitic gneiss"
+      ],
+      "structural_controls": [
+        "dikes",
+        "breccia vents",
+        "fractures"
+      ],
+      "tectonic_setting": "continental rift (Karoo rift and East African rift)",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "REE",
+            "Nb"
+          ],
+          "depleted": []
+        },
+        "isotopes": {
+          "carbon_delta13C_VPDB": "-4.1 to -6.2‰",
+          "oxygen_delta18O_VSMOW": "+6.5 to +7.31‰",
+          "magnesium_delta26Mg": "-0.44 to +0.19‰"
+        },
+        "fluid_inclusion": null,
+        "citation": "Table 1, Figure 7"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 5,
+          "evidence": "C-O和Mg同位素指示地幔源区，δ13C和δ18O值落在原生碳酸岩范围内"
+        },
+        "pathway": {
+          "score": 4,
+          "evidence": "岩浆分异和碳热流体活动导致REE迁移，构造通道为岩脉和角砾岩筒"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "碳酸岩岩脉和角砾岩中的孔隙空间及化学沉淀（如burbankite假晶）"
+        },
+        "deposition": {
+          "score": 5,
+          "evidence": "burbankite溶解-再沉淀形成氟碳酸盐（synchysite、bastnaesite）和磷酸盐（monazite、florencite）"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "地表风化导致局部REE再富集，但部分矿体可能被剥蚀"
+        },
+        "modification": {
+          "score": 3,
+          "evidence": "碳热流体和地表过程改造了早期矿化，形成不同颜色的假晶"
+        },
+        "fertility": {
+          "score": 4,
+          "evidence": "REE2O3含量高达6-10 wt%，局部可达15 wt%，Nb>200 ppm"
+        }
+      }
+    },
+    "tokens": {
+      "input": 10979,
+      "output": 1013
+    }
+  },
+  {
+    "paper_id": "s00126-024-01296-x",
+    "extracted": {
+      "paper_id": "s00126-024-01296-x",
+      "deposit_type": "MAGMATIC NI-CU",
+      "deposit_type_conf": 1.0,
+      "deposit_type_evidence": "论文明确描述为岩浆Ni-Cu硫化物矿床，赋存于镁铁-超镁铁质侵入体中，矿石矿物为磁黄铁矿、镍黄铁矿、黄铜矿。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Shitoukengde Ni-Cu硫化物矿床为研究对象，通过2D和3D显微成像技术研究矿石结构，属于原创性研究。",
+      "countries": [
+        "China"
+      ],
+      "metallogenic_belt": "East Kunlun Orogenic Belt",
+      "coordinates": {
+        "latitude": 35.92,
+        "longitude": 97.12,
+        "precision": "矿区级",
+        "source": "Figure 1地质图坐标网格",
+        "confidence": 0.8,
+        "extraction_method": "图件坐标网格"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "pyrrhotite",
+          "pentlandite",
+          "chalcopyrite"
+        ],
+        "gangue_minerals": [
+          "orthopyroxene",
+          "clinopyroxene",
+          "plagioclase",
+          "hornblende",
+          "olivine",
+          "serpentine"
+        ],
+        "alteration_minerals": [
+          "serpentine"
+        ]
+      },
+      "alteration": [
+        "serpentinization"
+      ],
+      "commodities": {
+        "primary": [
+          "Ni",
+          "Cu",
+          "Co"
+        ],
+        "byproduct": [],
+        "trace": []
+      },
+      "deposit_scale": {
+        "tonnage": {
+          "value": 40,
+          "unit": "Mt",
+          "resource_type": "proven+probable"
+        },
+        "grade": {
+          "Ni_percent": 0.3,
+          "Cu_percent": 0.1,
+          "Co_percent": 0.015
+        },
+        "scale_class": "medium",
+        "production_status": "exploration",
+        "citation": "Mao et al. 2023"
+      },
+      "host_rocks": [
+        "lherzolite",
+        "orthopyroxenite",
+        "gabbronorite"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "东昆仑造山带，原特提斯洋俯冲-碰撞环境",
+      "ages": [
+        {
+          "age_ma": 420,
+          "uncertainty": null,
+          "method": "U-Pb zircon",
+          "material": "mafic-ultramafic intrusion",
+          "interpretation": "成岩年龄",
+          "citation": "Yan et al. 2019; Jia et al. 2021; Zhang et al. 2023"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {},
+        "isotopes": {
+          "sulfur_delta34s": "1.7 to 4.2‰"
+        },
+        "fluid_inclusion": {},
+        "citation": "Chen et al. 2022"
+      },
+      "reference_deposits": [
+        {
+          "name": "Xiarihamu",
+          "relation": "同区域对比",
+          "similarity": "同为东昆仑造山带岩浆Ni-Cu硫化物矿床，约412 Ma"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "硫化物S同位素组成（δ34S=1.7-4.2‰）指示地幔来源，可能有地壳混染"
+        },
+        "pathway": {
+          "score": 3,
+          "evidence": "岩浆沿构造通道上升，侵位于古元古代金水口群片麻岩和大理岩中"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "岩体形态不规则，超镁铁质岩与辉长苏长岩互层，形成 pouch-like 矿体"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "硫化物液滴在晶粥中迁移、聚并形成球状矿石，受毛细作用滞留"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "矿床位于东昆仑造山带，经历后期构造抬升但矿体保存较好"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "橄榄石普遍蛇纹石化，但硫化物未受明显变质改造"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "地表出露面积5.7 km²，钻孔控制深度达785 m"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9523,
+      "output": 1061
+    }
+  },
+  {
+    "paper_id": "s00126-024-01307-x",
+    "extracted": {
+      "paper_id": "s00126-024-01307-x",
+      "deposit_type": "VMS",
+      "deposit_type_conf": 0.9,
+      "deposit_type_evidence": "论文明确描述为Lahn-Dill型铁矿，属于火山成因块状硫化物（VMS）相关类型，形成于海相化学沉积，与火山碎屑岩伴生。",
+      "is_primary_research": true,
+      "is_primary_research_reason": "论文以Fortuna矿的Lahn-Dill型铁矿为研究对象，通过全岩地球化学、原位LA-ICP-MS和TEM分析，研究微量元素分馏和成矿过程，属于原创性研究。",
+      "countries": [
+        "Germany"
+      ],
+      "metallogenic_belt": "Rhenish Massif, Lahn Syncline",
+      "coordinates": {
+        "latitude": 50.6,
+        "longitude": 8.4,
+        "precision": "矿区级",
+        "source": "图1地质图及地名推断",
+        "confidence": 0.8,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "haematite",
+          "siderite",
+          "magnetite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "carbonate",
+          "chlorite",
+          "apatite"
+        ],
+        "alteration_minerals": [
+          "haematite",
+          "carbonate",
+          "quartz",
+          "chlorite",
+          "apatite"
+        ]
+      },
+      "alteration": [
+        "albitisation",
+        "chloritisation",
+        "carbonate formation",
+        "haematite enrichment"
+      ],
+      "commodities": {
+        "primary": [
+          "Fe"
+        ],
+        "byproduct": [],
+        "trace": [
+          "P",
+          "REY",
+          "Zr",
+          "Nb",
+          "Th",
+          "Zn",
+          "V",
+          "Ba"
+        ]
+      },
+      "deposit_scale": {
+        "tonnage": null,
+        "grade": {
+          "Fe2O3(t)_percent": "25-35"
+        },
+        "scale_class": "medium",
+        "production_status": "past producer",
+        "citation": "Lippert 1997"
+      },
+      "host_rocks": [
+        "alkali basaltic volcaniclastic rocks",
+        "clastic sedimentary rocks",
+        "limestone"
+      ],
+      "structural_controls": [
+        "faults",
+        "folding",
+        "thrusting"
+      ],
+      "tectonic_setting": "rift-related crustal extension within Rhenohercynian marine basin",
+      "ages": [
+        {
+          "age_ma": 383,
+          "uncertainty": null,
+          "method": "biostratigraphy",
+          "material": "fossils",
+          "interpretation": "成矿年龄",
+          "citation": "Schmitt et al. 2023"
+        }
+      ],
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Fe",
+            "Mn",
+            "P",
+            "REY"
+          ],
+          "depleted": [
+            "Ti",
+            "Al",
+            "HFSE"
+          ]
+        },
+        "isotopes": null,
+        "fluid_inclusion": null,
+        "citation": "Table 1, Figure 4"
+      },
+      "reference_deposits": null,
+      "mineral_system": {
+        "source": {
+          "score": 4,
+          "evidence": "Fe来源于海底火山活动，OIB-like地球化学特征指示地幔源区"
+        },
+        "transport": {
+          "score": 4,
+          "evidence": "低温柔流体与海水混合，扩散流体喷溢主导"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "Fe-(oxyhydr)oxide在海水柱中沉淀，形成胶体凝胶"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "化学沉积形成赤铁矿-石英矿石，局部成岩还原形成菱铁矿-赤铁矿矿石"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "低变质作用（<300°C）保存原生和早期成岩结构"
+        },
+        "modification": {
+          "score": 3,
+          "evidence": "后沉积热液蚀变和Variscan构造变形"
+        },
+        "exposure": {
+          "score": 2,
+          "evidence": "Fortuna矿已开采至1983年，地表出露"
+        }
+      }
+    },
+    "tokens": {
+      "input": 9357,
+      "output": 968
+    }
+  },
+  {
+    "paper_id": "s00126-024-01313-z",
+    "extracted": {
+      "paper_id": "s00126-024-01313-z",
+      "deposit_type": "SEDEX",
+      "deposit_type_conf": 0.8,
+      "deposit_type_evidence": "论文讨论的是波兰Kupferschiefer铜银矿床，属于沉积岩容矿的层控铜矿床（SEDEX型），但论文本身是讨论性文章，未明确给出矿床类型，根据上下文推断。",
+      "is_primary_research": false,
+      "is_primary_research_reason": "该论文是对Syczewski et al. (2024)的讨论，并非原创研究，而是评论和质疑。",
+      "countries": [
+        "Poland"
+      ],
+      "metallogenic_belt": "Fore-Sudetic Monocline",
+      "coordinates": null,
+      "minerals": {
+        "ore_minerals": [
+          "chalcocite",
+          "chalcopyrite"
+        ],
+        "gangue_minerals": [
+          "quartz"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Ag"
+        ],
+        "byproduct": [],
+        "trace": [
+          "U",
+          "Th"
+        ]
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Kupferschiefer shale",
+        "sandstone"
+      ],
+      "structural_controls": [],
+      "tectonic_setting": "Zechstein basin",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "U",
+            "Th"
+          ],
+          "depleted": []
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Syczewski et al. (2024) supplementary material"
+      },
+      "reference_deposits": [
+        {
+          "name": "El Soldado (Chile)",
+          "relation": "类比",
+          "similarity": "stratabound copper deposits with pyrobitumen"
+        },
+        {
+          "name": "Uchumi and Talcuna (Chile)",
+          "relation": "类比",
+          "similarity": "association of pyrobitumen with copper mineralization"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 2,
+          "evidence": "论文提到铀钍热液来源，但未详细说明"
+        },
+        "transport": {
+          "score": 2,
+          "evidence": " hydrothermal fluids responsible for copper mineralization"
+        },
+        "trap": {
+          "score": 3,
+          "evidence": "oxic-anoxic boundary within shale"
+        },
+        "deposition": {
+          "score": 3,
+          "evidence": "thucholite formation at lowermost part of copper-rich horizon"
+        },
+        "preservation": {
+          "score": 2,
+          "evidence": "未明确讨论"
+        },
+        "modification": {
+          "score": 3,
+          "evidence": "radiation damage from uranium, oxidation alteration"
+        },
+        "exhumation": {
+          "score": 1,
+          "evidence": "未讨论"
+        }
+      }
+    },
+    "tokens": {
+      "input": 5224,
+      "output": 677
+    }
+  },
+  {
+    "paper_id": "s00126-024-01328-6",
+    "extracted": {
+      "paper_id": "s00126-024-01328-6",
+      "deposit_type": "SEDEX",
+      "deposit_type_conf": 0.8,
+      "deposit_type_evidence": "论文讨论Kupferschiefer页岩中的thucholite，属于沉积型铜矿（SEDEX），但涉及热液叠加。",
+      "is_primary_research": false,
+      "is_primary_research_reason": "这是一篇对原始论文的回复/讨论，不是原创研究。",
+      "countries": [
+        "Poland"
+      ],
+      "metallogenic_belt": "Fore-Sudetic Monocline",
+      "coordinates": {
+        "latitude": 51.5,
+        "longitude": 16.0,
+        "precision": "省级",
+        "source": "Lubin district, Poland",
+        "confidence": 0.7,
+        "extraction_method": "地名推断"
+      },
+      "minerals": {
+        "ore_minerals": [
+          "chalcopyrite",
+          "bornite",
+          "chalcocite"
+        ],
+        "gangue_minerals": [
+          "quartz",
+          "calcite",
+          "dolomite"
+        ],
+        "alteration_minerals": []
+      },
+      "alteration": [
+        "Rote Fäule"
+      ],
+      "commodities": {
+        "primary": [
+          "Cu",
+          "Ag"
+        ],
+        "byproduct": [
+          "U",
+          "Th"
+        ],
+        "trace": []
+      },
+      "deposit_scale": null,
+      "host_rocks": [
+        "Kupferschiefer shale",
+        "Zechstein Limestone",
+        "Weissliegend sandstone"
+      ],
+      "structural_controls": [
+        "faults"
+      ],
+      "tectonic_setting": "Fore-Sudetic Monocline, Zechstein basin",
+      "ages": null,
+      "geochemistry": {
+        "trace_elements": {
+          "enriched": [
+            "Cu"
+          ],
+          "depleted": []
+        },
+        "isotopes": {},
+        "fluid_inclusion": {},
+        "citation": "Figure 1, Figure 2"
+      },
+      "reference_deposits": [
+        {
+          "name": "Lubin district",
+          "relation": "主要研究区",
+          "similarity": "同一成矿带"
+        }
+      ],
+      "mineral_system": {
+        "source": {
+          "score": 3,
+          "evidence": "金属来自氧化流体（Rote Fäule）和有机质"
+        },
+        "transport": {
+          "score": 3,
+          "evidence": "流体沿断层迁移"
+        },
+        "trap": {
+          "score": 4,
+          "evidence": "有机质（thucholite）作为还原障"
+        },
+        "deposition": {
+          "score": 4,
+          "evidence": "铜硫化物沉淀在thucholite孔隙中"
+        },
+        "preservation": {
+          "score": 3,
+          "evidence": "埋藏保存"
+        },
+        "modification": {
+          "score": 2,
+          "evidence": "后期热液叠加"
+        },
+        "exposure": {
+          "score": 1,
+          "evidence": "未提及"
+        }
+      }
+    },
+    "tokens": {
+      "input": 3952,
+      "output": 690
+    }
+  }
+]
