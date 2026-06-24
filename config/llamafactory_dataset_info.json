@@ -1,0 +1,26 @@
+{
+  "geology_mineral_train": {
+    "file_name": "train.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "conversations": "conversations",
+      "images": "images"
+    }
+  },
+  "geology_mineral_val": {
+    "file_name": "val.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "conversations": "conversations",
+      "images": "images"
+    }
+  },
+  "geology_mineral_test": {
+    "file_name": "test.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+      "conversations": "conversations",
+      "images": "images"
+    }
+  }
+}

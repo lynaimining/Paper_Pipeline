@@ -1,0 +1,52 @@
+### LLaMA-Factory LoRA 训练配置 (Qwen2.5-VL-7B-Instruct)
+### 使用方法:
+###   llamafactory-cli train config/lora_qwen25vl.yaml
+
+model_name_or_path: /root/autodl-tmp/models/qwen/Qwen2.5-VL-7B-Instruct
+trust_remote_code: true
+
+### 训练方法
+stage: sft
+do_train: true
+finetuning_type: lora
+
+### LoRA 参数
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: all   # 自动覆盖 qkv + ffn
+
+### 数据 (dataset_info.json 需放在 data/ 目录或用 dataset_dir 指定)
+dataset_dir: ./dataset_final
+dataset: geology_mineral_train
+template: qwen2_vl
+cutoff_len: 2048
+max_samples: null
+
+### 图像配置 (VLM 必填)
+image_max_pixels: 1254400   # 1120×1120 = 1254400（1600×28×28 ≈ 1254400）
+image_min_pixels: 3136      # 56×56
+
+### 训练超参数
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 8   # effective batch = 16
+learning_rate: 1.0e-4
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+save_steps: 200
+logging_steps: 10
+
+### 精度 / 显存
+bf16: true
+ddp_find_unused_parameters: false
+gradient_checkpointing: true
+
+### 输出
+output_dir: /root/autodl-tmp/checkpoints/geo_spatial_lora
+overwrite_output_dir: true
+
+### 评估
+eval_dataset: geology_mineral_val
+eval_steps: 200
+per_device_eval_batch_size: 2
