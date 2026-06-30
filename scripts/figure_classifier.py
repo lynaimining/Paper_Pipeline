@@ -8,6 +8,7 @@
 """
 import re
 import json
+import os
 
 # ==================== 空间推理白名单 ====================
 
@@ -108,7 +109,7 @@ def parse_qwen_output(output_str: str) -> dict:
         return {}
 
 
-def load_qwen_spatial_images(qwen_results_path: str) -> list:
+def load_qwen_spatial_images(qwen_results_path: str) -> tuple[list, dict]:
     """
     从Qwen结果中加载所有「空间推理图」（已过滤junk）
 
@@ -117,12 +118,20 @@ def load_qwen_spatial_images(qwen_results_path: str) -> list:
     images = []
     stats = {"geo_map": 0, "cross_section": 0, "geophys_map": 0, "junk": 0, "table_task": 0}
 
+    if not os.path.exists(qwen_results_path):
+        raise FileNotFoundError(f"Qwen结果文件不存在: {qwen_results_path}")
+
     with open(qwen_results_path, encoding="utf-8") as f:
-        for line in f:
+        for lineno, line in enumerate(f, 1):
             line = line.strip()
             if not line:
                 continue
-            rec = json.loads(line)
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError as e:
+                import sys
+                print(f"  WARN: {qwen_results_path}:{lineno} JSON解析失败，跳过: {e}", file=sys.stderr)
+                continue
 
             # table任务直接归为junk
             if rec.get("task") == "table":
@@ -140,7 +149,7 @@ def load_qwen_spatial_images(qwen_results_path: str) -> list:
                 continue
 
             images.append({
-                "image_path": rec["image_path"],
+                "image_path": rec.get("image_path", ""),
                 "caption": caption,
                 "figure_type": figure_type,
                 "category": category,
@@ -154,8 +163,10 @@ def load_qwen_spatial_images(qwen_results_path: str) -> list:
 
 if __name__ == "__main__":
     import sys
-    path = sys.argv[1] if len(sys.argv) > 1 else \
-        "/root/autodl-tmp/20pdf_test_outputs/qwen_vl/qwen_vl_results.jsonl"
+    if len(sys.argv) < 2:
+        print("用法: python figure_classifier.py <qwen_vl_results.jsonl>", file=sys.stderr)
+        sys.exit(1)
+    path = sys.argv[1]
 
     images, stats = load_qwen_spatial_images(path)
 

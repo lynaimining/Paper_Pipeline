@@ -174,7 +174,8 @@ def step_qwen_vl(corpus_dir: str, qwen_out: str, qwen_model: str,
 
 # ── Step 4: 图 QA 生成 ────────────────────────────────────────────────────────
 
-def step_image_qa(qwen_results: str, output_dir: str) -> tuple[str, str]:
+def step_image_qa(qwen_results: str, output_dir: str,
+                  paper_ids: list | None = None) -> tuple[str, str]:
     image_qa_path = os.path.join(output_dir, "_image_qa_all.jsonl")
     demoted_path  = os.path.join(output_dir, "_image_qa_text_demoted.jsonl")
 
@@ -182,11 +183,18 @@ def step_image_qa(qwen_results: str, output_dir: str) -> tuple[str, str]:
         print(f"[Step 4] 已有图 QA，跳过: {image_qa_path}")
         return image_qa_path, demoted_path
 
-    run([
+    cmd = [
         sys.executable, str(SCRIPTS_DIR / "optimized_qa_pipeline.py"),
         "--qwen-results", qwen_results,
         "--output", image_qa_path,
-    ], "optimized_qa_pipeline.py（图 QA 生成）")
+    ]
+    # 传入 paper_ids 避免处理全量 qwen_results（可能含数十万张图）
+    if paper_ids:
+        pids_file = Path(output_dir) / "_img_qa_paper_ids.txt"
+        pids_file.write_text("\n".join(paper_ids))
+        cmd += ["--papers-file", str(pids_file)]
+
+    run(cmd, "optimized_qa_pipeline.py（图 QA 生成）")
     return image_qa_path, demoted_path
 
 
@@ -257,8 +265,8 @@ def main():
     # 图 QA
     parser.add_argument("--with-image-qa", action="store_true",
                         help="启用图 QA（需要 GPU + Qwen VL）")
-    parser.add_argument("--qwen-model", default="/root/autodl-tmp/models/qwen/Qwen2.5-VL-7B-Instruct",
-                        help="Qwen VL 模型路径")
+    parser.add_argument("--qwen-model", default="",
+                        help="Qwen VL 模型路径（必填，例如 /data/models/Qwen2.5-VL-7B-Instruct）")
     parser.add_argument("--qwen-batch", type=int, default=QWEN_BATCH_DEFAULT,
                         help=f"Qwen VL batch 大小（默认 {QWEN_BATCH_DEFAULT}，Blackwell 96GB 最优）")
     parser.add_argument("--qwen-results", default=None,
@@ -346,7 +354,10 @@ def main():
                 args.paper_ids or [], args.qwen_batch,
             )
 
-        image_qa_path, demoted_path = step_image_qa(qwen_results, str(source_dir))
+        image_qa_path, demoted_path = step_image_qa(
+            qwen_results, str(source_dir),
+            paper_ids=args.paper_ids or [],
+        )
     else:
         print("[Step 3-4] 跳过图 QA（未指定 --with-image-qa）")
 

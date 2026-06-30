@@ -6,7 +6,7 @@
       "endpoint"
     ]
   },
-  "models-dir": "/root/models/MinerU/models",
+  "models-dir": "/path/to/MinerU/models",
   "device-mode": "cuda",
   "layout-config": {
     "model": "doclayout_yolo"
@@ -20,5 +20,5 @@
     "mfr_model": "unimernet_small",
     "enable": false
   },
-  "layoutreader-model-dir": "/root/models/MinerU/models/layoutreader"
+  "layoutreader-model-dir": "/path/to/MinerU/models/layoutreader"
 }

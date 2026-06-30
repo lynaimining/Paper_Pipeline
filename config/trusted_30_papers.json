@@ -4,7 +4,6 @@
     "deposit_class": "mineral_deposit",
     "deposit_type": "OROG-AU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "pelitic metasediments",
@@ -20,25 +19,6 @@
       "Howley anticline",
       "steeply dipping fold limbs"
     ],
-    "minerals_mentioned": [
-      "quartz",
-      "pyrrhotite",
-      "arsenopyrite",
-      "loellingite",
-      "biotite",
-      "K feldspar",
-      "andalusite",
-      "cordierite",
-      "muscovite",
-      "albite",
-      "gold",
-      "fluorite",
-      "sphene",
-      "hornblende",
-      "magnetite",
-      "pyrite",
-      "graphite"
-    ],
     "commodities": [
       "Au"
     ],
@@ -47,10 +27,6 @@
       "Australia"
     ],
     "tectonic_setting": "Contact metamorphic aureole of Proterozoic I-type granite, within a fold and thrust belt",
-    "ages_ma": [
-      1835,
-      1818
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -80,14 +56,53 @@
         "score": 3,
         "evidence": "Post-mineralization deformation and thrusting; some preservation of veins"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 1835.0
+      },
+      {
+        "age_ma": 1818.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "quartz",
+        "pyrrhotite",
+        "arsenopyrite",
+        "loellingite",
+        "biotite",
+        "K feldspar",
+        "andalusite",
+        "cordierite",
+        "muscovite",
+        "albite",
+        "gold",
+        "fluorite",
+        "sphene",
+        "hornblende",
+        "magnetite",
+        "pyrite",
+        "graphite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2143",
     "deposit_class": "mineral_deposit",
     "deposit_type": "KUPFERSCHIEFER",
     "deposit_type_conf": 1.0,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "Weissliegendes sandstone",
@@ -105,29 +120,6 @@
       "Kupferschiefer-Weissliegendes contact",
       "Cu-Pb zone contact"
     ],
-    "minerals_mentioned": [
-      "chalcocite",
-      "djurleite",
-      "anilite",
-      "geerite",
-      "spionkopite",
-      "yarrowite",
-      "covellite",
-      "bornite",
-      "idaite",
-      "chalcopyrite",
-      "pyrite",
-      "galena",
-      "sphalerite",
-      "cobaltite",
-      "atacamite",
-      "gypsum",
-      "anhydrite",
-      "barite",
-      "celestine",
-      "calcite",
-      "dolomite"
-    ],
     "commodities": [
       "Cu",
       "Pb",
@@ -139,7 +131,6 @@
       "Poland"
     ],
     "tectonic_setting": "Fore-Sudetic monocline, Permian Zechstein basin, passive margin setting",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 3,
@@ -169,14 +160,50 @@
         "score": 3,
         "evidence": "Preserved in mines; some alteration by recent mine waters"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "chalcocite",
+        "djurleite",
+        "anilite",
+        "geerite",
+        "spionkopite",
+        "yarrowite",
+        "covellite",
+        "bornite",
+        "idaite",
+        "chalcopyrite",
+        "pyrite",
+        "galena",
+        "sphalerite",
+        "cobaltite",
+        "atacamite",
+        "gypsum",
+        "anhydrite",
+        "barite",
+        "celestine",
+        "calcite",
+        "dolomite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2156",
     "deposit_class": "mineral_deposit",
     "deposit_type": "HS-EPITH",
     "deposit_type_conf": 0.95,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "tholeiitic basalt",
@@ -200,35 +227,6 @@
       "dilation zone",
       "rheologic contrast"
     ],
-    "minerals_mentioned": [
-      "electrum",
-      "native gold",
-      "pyrite",
-      "arsenian pyrite",
-      "cinnabar",
-      "metacinnabar",
-      "native mercury",
-      "realgar",
-      "orpiment",
-      "arsenopyrite",
-      "stibnite",
-      "pyargyrite",
-      "miargyrite",
-      "freibergite",
-      "polybasite",
-      "sphalerite",
-      "chalcopyrite",
-      "galena",
-      "adularia",
-      "sericite",
-      "montmorillonite",
-      "kaolinite",
-      "barite",
-      "marcasite",
-      "quartz",
-      "chalcedony",
-      "opal"
-    ],
     "commodities": [
       "Au",
       "Ag",
@@ -244,9 +242,6 @@
       "USA"
     ],
     "tectonic_setting": "fore-arc basin, strike-slip and fold-thrust belt, associated with Clear Lake volcanic field",
-    "ages_ma": [
-      2.2
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -276,14 +271,60 @@
         "score": 5,
         "evidence": "Subaerial sinter preserved, indicating minimal post-mineralization erosion"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 2.2
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "electrum",
+        "native gold",
+        "pyrite",
+        "arsenian pyrite",
+        "cinnabar",
+        "metacinnabar",
+        "native mercury",
+        "realgar",
+        "orpiment",
+        "arsenopyrite",
+        "stibnite",
+        "pyargyrite",
+        "miargyrite",
+        "freibergite",
+        "polybasite",
+        "sphalerite",
+        "chalcopyrite",
+        "galena",
+        "adularia",
+        "sericite",
+        "montmorillonite",
+        "kaolinite",
+        "barite",
+        "marcasite",
+        "quartz",
+        "chalcedony",
+        "opal"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2182",
     "deposit_class": "mineral_deposit",
     "deposit_type": "DISS-AG",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "carbonaceous marly shale",
@@ -304,21 +345,6 @@
       "lower Candelaria shear",
       "south-verging thrusts"
     ],
-    "minerals_mentioned": [
-      "pyrite",
-      "galena",
-      "sphalerite",
-      "chalcopyrite",
-      "arsenopyrite",
-      "native silver",
-      "cerargyrite",
-      "quartz",
-      "dolomite",
-      "sericite",
-      "tourmaline",
-      "iron oxides",
-      "manganese oxides"
-    ],
     "commodities": [
       "Ag",
       "Au",
@@ -332,9 +358,6 @@
       "USA"
     ],
     "tectonic_setting": "Extensional to transtensional intra-arc graben within the early Mesozoic Cordilleran magmatic arc",
-    "ages_ma": [
-      192
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -364,14 +387,46 @@
         "score": 3,
         "evidence": "Supergene oxidation to 200 m depth; K-Ar sericite ages (91-129 Ma) indicate partial resetting by Cretaceous thermal event, but deposit largely preserved"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 192.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "pyrite",
+        "galena",
+        "sphalerite",
+        "chalcopyrite",
+        "arsenopyrite",
+        "native silver",
+        "cerargyrite",
+        "quartz",
+        "dolomite",
+        "sericite",
+        "tourmaline",
+        "iron oxides",
+        "manganese oxides"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2197",
     "deposit_class": "mineral_deposit",
     "deposit_type": "SKARN",
     "deposit_type_conf": 0.8,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "limestone",
@@ -388,40 +443,6 @@
       "faults",
       "laccolith roof flexure"
     ],
-    "minerals_mentioned": [
-      "magnetite",
-      "hematite",
-      "apatite",
-      "clinopyroxene",
-      "diopside",
-      "augite",
-      "amphibole",
-      "biotite",
-      "plagioclase",
-      "alkali feldspar",
-      "albite",
-      "K feldspar",
-      "quartz",
-      "ilmenite",
-      "smectite-chlorite",
-      "calcite",
-      "aragonite",
-      "stilbite",
-      "chalcedony",
-      "dolomite",
-      "phlogopite",
-      "tremolite",
-      "scapolite",
-      "wollastonite",
-      "hydrogrossular",
-      "forsterite",
-      "vesuvianite",
-      "chloritoid",
-      "zircon",
-      "rutile",
-      "pyrite",
-      "anhydrite"
-    ],
     "commodities": [
       "Fe"
     ],
@@ -430,12 +451,6 @@
       "United States"
     ],
     "tectonic_setting": "Miocene laccoliths emplaced in a continental arc setting, related to Sevier thrust faults",
-    "ages_ma": [
-      21.7,
-      21.5,
-      22.6,
-      21.5
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -465,14 +480,74 @@
         "score": 3,
         "evidence": "Orebodies preserved at surface; some erosion has occurred; Stoddard Mountain pluton lacks mineralization due to different wall rock and shallower emplacement."
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 21.7
+      },
+      {
+        "age_ma": 21.5
+      },
+      {
+        "age_ma": 22.6
+      },
+      {
+        "age_ma": 21.5
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "magnetite",
+        "hematite",
+        "apatite",
+        "clinopyroxene",
+        "diopside",
+        "augite",
+        "amphibole",
+        "biotite",
+        "plagioclase",
+        "alkali feldspar",
+        "albite",
+        "K feldspar",
+        "quartz",
+        "ilmenite",
+        "smectite-chlorite",
+        "calcite",
+        "aragonite",
+        "stilbite",
+        "chalcedony",
+        "dolomite",
+        "phlogopite",
+        "tremolite",
+        "scapolite",
+        "wollastonite",
+        "hydrogrossular",
+        "forsterite",
+        "vesuvianite",
+        "chloritoid",
+        "zircon",
+        "rutile",
+        "pyrite",
+        "anhydrite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2218",
     "deposit_class": "mineral_deposit",
     "deposit_type": "VMS",
     "deposit_type_conf": 0.6,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "felsite",
@@ -494,22 +569,6 @@
       "porous pyroclastic horizons",
       "flow-banded and flow-brecciated portions of flows"
     ],
-    "minerals_mentioned": [
-      "pyrite",
-      "arsenopyrite",
-      "tremolite-actinolite",
-      "sericite",
-      "quartz",
-      "chlorite",
-      "hornblende",
-      "clinopyroxene",
-      "plagioclase",
-      "biotite",
-      "calcite",
-      "epidote",
-      "magnetite",
-      "vesuvianite"
-    ],
     "commodities": [
       "Pb",
       "Zn",
@@ -524,11 +583,6 @@
       "South Africa"
     ],
     "tectonic_setting": "Intracontinental large igneous province, associated with the 2.06 Ga Bushveld magmatic event",
-    "ages_ma": [
-      2061,
-      2060,
-      2054
-    ],
     "mineral_system": {
       "source": {
         "score": 3,
@@ -558,14 +612,53 @@
         "score": 3,
         "evidence": "The roof rocks are preserved in the Bushveld Complex roof, with only low-grade metamorphism, indicating good preservation despite later deformation."
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 2061.0
+      },
+      {
+        "age_ma": 2060.0
+      },
+      {
+        "age_ma": 2054.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "pyrite",
+        "arsenopyrite",
+        "tremolite-actinolite",
+        "sericite",
+        "quartz",
+        "chlorite",
+        "hornblende",
+        "clinopyroxene",
+        "plagioclase",
+        "biotite",
+        "calcite",
+        "epidote",
+        "magnetite",
+        "vesuvianite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2232",
     "deposit_class": "mineral_deposit",
     "deposit_type": "OROG-AU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "wacke",
@@ -584,23 +677,6 @@
       "Richardson fault",
       "East Hozameen fault"
     ],
-    "minerals_mentioned": [
-      "quartz",
-      "albite",
-      "carbonate",
-      "chlorite",
-      "sericite",
-      "pyrrhotite",
-      "arsenopyrite",
-      "pyrite",
-      "chalcopyrite",
-      "bornite",
-      "magnetite",
-      "gold",
-      "fuchsite",
-      "K feldspar",
-      "chromite"
-    ],
     "commodities": [
       "Au",
       "As",
@@ -613,7 +689,6 @@
       "Canada"
     ],
     "tectonic_setting": "Tectonic contact between Permian-Jurassic ocean floor/island-arc rocks (Hozameen Group) and Jurassic turbiditic sediments (Ladner Group), near Coquihalla serpentine belt",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 3,
@@ -643,14 +718,44 @@
         "score": 3,
         "evidence": "Deposit preserved at shallow depth (1-3 km); truncated by Richardson fault; some erosion but mineralization subcrops"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "quartz",
+        "albite",
+        "carbonate",
+        "chlorite",
+        "sericite",
+        "pyrrhotite",
+        "arsenopyrite",
+        "pyrite",
+        "chalcopyrite",
+        "bornite",
+        "magnetite",
+        "gold",
+        "fuchsite",
+        "K feldspar",
+        "chromite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2244",
     "deposit_class": "mineral_deposit",
     "deposit_type": "VMS",
     "deposit_type_conf": 0.95,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "orthoamphibole-garnet-cordierite gneiss",
@@ -674,35 +779,6 @@
       "D2 sheath folds",
       "Fox Creek fault"
     ],
-    "minerals_mentioned": [
-      "pyrite",
-      "pyrrhotite",
-      "chalcopyrite",
-      "sphalerite",
-      "galena",
-      "magnetite",
-      "orthoamphibole",
-      "cordierite",
-      "garnet",
-      "sillimanite",
-      "muscovite",
-      "biotite",
-      "hornblende",
-      "cummingtonite",
-      "plagioclase",
-      "microcline",
-      "staurolite",
-      "gahnite",
-      "corundum",
-      "cassiterite",
-      "hogbomite",
-      "nigerite",
-      "actinolite",
-      "grunerite",
-      "clinopyroxene",
-      "epidote",
-      "titanite"
-    ],
     "commodities": [
       "Cu",
       "Zn",
@@ -717,10 +793,6 @@
       "Canada"
     ],
     "tectonic_setting": "Archean greenstone belt, volcanic arc or rifted arc setting, affected by polyphase deformation and upper amphibolite facies metamorphism",
-    "ages_ma": [
-      2720,
-      2723
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -750,14 +822,63 @@
         "score": 3,
         "evidence": "Deposits preserved despite polyphase deformation and upper amphibolite facies metamorphism; some remobilization but primary features retained."
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 2720.0
+      },
+      {
+        "age_ma": 2723.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "pyrite",
+        "pyrrhotite",
+        "chalcopyrite",
+        "sphalerite",
+        "galena",
+        "magnetite",
+        "orthoamphibole",
+        "cordierite",
+        "garnet",
+        "sillimanite",
+        "muscovite",
+        "biotite",
+        "hornblende",
+        "cummingtonite",
+        "plagioclase",
+        "microcline",
+        "staurolite",
+        "gahnite",
+        "corundum",
+        "cassiterite",
+        "hogbomite",
+        "nigerite",
+        "actinolite",
+        "grunerite",
+        "clinopyroxene",
+        "epidote",
+        "titanite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2262",
     "deposit_class": "mineral_deposit",
     "deposit_type": "OROG-AU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "basalt",
@@ -780,20 +901,6 @@
       "D2 sinistral shear",
       "D3 thrust"
     ],
-    "minerals_mentioned": [
-      "quartz",
-      "gold",
-      "pyrite",
-      "chalcopyrite",
-      "malachite",
-      "limonite",
-      "sericite",
-      "calcite",
-      "ferroan calcite",
-      "albite",
-      "chlorite",
-      "biotite"
-    ],
     "commodities": [
       "Au"
     ],
@@ -802,10 +909,6 @@
       "Saudi Arabia"
     ],
     "tectonic_setting": "Neoproterozoic accretionary orogen, Arabian-Nubian Shield",
-    "ages_ma": [
-      660,
-      620
-    ],
     "mineral_system": {
       "source": {
         "score": 3,
@@ -835,14 +938,48 @@
         "score": 2,
         "evidence": "Deposits are small and shallow; ancient mining to only 8 m depth; veins may pinch out at depth; no evidence of deep preservation"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 660.0
+      },
+      {
+        "age_ma": 620.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "quartz",
+        "gold",
+        "pyrite",
+        "chalcopyrite",
+        "malachite",
+        "limonite",
+        "sericite",
+        "calcite",
+        "ferroan calcite",
+        "albite",
+        "chlorite",
+        "biotite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2274",
     "deposit_class": "mineral_deposit",
     "deposit_type": "VEIN-PBAG",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "quartzite",
@@ -859,16 +996,6 @@
       "Big Creek anticline",
       "Osburn fault"
     ],
-    "minerals_mentioned": [
-      "siderite",
-      "tetrahedrite",
-      "friebergite",
-      "galena",
-      "sphalerite",
-      "pyrite",
-      "quartz",
-      "calcite"
-    ],
     "commodities": [
       "Ag",
       "Pb",
@@ -881,7 +1008,6 @@
       "USA"
     ],
     "tectonic_setting": "Cretaceous accretion and suturing of exotic terranes onto western Idaho, associated with regional compression and formation of granitic batholiths",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 4,
@@ -911,14 +1037,37 @@
         "score": 3,
         "evidence": "Veins are undeformed except for minor postdepositional faulting; preserved at depths of 3-10 km"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "siderite",
+        "tetrahedrite",
+        "friebergite",
+        "galena",
+        "sphalerite",
+        "pyrite",
+        "quartz",
+        "calcite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2287",
     "deposit_class": "mineral_deposit",
     "deposit_type": "PGE-REE",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "peridotite",
@@ -931,26 +1080,6 @@
     ],
     "alteration": null,
     "structural_controls": null,
-    "minerals_mentioned": [
-      "olivine",
-      "clinopyroxene",
-      "orthopyroxene",
-      "plagioclase",
-      "ferrochromite",
-      "pyrrhotite",
-      "pentlandite",
-      "chalcopyrite",
-      "brown hornblende",
-      "biotite",
-      "sphene",
-      "quartz",
-      "sperrylite",
-      "testibiopalladinite",
-      "maslovite",
-      "cobaltite",
-      "altaite",
-      "stilpnomelane"
-    ],
     "commodities": [
       "PGE",
       "Ni",
@@ -961,7 +1090,6 @@
       "Canada"
     ],
     "tectonic_setting": "Within-plate environment subject to hot spot volcanism in a distended continental regime, later ocean crust formation",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 3,
@@ -991,14 +1119,47 @@
         "score": 2,
         "evidence": "Intrusion preserved; some hydrothermal alteration and carbonatized zones noted"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "olivine",
+        "clinopyroxene",
+        "orthopyroxene",
+        "plagioclase",
+        "ferrochromite",
+        "pyrrhotite",
+        "pentlandite",
+        "chalcopyrite",
+        "brown hornblende",
+        "biotite",
+        "sphene",
+        "quartz",
+        "sperrylite",
+        "testibiopalladinite",
+        "maslovite",
+        "cobaltite",
+        "altaite",
+        "stilpnomelane"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2303",
     "deposit_class": "mineral_deposit",
     "deposit_type": "LCT-LI",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "metasedimentary rocks",
@@ -1018,38 +1179,6 @@
       "fractures",
       "shear zones"
     ],
-    "minerals_mentioned": [
-      "columbite",
-      "cassiterite",
-      "wolframite",
-      "scheelite",
-      "quartz",
-      "albite",
-      "K-feldspar",
-      "muscovite",
-      "tourmaline",
-      "amblygonite",
-      "spodumene",
-      "beryl",
-      "lepidolite",
-      "zinnwaldite",
-      "ilmenite",
-      "fluorapatite",
-      "bismuth",
-      "bismuthinite",
-      "pyrite",
-      "arsenopyrite",
-      "hematite",
-      "specularite",
-      "limonite",
-      "gold",
-      "bismutite",
-      "ilmenohematite",
-      "ilmenorutile",
-      "fluorite",
-      "topaz",
-      "microcline"
-    ],
     "commodities": [
       "Ta",
       "Nb",
@@ -1063,10 +1192,6 @@
       "Burundi"
     ],
     "tectonic_setting": "Mesoproterozoic Kibaran mobile belt, postorogenic extension related to G4 granite magmatism",
-    "ages_ma": [
-      962,
-      968
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1096,14 +1221,66 @@
         "score": 3,
         "evidence": "Deep weathering and Pan-African brittle reworking redistributed Au and Bi; primary pegmatite minerals partially preserved."
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 962.0
+      },
+      {
+        "age_ma": 968.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "columbite",
+        "cassiterite",
+        "wolframite",
+        "scheelite",
+        "quartz",
+        "albite",
+        "K-feldspar",
+        "muscovite",
+        "tourmaline",
+        "amblygonite",
+        "spodumene",
+        "beryl",
+        "lepidolite",
+        "zinnwaldite",
+        "ilmenite",
+        "fluorapatite",
+        "bismuth",
+        "bismuthinite",
+        "pyrite",
+        "arsenopyrite",
+        "hematite",
+        "specularite",
+        "limonite",
+        "gold",
+        "bismutite",
+        "ilmenohematite",
+        "ilmenorutile",
+        "fluorite",
+        "topaz",
+        "microcline"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2310",
     "deposit_class": "mineral_deposit",
     "deposit_type": "GREISEN",
     "deposit_type_conf": 0.7,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "monzogranite",
@@ -1112,18 +1289,6 @@
     ],
     "alteration": null,
     "structural_controls": null,
-    "minerals_mentioned": [
-      "quartz",
-      "alkali feldspar",
-      "perthite",
-      "biotite",
-      "fluorite",
-      "topaz",
-      "beryl",
-      "hornblende",
-      "plagioclase",
-      "titanite"
-    ],
     "commodities": [
       "Sn",
       "W",
@@ -1141,7 +1306,6 @@
       "Australia"
     ],
     "tectonic_setting": "high-level epizonal plutons in a fold belt",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1171,14 +1335,39 @@
         "score": 3,
         "evidence": "Texture preserved in high-level plutons; some erosion has exposed alluvial Sn deposits, indicating partial preservation."
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "quartz",
+        "alkali feldspar",
+        "perthite",
+        "biotite",
+        "fluorite",
+        "topaz",
+        "beryl",
+        "hornblende",
+        "plagioclase",
+        "titanite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2317",
     "deposit_class": "mineral_deposit",
     "deposit_type": "HS-EPITH",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "ash-flow tuff",
@@ -1204,31 +1393,6 @@
       "Manto fault",
       "postmineral normal faults"
     ],
-    "minerals_mentioned": [
-      "pyrite",
-      "sphalerite",
-      "galena",
-      "chalcopyrite",
-      "tetrahedrite",
-      "argentian tetrahedrite",
-      "electrum",
-      "adularia",
-      "quartz",
-      "illite",
-      "rhodonite",
-      "rhodochrosite",
-      "alunite",
-      "kaolinite",
-      "smectite",
-      "illite-smectite",
-      "albite",
-      "calcite",
-      "chlorite",
-      "muscovite",
-      "biotite",
-      "hornblende",
-      "plagioclase"
-    ],
     "commodities": [
       "Ag",
       "Au"
@@ -1238,19 +1402,6 @@
       "Peru"
     ],
     "tectonic_setting": "extensional normal faulting within a Neogene calc-alkaline volcanic belt, related to Quechua 1 tectonism",
-    "ages_ma": [
-      17.8,
-      17.7,
-      17.9,
-      17.4,
-      17.0,
-      17.6,
-      18.4,
-      19.5,
-      18.3,
-      18.6,
-      19.4
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1280,14 +1431,86 @@
         "score": 3,
         "evidence": "Veins preserved despite postmineral tilting and minor fault offset; some veins exposed by erosion, others buried by alluvium"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 17.8
+      },
+      {
+        "age_ma": 17.7
+      },
+      {
+        "age_ma": 17.9
+      },
+      {
+        "age_ma": 17.4
+      },
+      {
+        "age_ma": 17.0
+      },
+      {
+        "age_ma": 17.6
+      },
+      {
+        "age_ma": 18.4
+      },
+      {
+        "age_ma": 19.5
+      },
+      {
+        "age_ma": 18.3
+      },
+      {
+        "age_ma": 18.6
+      },
+      {
+        "age_ma": 19.4
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "pyrite",
+        "sphalerite",
+        "galena",
+        "chalcopyrite",
+        "tetrahedrite",
+        "argentian tetrahedrite",
+        "electrum",
+        "adularia",
+        "quartz",
+        "illite",
+        "rhodonite",
+        "rhodochrosite",
+        "alunite",
+        "kaolinite",
+        "smectite",
+        "illite-smectite",
+        "albite",
+        "calcite",
+        "chlorite",
+        "muscovite",
+        "biotite",
+        "hornblende",
+        "plagioclase"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2326",
     "deposit_class": "mineral_deposit",
     "deposit_type": "SEDEX",
     "deposit_type_conf": 0.7,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "Upper Cambrian sandstone",
@@ -1300,11 +1523,6 @@
       "fractures",
       "dissolution pores"
     ],
-    "minerals_mentioned": [
-      "galena",
-      "sphalerite",
-      "barite"
-    ],
     "commodities": [
       "Pb",
       "Zn",
@@ -1315,9 +1533,6 @@
       "Canada"
     ],
     "tectonic_setting": "Appalachian thrust belt",
-    "ages_ma": [
-      450
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1347,14 +1562,36 @@
         "score": 2,
         "evidence": "Deposits preserved in thrust belt, but no specific discussion of post-mineralization preservation."
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 450.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "galena",
+        "sphalerite",
+        "barite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2329",
     "deposit_class": "mineral_deposit",
     "deposit_type": "OROG-AU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "Golden Mile Dolerite",
@@ -1369,16 +1606,6 @@
       "dextral fault",
       "dilational site"
     ],
-    "minerals_mentioned": [
-      "scheelite",
-      "quartz",
-      "carbonate",
-      "sulfide",
-      "pyrite",
-      "muscovite",
-      "albite",
-      "ankerite"
-    ],
     "commodities": [
       "Au"
     ],
@@ -1387,9 +1614,6 @@
       "Australia"
     ],
     "tectonic_setting": "Archean greenstone belt",
-    "ages_ma": [
-      2602
-    ],
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1419,14 +1643,41 @@
         "score": 3,
         "evidence": "Deposit preserved; no post-mineralization alteration evident"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 2602.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "scheelite",
+        "quartz",
+        "carbonate",
+        "sulfide",
+        "pyrite",
+        "muscovite",
+        "albite",
+        "ankerite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2343",
     "deposit_class": "mineral_deposit",
     "deposit_type": "PGE",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "norite",
@@ -1437,14 +1688,6 @@
     ],
     "alteration": null,
     "structural_controls": null,
-    "minerals_mentioned": [
-      "chromite",
-      "orthopyroxene",
-      "olivine",
-      "plagioclase",
-      "bronzite",
-      "laurite"
-    ],
     "commodities": [
       "PGE",
       "Cr"
@@ -1454,7 +1697,6 @@
       "South Africa"
     ],
     "tectonic_setting": "Layered mafic-ultramafic intrusion within a continental craton",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1484,14 +1726,35 @@
         "score": 3,
         "evidence": "Intrusion preserved; minor hydrothermal overprint suggested by Os isotope variation"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "chromite",
+        "orthopyroxene",
+        "olivine",
+        "plagioclase",
+        "bronzite",
+        "laurite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2350",
     "deposit_class": "mineral_deposit",
     "deposit_type": "MUM-NICU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "mafic-ultramafic rocks",
@@ -1510,47 +1773,6 @@
       "NW-SE striking lenticular body",
       "tension fractures"
     ],
-    "minerals_mentioned": [
-      "chalcopyrite",
-      "pyrrhotite",
-      "pyrite",
-      "cubanite",
-      "violarite",
-      "pentlandite",
-      "bornite",
-      "sphalerite",
-      "valleriite",
-      "heazlewoodite",
-      "parkerite",
-      "mackinawite",
-      "molybdenite",
-      "ilmenite",
-      "hematite",
-      "rutile",
-      "michenerite",
-      "froodite",
-      "merenskyite",
-      "sudburyite",
-      "geversite",
-      "palladian bismuthian melonite",
-      "hessite",
-      "joseite",
-      "altaite",
-      "electrum",
-      "bismuthinite",
-      "actinolite",
-      "hornblende",
-      "anthophyllite",
-      "cummingtonite",
-      "chlorite",
-      "plagioclase",
-      "garnet",
-      "quartz",
-      "dolomite",
-      "siderite",
-      "epidote",
-      "sericite"
-    ],
     "commodities": [
       "Cu",
       "Ni",
@@ -1564,7 +1786,6 @@
       "Egypt"
     ],
     "tectonic_setting": "Neoproterozoic ophiolitic thrust complex, amphibolite facies metamorphism, synmetamorphic shear zone",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 3,
@@ -1594,14 +1815,68 @@
         "score": 2,
         "evidence": "Oxidized top part exploited in ancient times; deposit considered uneconomic; some supergene alteration"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "chalcopyrite",
+        "pyrrhotite",
+        "pyrite",
+        "cubanite",
+        "violarite",
+        "pentlandite",
+        "bornite",
+        "sphalerite",
+        "valleriite",
+        "heazlewoodite",
+        "parkerite",
+        "mackinawite",
+        "molybdenite",
+        "ilmenite",
+        "hematite",
+        "rutile",
+        "michenerite",
+        "froodite",
+        "merenskyite",
+        "sudburyite",
+        "geversite",
+        "palladian bismuthian melonite",
+        "hessite",
+        "joseite",
+        "altaite",
+        "electrum",
+        "bismuthinite",
+        "actinolite",
+        "hornblende",
+        "anthophyllite",
+        "cummingtonite",
+        "chlorite",
+        "plagioclase",
+        "garnet",
+        "quartz",
+        "dolomite",
+        "siderite",
+        "epidote",
+        "sericite"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2361",
     "deposit_class": "mineral_deposit",
     "deposit_type": "OROG-AU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "conglomerate",
@@ -1615,26 +1890,6 @@
       "carbonatization"
     ],
     "structural_controls": null,
-    "minerals_mentioned": [
-      "pyrrhotite",
-      "pyrite",
-      "chalcopyrite",
-      "gold",
-      "chlorite",
-      "muscovite",
-      "rutile",
-      "calcite",
-      "sphalerite",
-      "albite",
-      "galena",
-      "sudoite",
-      "tourmaline",
-      "carbonaceous matter",
-      "chloritoid",
-      "pyrophyllite",
-      "kyanite",
-      "quartz"
-    ],
     "commodities": [
       "Au"
     ],
@@ -1643,9 +1898,6 @@
       "South Africa"
     ],
     "tectonic_setting": "Archean foreland basin on the Kaapvaal Craton, affected by regional metamorphism (greenschist to lower amphibolite facies)",
-    "ages_ma": [
-      2716
-    ],
     "mineral_system": {
       "source": {
         "score": 3,
@@ -1675,14 +1927,51 @@
         "score": 4,
         "evidence": "Witwatersrand gold fields preserved in a stable cratonic setting; limited post-metamorphic deformation"
       }
-    }
+    },
+    "ages": [
+      {
+        "age_ma": 2716.0
+      }
+    ],
+    "minerals": {
+      "ore_minerals": [
+        "pyrrhotite",
+        "pyrite",
+        "chalcopyrite",
+        "gold",
+        "chlorite",
+        "muscovite",
+        "rutile",
+        "calcite",
+        "sphalerite",
+        "albite",
+        "galena",
+        "sudoite",
+        "tourmaline",
+        "carbonaceous matter",
+        "chloritoid",
+        "pyrophyllite",
+        "kyanite",
+        "quartz"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2370",
     "deposit_class": "mineral_deposit",
     "deposit_type": "JACUTINGA-AU",
     "deposit_type_conf": 0.9,
-    "no_deposit_reason": null,
     "is_primary_research": false,
     "host_rocks": [
       "banded iron-formation",
@@ -1697,19 +1986,6 @@
     "structural_controls": [
       "shear zone"
     ],
-    "minerals_mentioned": [
-      "gold",
-      "palladium",
-      "hematite",
-      "magnetite",
-      "specular hematite",
-      "phlogopite",
-      "K-feldspar",
-      "biotite",
-      "talc",
-      "quartz",
-      "manganese oxides"
-    ],
     "commodities": [
       "Au",
       "Pd"
@@ -1719,7 +1995,6 @@
       "Brazil"
     ],
     "tectonic_setting": "Proterozoic cratonic basin, southern São Francisco Craton",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 3,
@@ -1749,14 +2024,40 @@
         "score": 3,
         "evidence": "Deposits preserved in Proterozoic rocks, but later deformation and oxidation noted"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "gold",
+        "palladium",
+        "hematite",
+        "magnetite",
+        "specular hematite",
+        "phlogopite",
+        "K-feldspar",
+        "biotite",
+        "talc",
+        "quartz",
+        "manganese oxides"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "2372",
     "deposit_class": "mineral_deposit",
     "deposit_type": "OROG-AU",
     "deposit_type_conf": 0.8,
-    "no_deposit_reason": null,
     "is_primary_research": true,
     "host_rocks": [
       "dolomitic itabirite",
@@ -1770,21 +2071,6 @@
       "D1 shearing event",
       "highly sheared iron-formations"
     ],
-    "minerals_mentioned": [
-      "quartz",
-      "hematite",
-      "magnetite",
-      "goethite",
-      "talc",
-      "phlogopite",
-      "kaolinite",
-      "tourmaline",
-      "apatite",
-      "monazite",
-      "Fe-Mg-Ca carbonate",
-      "gold",
-      "palladium"
-    ],
     "commodities": [
       "Au",
       "Pd"
@@ -1794,7 +2080,6 @@
       "Brazil"
     ],
     "tectonic_setting": "continental-shelf environment, Proterozoic Lake Superior-type iron-formation, lower amphibolite facies metamorphism",
-    "ages_ma": null,
     "mineral_system": {
       "source": {
         "score": 4,
@@ -1824,7 +2109,36 @@
         "score": 3,
         "evidence": "Deposit preserved at Cauê mine; later weathering produced Mn oxides but not affecting primary ore"
       }
-    }
+    },
+    "ages": null,
+    "minerals": {
+      "ore_minerals": [
+        "quartz",
+        "hematite",
+        "magnetite",
+        "goethite",
+        "talc",
+        "phlogopite",
+        "kaolinite",
+        "tourmaline",
+        "apatite",
+        "monazite",
+        "Fe-Mg-Ca carbonate",
+        "gold",
+        "palladium"
+      ],
+      "gangue_minerals": [],
+      "alteration_minerals": []
+    },
+    "deposit_type_null_reason": null,
+    "deposit_type_evidence": null,
+    "deposit_type_alternative": null,
+    "is_primary_research_reason": null,
+    "deposit_scale": null,
+    "geochemistry": null,
+    "reference_deposits": null,
+    "_gate_status": "pass",
+    "_gate_flags": []
   },
   {
     "paper_id": "1172",
