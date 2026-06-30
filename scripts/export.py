@@ -121,8 +121,14 @@ def _flatten_struct(record: dict) -> dict:
 
     def _join(v):
         if isinstance(v, list):
-            return "; ".join(str(x) for x in v if x)
+            return "; ".join(str(x) for x in v if x is not None)
         return str(v) if v is not None else ""
+
+    def _sanitize_csv(val: str) -> str:
+        """防 Excel formula injection（OWASP CSV Injection）：以 =/@/+/- 开头时加单引号前缀。"""
+        if val and val[0] in ('=', '@', '+', '-', '\t', '\r'):
+            return "'" + val
+        return val
 
     return {
         "paper_id":            str(record.get("paper_id", "")),
@@ -134,12 +140,12 @@ def _flatten_struct(record: dict) -> dict:
         "age_max_ma":          max(age_values) if age_values else None,
         "commodities_primary":   comm_primary,
         "commodities_byproduct": comm_byproduct,
-        "metallogenic_belt":   record.get("metallogenic_belt") or "",
-        "tectonic_setting":    record.get("tectonic_setting") or "",
-        "country":             record.get("country") or "",
-        "host_rocks":          _join(record.get("host_rocks")),
-        "alteration":          _join(record.get("alteration")),
-        "structural_controls": _join(record.get("structural_controls")),
+        "metallogenic_belt":   _sanitize_csv(record.get("metallogenic_belt") or ""),
+        "tectonic_setting":    _sanitize_csv(record.get("tectonic_setting") or ""),
+        "country":             _sanitize_csv(_join(record.get("countries") or record.get("country") or [])),
+        "host_rocks":          _sanitize_csv(_join(record.get("host_rocks"))),
+        "alteration":          _sanitize_csv(_join(record.get("alteration"))),
+        "structural_controls": _sanitize_csv(_join(record.get("structural_controls"))),
         "deposit_scale_class": scale.get("scale_class") if isinstance(scale, dict) else "",
         "confidence":          record.get("confidence"),
         "has_ground_truth":    record.get("has_ground_truth"),
@@ -170,12 +176,14 @@ def export_B(source_dir: Path, output_dir: Path) -> None:
         for row in rows:
             f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
-    # deposits.csv
+    # deposits.csv — None 值替换为空字符串，避免 pandas read_csv 报 "None" 转 float 失败
     csv_path = out_dir / "deposits.csv"
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=_B_FIELDS, extrasaction="ignore")
+        writer = csv.DictWriter(f, fieldnames=_B_FIELDS, extrasaction="raise")
         writer.writeheader()
-        writer.writerows(rows)
+        for row in rows:
+            csv_row = {k: ("" if v is None else v) for k, v in row.items()}
+            writer.writerow(csv_row)
 
     # georeferenced 子集（有坐标的记录）
     geo_rows = [r for r in rows if r.get("lat") is not None and r.get("lon") is not None]
@@ -197,7 +205,7 @@ def export_B(source_dir: Path, output_dir: Path) -> None:
             "properties": {k: v for k, v in row.items() if k not in ("lat", "lon")},
         })
     geojson = {"type": "FeatureCollection", "features": features}
-    geojson_path.write_text(json.dumps(geojson, ensure_ascii=False, indent=2))
+    geojson_path.write_text(json.dumps(geojson, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"  B 完成: {len(rows)} 条（{len(geo_rows)} 条含坐标）→ {out_dir}")
     print(f"    deposits.jsonl / deposits.csv / deposits_georeferenced.jsonl / deposits_georeferenced.geojson")

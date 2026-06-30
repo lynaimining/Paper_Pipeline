@@ -52,9 +52,102 @@ _DEPOSIT_CLASS_REMAP = {
     'remote_sensing':       'methodological',
 }
 
-# ── deposit_type 不再用闭合枚举（改为开放） ──
+# ── deposit_type 别名归一化映射（第二层兜底）──
+# 目的：LLM 输出命名漂移时自动映射到词表标准项，不丢数据、不误杀
+# 规则：key 统一小写+连字符，value 为词表正式项
+# 来源：从金标 8/30 不合规标签 + 常见文献别名归纳
+_DEPOSIT_TYPE_ALIASES: dict[str, str] = {
+    # Epithermal 命名变体
+    'hs-epith':             'EPITHERMAL-HS',
+    'epithermal-hs':        'EPITHERMAL-HS',   # 防大小写
+    'high-sulfidation':     'EPITHERMAL-HS',
+    'high-s':               'EPITHERMAL-HS',
+    'ls-epith':             'EPITHERMAL-LS',
+    'low-sulfidation':      'EPITHERMAL-LS',
+    'low-s':                'EPITHERMAL-LS',
+    'is-epith':             'EPITHERMAL-IS',
+    'intermediate-sulfidation': 'EPITHERMAL-IS',
+    # PGE/Ni 命名变体
+    'mum-nicu':             'NI-CU-PGE',
+    'ni-cu-pge-mum':        'NI-CU-PGE',
+    'mafic-ultramafic-nicu':'NI-CU-PGE',
+    'magmatic-ni-cu':       'NI-CU-PGE',
+    'magmatic-sulfide':     'NI-CU-PGE',
+    # PGE 层状岩浆矿床（有明确亚类特征时才映射）
+    'pge-layered':          'PGE-REEF',
+    # Pegmatite/Li 命名变体
+    'lct-li':               'PEGMATITE-LCT',
+    'li-pegmatite':         'PEGMATITE-LCT',
+    'pegmatite-li':         'PEGMATITE-LCT',
+    'lct-pegmatite':        'PEGMATITE-LCT',
+    # 散浸型银 → 最近邻
+    'diss-ag':              'EPITHERMAL-AG',
+    'disseminated-ag':      'EPITHERMAL-AG',
+    'disseminated-silver':  'EPITHERMAL-AG',
+    # 铅银脉 → Pb-Zn 脉（Ag 在 evidence 保留）
+    'vein-pbag':            'VEIN-PB-ZN',
+    'vein-pb-ag':           'VEIN-PB-ZN',
+    'pb-ag-vein':           'VEIN-PB-ZN',
+    # 铜脉/角砾岩管
+    'breccia-pipe-cu':      'VEIN-CU',
+    # Carlin 别名
+    'carlin':               'CARLIN-AU',
+    'carlin-type':          'CARLIN-AU',
+    # Orogenic Au 别名
+    'orogenic-gold':        'OROG-AU',
+    'lode-gold':            'OROG-AU',
+    'greenstone-au':        'OROG-AU',
+    # SEDEX 别名
+    'sedex-pb-zn':          'SEDEX',
+    'shale-hosted-pb-zn':   'SEDEX',
+    # MVT 别名
+    'mvt-pb-zn':            'MVT',
+    'carbonate-hosted-pb-zn':'MVT',
+    # IOCG 别名
+    'iron-oxide-cu-au':     'IOCG',
+    'iocg-u':               'IOCG',
+    # VMS 别名
+    'kuroko':               'VMS',
+    'besshi':               'VMS',
+    'cyprus-type':          'VMS',
+    # Skarn 别名
+    'contact-metasomatic':  'SKARN',
+    'skarn-cu-au-ag':       'SKARN-CU-AU',
+    # 能源 别名
+    'cbm':                  'COAL-CBM',
+    'coal-bed-methane':     'COAL-CBM',
+    'unconventional-gas':   'SHALE-GAS',
+    'tight-gas':            'SHALE-GAS',
+    # 锂/蒸发岩 变体 → EVAPORITE（Salar型锂已明确纳入EVAPORITE描述）
+    'salar-li':             'EVAPORITE',
+    'salar_li':             'EVAPORITE',
+    'sedimentary-li':       'EVAPORITE',
+    'sedimentary-brine-li': 'EVAPORITE',
+    'brine-li':             'EVAPORITE',
+    'lacustrine-li':        'EVAPORITE',
+    # 宽泛 SEDIMENTARY → POLYMETALLIC 兜底（过于笼统，不独立成类）
+    'sedimentary':          'POLYMETALLIC',
+    # 顺序/写法变体
+    'pge-ree':              'CARBONATITE-REE',  # 若commodities含REE则近邻是碳酸岩REE
+    'polymetallic-vein':    'POLYMETALLIC',
+    'sedimentary-cu':       'SEDIMENT-CU',      # 语义等价，统一到SEDIMENT-CU
+    'vein-w-sn':            'VEIN-SN-W',
+    'greisen-sn-w':         'GREISEN-W-SN',
+    'epithermal-au-ag':     'EPITHERMAL-AU',
+    'porphyry-cu-au-mo':    'PORPHYRY-CU-AU',
+    'porphyry-cu-mo-au':    'PORPHYRY-CU-MO',
+    'skarn-cu-zn':          'SKARN-CU',
+    'skarn-cu-mo':          'SKARN-CU',
+    'vein-fe':              'SKARN-FE',
+}
+
+# ── deposit_type 不再用闭合枚举（改为开放，第三层兜底）──
 # 旧版闭合枚举会误杀51.3%矿床论文（KUPFERSCHIEFER, JACUTINGA-AU等新矿种）
-# 新版：只要有deposit_class即可，deposit_type允许任意值
+# 新版策略：词表外的类型自动走三层漏斗
+#   1. 精确匹配词表 → 直接通过
+#   2. 别名映射 → 归一化到最近邻词表项 + WARN:deposit_type_normalized
+#   3. 词表外且无别名 → FLAG:unknown_deposit_type，但保留入库
+#      原文术语保留在 deposit_type_evidence 末尾，供后续扩词表参考
 
 
 def _check_one(record: dict) -> tuple[str, list[str], dict]:
@@ -70,7 +163,7 @@ def _check_one(record: dict) -> tuple[str, list[str], dict]:
     pid = record.get('paper_id')
     if not pid or not str(pid).strip():
         flags.append('FAIL:no_paper_id')
-        return 'fail', flags
+        return 'fail', flags, record
 
     # 2. deposit_class 合法值；未知值先尝试归一化，再 WARN
     dc = record.get('deposit_class')
@@ -83,11 +176,35 @@ def _check_one(record: dict) -> tuple[str, list[str], dict]:
         else:
             flags.append(f'WARN:unknown_deposit_class={dc}')
 
+    # 2b. deposit_type 三层漏斗（开放枚举 + 别名归一化 + 未知保留）
+    dt = record.get('deposit_type')
+    if dt is not None:
+        # 层1: 精确匹配词表（词表项全大写+连字符，视为已知）
+        dt_upper = dt.upper()
+        dt_key = dt.lower().replace('_', '-').strip()
+        alias_target = _DEPOSIT_TYPE_ALIASES.get(dt_key)
+        if alias_target and dt_upper != alias_target:
+            # 层2: 命中别名映射 → 归一化，保留原始值在 evidence 末尾
+            record = record.copy()
+            record['deposit_type'] = alias_target
+            record['_deposit_type_normalized_from'] = dt
+            # 把原文术语追加到 evidence（若 evidence 已有内容，用分号拼接）
+            ev = record.get('deposit_type_evidence') or ''
+            suffix = f'原始词表外术语: {dt}'
+            if suffix not in ev:
+                record['deposit_type_evidence'] = (ev.rstrip(';').rstrip() + '; ' + suffix).lstrip('; ')
+            flags.append(f'WARN:deposit_type_normalized:{dt}→{alias_target}')
+        elif not alias_target and not dt.isupper():
+            # 层3: 非全大写 + 不在别名表 → 可能是词表外新类型，FLAG 但保留
+            # 全大写的词表项（如 KUPFERSCHIEFER、MY-NEW-TYPE）不触发此分支
+            flags.append(f'FLAG:unknown_deposit_type={dt}')
+
     # 3. 坐标值域（deepseek 输出 coordinates: {lat, lon}）
     coords = record.get('coordinates')
     if isinstance(coords, dict):
-        lat = coords.get('lat') or coords.get('latitude')
-        lon = coords.get('lon') or coords.get('longitude')
+        # 用 is not None 避免 0.0（赤道/本初子午线）被 or 短路成 None
+        lat = coords.get('lat') if coords.get('lat') is not None else coords.get('latitude')
+        lon = coords.get('lon') if coords.get('lon') is not None else coords.get('longitude')
     else:
         lat = lon = None
     if lat is not None:
@@ -114,10 +231,8 @@ def _check_one(record: dict) -> tuple[str, list[str], dict]:
                 age_val = float(age_val)
                 if not (AGE_MIN <= age_val <= AGE_MAX):
                     flags.append(f'WARN:age_out_of_range={age_val}')
-                    break
             except (TypeError, ValueError):
                 flags.append(f'WARN:age_not_numeric={age_val}')
-                break
 
     # 5. 置信度范围
     conf = record.get('deposit_type_conf')
@@ -174,7 +289,7 @@ def gate_check(results: list[dict], dedup: bool = True) -> tuple[list[dict], dic
         deduped = []
         dup_count = 0
         for r in results:
-            pid = r.get('paper_id', '')
+            pid = str(r.get('paper_id', ''))  # 统一为 str，避免 int/str 混用漏判重复
             if pid in seen:
                 dup_count += 1
                 continue

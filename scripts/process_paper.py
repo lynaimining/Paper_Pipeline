@@ -5,24 +5,27 @@ process_paper.py — Pipeline v5: per-paper artifact -> ms-swift unified jsonl
 
 用法:
   python process_paper.py --paper-id 2123
-      --trusted-json test_output/trusted.json
+      --trusted-json config/trusted_100_papers.json
       --text-qa-jsonl /tmp/text_qa.jsonl
-      --auto-dir "/root/autodl-tmp/corpus/1995/8/2123/auto"
+      --auto-dir "/path/to/corpus/1995/8/2123/auto"
       --image-qa-jsonl /tmp/image_qa_2123.jsonl
       --demoted-jsonl /tmp/demoted_2123.jsonl
-      --output-dir Paper_Pipeline/dataset
+      --output-dir dataset_final
 
 契约: fail-hard。任一必需 artifact 缺失直接 raise + exit(1)，不 fail-soft。
 """
 import argparse
 import hashlib
 import json
+import logging
 import os
 import re
 import shutil
 import sys
 from pathlib import Path
 from collections import defaultdict
+
+_log = logging.getLogger(__name__)
 
 SYSTEM_PROMPT = (
     "You are a geology expert specializing in metallic mineral deposits, "
@@ -38,8 +41,8 @@ def normalize_coordinates(raw) -> dict | None:
     if raw is None:
         return None
     if isinstance(raw, dict):
-        lat = raw.get("lat") or raw.get("latitude")
-        lon = raw.get("lon") or raw.get("longitude")
+        lat = raw.get("lat") if raw.get("lat") is not None else raw.get("latitude")
+        lon = raw.get("lon") if raw.get("lon") is not None else raw.get("longitude")
         if lat is not None and lon is not None:
             try:
                 return {"lat": float(lat), "lon": float(lon)}
@@ -117,6 +120,12 @@ def normalize_struct(record: dict) -> dict:
 
 # ── 论文全文 markdown 保存 ────────────────────────────────────────────────────
 
+def _safe_filename(paper_id: str) -> str:
+    """把 paper_id 转成安全文件名：去除路径分隔符和控制字符，限制长度。"""
+    safe = re.sub(r'[/\\:\*\?"<>|\r\n\t]', '_', str(paper_id))
+    return safe[:200]  # 文件系统路径名上限通常 255 字节
+
+
 def save_paper_text(paper_id: str, auto_dir: Path, text_dir: Path) -> str | None:
     """
     从 auto_dir 找论文主 .md 文件，复制到 text_dir/<paper_id>.md。
@@ -156,8 +165,10 @@ def quality_score(record: dict) -> float:
         conf = float(conf_raw)
     else:
         conf = 0.5
+    # tier 字段可能是 _gate_status (pass/warn/fail) 或旧式 gold/silver
     tier = record.get("tier", "")
-    tier_score = 1.0 if tier == "gold" else (0.5 if tier == "silver" else 0.0)
+    _tier_map = {"pass": 1.0, "warn": 0.5, "fail": 0.0, "gold": 1.0, "silver": 0.5}
+    tier_score = _tier_map.get(tier, 0.0)
     n_refs = min(record.get("n_body_refs", 0) / 3.0, 1.0)
     return round(0.4 * has_gt + 0.3 * conf + 0.1 * tier_score + 0.2 * n_refs, 4)
 
@@ -167,9 +178,9 @@ def wrap_text_qa(record: dict, paper_id: str, trusted_record: dict | None = None
     tr = trusted_record or {}
     qs = quality_score({
         "has_ground_truth": True,
-        "confidence": tr.get("deposit_type_conf", 1.0),
+        "confidence": tr.get("deposit_type_conf") if tr.get("deposit_type_conf") is not None else 0.5,
         "tier": tr.get("_gate_status", ""),
-        "n_body_refs": 0,
+        "n_body_refs": 0,  # 所有批次统一为0，保证跨批次分数可比
     })
     return {
         "id": record["id"],
@@ -187,12 +198,14 @@ def wrap_text_qa(record: dict, paper_id: str, trusted_record: dict | None = None
     }
 
 
-def wrap_image_qa_group(image_rel_path: str, qa_records: list, paper_id: str) -> dict:
+def wrap_image_qa_group(image_rel_path: str, qa_records: list, paper_id: str,
+                        trusted_record: dict | None = None) -> dict:
     """
     同一张图的多条 QA 聚合为多轮对话（LLaMA-Factory ShareGPT 多模态格式）。
     图像路径放在顶层 images 列表；第一个 human turn 嵌入 <image> token。
     """
-    assert qa_records, "qa_records 不能为空"
+    if not qa_records:
+        raise ValueError(f"wrap_image_qa_group: qa_records 不能为空 (image={image_rel_path})")
     first = qa_records[0]
 
     conversations = [{"from": "system", "value": SYSTEM_PROMPT}]
@@ -207,11 +220,13 @@ def wrap_image_qa_group(image_rel_path: str, qa_records: list, paper_id: str) ->
             conversations.append({"from": "human", "value": qa["question"]})
         conversations.append({"from": "gpt", "value": qa["answer"]})
 
+    # 用论文级别的 gate_status 作为 tier，而不是图 QA 记录自身（后者从不含 tier 字段）
+    paper_tier = (trusted_record or {}).get("_gate_status", "")
     group_score = max(
         quality_score({
             "has_ground_truth": r.get("has_ground_truth", False),
             "confidence": r.get("confidence"),
-            "tier": r.get("tier", ""),
+            "tier": paper_tier,
             "n_body_refs": r.get("n_body_refs", 0),
         })
         for r in qa_records
@@ -238,14 +253,21 @@ def rewrite_image_path(abs_path: str, paper_id: str, images_dir: Path) -> tuple[
     """
     绝对路径 -> 相对路径 images/<paper_id>/<hash>.jpg。
     同时在 dataset/images/ 下建 symlink 指回原始文件。
+    安全：验证 symlink 目标在 images_dir 内，防止路径穿越。
     返回 (rel_path, symlink_target_path)。
     """
     src = Path(abs_path)
-    dest_dir = images_dir / paper_id
+    safe_pid = _safe_filename(paper_id)
+    dest_dir = images_dir / safe_pid
     dest_dir.mkdir(parents=True, exist_ok=True)
     dest = dest_dir / src.name
-    rel = f"images/{paper_id}/{src.name}"
-    if not dest.exists():
+    rel = f"images/{safe_pid}/{src.name}"
+    if not dest.exists() and not dest.is_symlink():
+        # 安全检查：确保 dest 在 images_dir 内（防止 paper_id 路径穿越）
+        try:
+            dest.relative_to(images_dir.resolve())
+        except ValueError:
+            raise ValueError(f"路径穿越攻击拒绝: {dest} 不在 {images_dir} 内")
         os.symlink(src.resolve(), dest)
     return rel, dest
 
@@ -253,8 +275,17 @@ def rewrite_image_path(abs_path: str, paper_id: str, images_dir: Path) -> tuple[
 def load_jsonl(path) -> list:
     if path is None or not Path(path).exists():
         return []
+    records = []
     with open(path, encoding="utf-8") as f:
-        return [json.loads(l) for l in f if l.strip()]
+        for lineno, line in enumerate(f, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                records.append(json.loads(line))
+            except json.JSONDecodeError as e:
+                _log.warning(f"  WARN: {path}:{lineno} JSON 解析失败，跳过该行: {e}")
+    return records
 
 
 def process_paper(
@@ -278,8 +309,11 @@ def process_paper(
     for d in [unified_dir, images_dir, struct_dir, index_dir, logs_dir]:
         d.mkdir(parents=True, exist_ok=True)
 
-    out_path = unified_dir / f"{paper_id}.jsonl"
-    log_path = logs_dir / f"{paper_id}.log"
+    # 对 paper_id 做文件名安全化，防止含 '/' 等字符创建子目录或路径穿越
+    safe_pid = _safe_filename(paper_id)
+
+    out_path = unified_dir / f"{safe_pid}.jsonl"
+    log_path = logs_dir / f"{safe_pid}.log"
     records = []
     log_lines = []
 
@@ -304,7 +338,8 @@ def process_paper(
         if not abs_img:
             continue
         rel_path, _ = rewrite_image_path(abs_img, paper_id, images_dir)
-        records.append(wrap_image_qa_group(rel_path, group, paper_id))
+        records.append(wrap_image_qa_group(rel_path, group, paper_id,
+                                             trusted_record=trusted_record))
         img_group_count += 1
     log_lines.append(f"image_qa_groups: {img_group_count} (raw: {len(paper_image_qa)})")
 
@@ -318,7 +353,7 @@ def process_paper(
     log_lines.append(f"demoted_qa: {len(paper_demoted)} records")
 
     # ── 标准化 trusted_record 后写 struct ────────────────────────────────────
-    struct_path = struct_dir / f"{paper_id}.json"
+    struct_path = struct_dir / f"{safe_pid}.json"
     normalized = normalize_struct(trusted_record)
     struct_path.write_text(json.dumps(normalized, ensure_ascii=False, indent=2))
 
@@ -346,8 +381,7 @@ def process_paper(
         "text_path": text_path,
         "auto_dir": str(auto_dir) if auto_dir else None,
     }
-    (index_dir / f"{paper_id}.json").write_text(json.dumps(index, ensure_ascii=False, indent=2))
-
+    (index_dir / f"{safe_pid}.json").write_text(json.dumps(index, ensure_ascii=False, indent=2))
     log_path.write_text("\n".join(log_lines) + "\n")
     return index
 
@@ -363,21 +397,23 @@ def main():
     parser.add_argument("--output-dir", default="dataset", help="输出根目录")
     args = parser.parse_args()
 
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%H:%M:%S')
+
     trusted_all = json.loads(Path(args.trusted_json).read_text())
-    trusted_map = {str(r["paper_id"]): r for r in trusted_all}
+    trusted_map = {str(r["paper_id"]).strip(): r for r in trusted_all}  # strip 防止末尾空格导致 lookup 失败
 
     if args.paper_id not in trusted_map:
-        print(f"ERROR: paper_id '{args.paper_id}' not found in {args.trusted_json}", file=sys.stderr)
+        _log.error(f"ERROR: paper_id '{args.paper_id}' not found in {args.trusted_json}")
         sys.exit(1)
 
     text_qa_all = load_jsonl(args.text_qa_jsonl)
     if not text_qa_all:
-        print(f"ERROR: text_qa_jsonl '{args.text_qa_jsonl}' is empty or missing", file=sys.stderr)
+        _log.error(f"ERROR: text_qa_jsonl '{args.text_qa_jsonl}' is empty or missing")
         sys.exit(1)
 
     auto_dir = Path(args.auto_dir) if args.auto_dir else None
     if auto_dir and not auto_dir.exists():
-        print(f"ERROR: auto_dir '{auto_dir}' does not exist", file=sys.stderr)
+        _log.error(f"ERROR: auto_dir '{auto_dir}' does not exist")
         sys.exit(1)
 
     index = process_paper(
@@ -389,7 +425,7 @@ def main():
         image_qa_jsonl=args.image_qa_jsonl,
         demoted_jsonl=args.demoted_jsonl,
     )
-    print(json.dumps(index, ensure_ascii=False, indent=2))
+    _log.info(json.dumps(index, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

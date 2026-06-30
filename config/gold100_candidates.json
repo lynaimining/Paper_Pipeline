@@ -1,0 +1,1545 @@
+{
+  "meta": {
+    "total_new": 70,
+    "total_with_existing": 100,
+    "description": "待专家审核候选集，选中后并入 trusted_30_papers.json"
+  },
+  "slots": [
+    {
+      "slot": "Porphyry-Cu",
+      "deposit_type": "PORPHYRY-CU",
+      "deposit_class": "mineral_deposit",
+      "target": 3,
+      "found": 3,
+      "pids": [
+        "631",
+        "1060",
+        "1154"
+      ],
+      "countries": [
+        [
+          "USA"
+        ],
+        [
+          "Mexico"
+        ],
+        [
+          "Panama"
+        ]
+      ]
+    },
+    {
+      "slot": "Porphyry-Cu-Au",
+      "deposit_type": "PORPHYRY-CU-AU",
+      "deposit_class": "mineral_deposit",
+      "target": 2,
+      "found": 2,
+      "pids": [
+        "Shoshonite hosted endeavour 48 porphyry copper gold deposit  Northparkes  central New South Wales",
+        "Shoshonitic magmatism and the formation of the Northparkes porphyry Cu   Au deposits  New South Wales"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ],
+        [
+          "Australia"
+        ]
+      ]
+    },
+    {
+      "slot": "Porphyry-Cu-Mo",
+      "deposit_type": "PORPHYRY-CU-MO",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "947-970"
+      ],
+      "countries": [
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Porphyry-Mo",
+      "deposit_type": "PORPHYRY-MO",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "cjes-2019-0014"
+      ],
+      "countries": [
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Porphyry-Au",
+      "deposit_type": "PORPHYRY-AU",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "553-578"
+      ],
+      "countries": [
+        [
+          "Colombia"
+        ]
+      ]
+    },
+    {
+      "slot": "Epithermal-LS",
+      "deposit_type": "EPITHERMAL-LS",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1608"
+      ],
+      "countries": [
+        [
+          "Japan"
+        ]
+      ]
+    },
+    {
+      "slot": "Epithermal-IS",
+      "deposit_type": "EPITHERMAL-IS",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Fluid inclusion and stable isotope constraints on the genesis of epithermal base-metal veins in the Armaqan Khaneh mining district  Tarom-Hashtjin met"
+      ],
+      "countries": [
+        [
+          "Iran"
+        ]
+      ]
+    },
+    {
+      "slot": "Epithermal-Au",
+      "deposit_type": "EPITHERMAL-AU",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Cenozoic volcanism  tectonics and mineralisation of Woodlark Island  Muyuw   eastern Papua"
+      ],
+      "countries": [
+        [
+          "Papua New Guinea"
+        ]
+      ]
+    },
+    {
+      "slot": "Carlin-Au",
+      "deposit_type": "CARLIN-AU",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1243"
+      ],
+      "countries": [
+        [
+          "USA"
+        ]
+      ]
+    },
+    {
+      "slot": "IOCG",
+      "deposit_type": "IOCG",
+      "deposit_class": "mineral_deposit",
+      "target": 2,
+      "found": 2,
+      "pids": [
+        "Alteration at the Olympic Dam IOCG U deposit  insights into distal to proximal feldspar and phyllosilicate chemistry from infrared reflectance spectro",
+        "Tectonothermal events in the Olympic IOCG Province constrained by apatite and REE-phosphate geochronology"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ],
+        [
+          "Australia"
+        ]
+      ]
+    },
+    {
+      "slot": "Kiruna-Fe",
+      "deposit_type": "KIRUNA-FE",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1770"
+      ],
+      "countries": [
+        [
+          "Sweden"
+        ]
+      ]
+    },
+    {
+      "slot": "Skarn-Cu-Au",
+      "deposit_type": "SKARN-CU-AU",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "b37808.1"
+      ],
+      "countries": [
+        [
+          "Kyrgyzstan"
+        ]
+      ]
+    },
+    {
+      "slot": "Skarn-Pb-Zn",
+      "deposit_type": "SKARN-PB-ZN",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "135-162"
+      ],
+      "countries": [
+        [
+          "Kosovo"
+        ]
+      ]
+    },
+    {
+      "slot": "SMS",
+      "deposit_type": "SMS",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "2227-2241"
+      ],
+      "countries": [
+        [
+          "Papua New Guinea"
+        ]
+      ]
+    },
+    {
+      "slot": "Irish-Pb-Zn",
+      "deposit_type": "IRISH-PB-ZN",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "4882_doran_et_al"
+      ],
+      "countries": [
+        [
+          "Ireland"
+        ]
+      ]
+    },
+    {
+      "slot": "BIF-Fe",
+      "deposit_type": "BIF-FE",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Hydrothermal alteration events controlling magnetite-rich iron ore at the Matthew Ridge prospect  Jack Hills greenstone belt  Yilgarn Craton"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ]
+      ]
+    },
+    {
+      "slot": "NI-CU-PGE",
+      "deposit_type": "NI-CU-PGE",
+      "deposit_class": "mineral_deposit",
+      "target": 2,
+      "found": 2,
+      "pids": [
+        "Isotopic investigations of the Nova-Bollinger Ni Cu Co deposit in the Fraser Zone  Albany-Fraser Orogen  Western Australia",
+        "cjes-2019-0229"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ],
+        [
+          "Canada"
+        ]
+      ]
+    },
+    {
+      "slot": "PGE-Reef",
+      "deposit_type": "PGE-REEF",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1454"
+      ],
+      "countries": [
+        [
+          "USA"
+        ]
+      ]
+    },
+    {
+      "slot": "Cr-Stratiform",
+      "deposit_type": "CR-STRATIFORM",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "895-907"
+      ],
+      "countries": [
+        [
+          "Canada"
+        ]
+      ]
+    },
+    {
+      "slot": "Pegmatite-LCT",
+      "deposit_type": "PEGMATITE-LCT",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "5142_bodeving_et_al"
+      ],
+      "countries": [
+        [
+          "Canada"
+        ]
+      ]
+    },
+    {
+      "slot": "Carbonatite-REE",
+      "deposit_type": "CARBONATITE-REE",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "197-208"
+      ],
+      "countries": [
+        [
+          "Afghanistan"
+        ]
+      ]
+    },
+    {
+      "slot": "Carbonatite-Nb",
+      "deposit_type": "CARBONATITE-NB",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "4951_palmieri_et_al"
+      ],
+      "countries": [
+        [
+          "Brazil"
+        ]
+      ]
+    },
+    {
+      "slot": "U-Unconformity",
+      "deposit_type": "U-UNCONFORMITY",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Advances in understanding the Kombolgie Subgroup and unconformity-related uranium deposits in the Alligator Rivers Uranium Field and how to explore fo"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ]
+      ]
+    },
+    {
+      "slot": "U-Sandstone",
+      "deposit_type": "U-SANDSTONE",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Applying regional airborne electromagnetic  AEM  surveying to understand the architecture of sandstone-hosted uranium mineral systems in the Callabonn"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ]
+      ]
+    },
+    {
+      "slot": "Sandstone-Cu",
+      "deposit_type": "SANDSTONE-CU",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1779-1801"
+      ],
+      "countries": [
+        [
+          "Sweden"
+        ]
+      ]
+    },
+    {
+      "slot": "Sedimentary-Mn",
+      "deposit_type": "SEDIMENTARY-MN",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "4865_li_et_al"
+      ],
+      "countries": [
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Sedimentary-P",
+      "deposit_type": "SEDIMENTARY-P",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Glauconite-bearing-sedimentary-phosphorites-from-the-T-bes_2018_Journal-of-A"
+      ],
+      "countries": [
+        [
+          "Algeria"
+        ]
+      ]
+    },
+    {
+      "slot": "Kimberlite",
+      "deposit_type": "KIMBERLITE",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "e00-021"
+      ],
+      "countries": [
+        [
+          "Canada"
+        ]
+      ]
+    },
+    {
+      "slot": "Vein-Pb-Zn",
+      "deposit_type": "VEIN-PB-ZN",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1303"
+      ],
+      "countries": [
+        [
+          "Peru"
+        ]
+      ]
+    },
+    {
+      "slot": "Vein-Au",
+      "deposit_type": "VEIN-AU",
+      "deposit_class": "mineral_deposit",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "b36424.1"
+      ],
+      "countries": [
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Coal",
+      "deposit_type": "COAL",
+      "deposit_class": "energy",
+      "target": 2,
+      "found": 2,
+      "pids": [
+        "The Lowmead Graben Geology  Tertiary oil shale genesis and regional tectonic implications",
+        "A sequence stratigraphic analysis of the Late Permian succession in the Southern Coalfield  Sydney Basin  New South Wales"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ],
+        [
+          "Australia"
+        ]
+      ]
+    },
+    {
+      "slot": "Oil-Gas",
+      "deposit_type": "OIL-GAS",
+      "deposit_class": "energy",
+      "target": 2,
+      "found": 2,
+      "pids": [
+        "Petroleum prospectivity of the Clarence Moreton Basin  eastern Australia  A geochemical perspective",
+        "Hydrocarbon accumulation in the northwest Chaluhe Fault Depression  Yitong Basin  North China"
+      ],
+      "countries": [
+        [
+          "Australia"
+        ],
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Shale-Gas",
+      "deposit_type": "SHALE-GAS",
+      "deposit_class": "energy",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "Gas-generation potential of shales in small and medium-sized basins  a case study from the Xuanhua Basin  north China"
+      ],
+      "countries": [
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Geothermal",
+      "deposit_type": "GEOTHERMAL",
+      "deposit_class": "energy",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "1719"
+      ],
+      "countries": [
+        [
+          "USA"
+        ]
+      ]
+    },
+    {
+      "slot": "Gas-Hydrate",
+      "deposit_type": "GAS-HYDRATE",
+      "deposit_class": "energy",
+      "target": 1,
+      "found": 1,
+      "pids": [
+        "b36859.1"
+      ],
+      "countries": [
+        [
+          "China"
+        ]
+      ]
+    },
+    {
+      "slot": "Structural-Tectonic",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "target": 8,
+      "found": 0,
+      "pids": [],
+      "countries": []
+    },
+    {
+      "slot": "Geochem-Petrology",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "target": 6,
+      "found": 0,
+      "pids": [],
+      "countries": []
+    },
+    {
+      "slot": "Methodological",
+      "deposit_type": null,
+      "deposit_class": "methodological",
+      "target": 3,
+      "found": 0,
+      "pids": [],
+      "countries": []
+    },
+    {
+      "slot": "Structural-Tectonic",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "target": 8,
+      "found": 8,
+      "pids": [
+        "The Harry Creek Deformed Zone  a retrograde schist zone of the Arunta Block  central Australia",
+        "Latest Miocene to Early Pliocene bathymetric cycles related to tectonism  Puri Anticline  Papuan Basin  Papua New Guinea",
+        "Timing of the progress granite  Larsemann hills  Additional evidence for early Palaeozoic orogenesis within the east Antarctic Shield and implications",
+        "Late Quaternary uplift and subsidence of the west coast of Tanna  south Vanuatu  southwest Pacific  U Th ages of raised coral reefs in the Median Sedi",
+        "Geology of southeast Bohol  central Philippines  Accretion and sedimentation in a marginal basin",
+        "Is the switch from I- to S-type magmatism in the Himalayan Orogen indicative of the collision of India and Eurasia ",
+        "U Th Pb monazite dating and the timing of arc continent collision in East Timor",
+        "Paleomagnetism and U Pb geochronology of the Black Range dykes  Pilbara Craton  Western Australia  a Neoarchean crossing of the polar circle"
+      ]
+    },
+    {
+      "slot": "Geochem-Petrology",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "target": 6,
+      "found": 6,
+      "pids": [
+        "4975_tassara_and_ague",
+        "Evolution of the middle Proterozoic Chandabooka Caldera  Gawler range acid volcano plutonic province  South Australia",
+        "K Ar and 40Ar 39Ar ages on Mesozoic volcanic rocks from the Lower Yangtze Volcanic Zone  southeastern China",
+        "Low K tholeiites and high K igneous rocks from Woodlark Island  Papua New Guinea",
+        "A Pan African granulite facies metamorphic episode in Prydz Bay  Antarctica  Evidence from Sm Nd garnet dating",
+        "Metasomatism of the Revenue Granite and aureole rocks  Mt Isa Inlier  Queensland  Syndeformational fluid flow and fluid rock interaction"
+      ]
+    },
+    {
+      "slot": "Methodological",
+      "deposit_type": null,
+      "deposit_class": "methodological",
+      "target": 3,
+      "found": 3,
+      "pids": [
+        "Aeromagnetics as an aid to geological mapping a case history from the Arunta Inlier  Northern Territory",
+        "i0091-7613-28-11-983",
+        "i0091-7613-36-5-383"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "paper_id": "631",
+      "deposit_type": "PORPHYRY-CU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "USA"
+      ],
+      "tectonic_setting": "大陆弧环境，浅成侵入体",
+      "metallogenic_belt": "Oquirrh Mountains, Basin and Range Province",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文标题和全文明确研究Bingham斑岩铜矿，描述为'porphyry copper ore body'，具有典型的斑岩铜矿特征：浸染状铜矿化、钾硅酸盐蚀变（黑云母-正长石）、石英-绢云母蚀变、高盐度流体包裹体、斑岩侵入体等。"
+    },
+    {
+      "paper_id": "1060",
+      "deposit_type": "PORPHYRY-CU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Mexico"
+      ],
+      "tectonic_setting": "Basin and Range province",
+      "metallogenic_belt": "Sierra Juriquipa, Nacozari district, Sonora; 南延至亚利桑那州矿物带",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述为斑岩铜矿（porphyry copper deposit），主商品为铜，次为钼。围岩为石英二长斑岩，蚀变以石英-绢云母-黄铁矿（phyllic）为主，矿化以黄铜矿、辉钼矿为主，具典型斑岩铜矿特征。原文: porphyry copper deposit"
+    },
+    {
+      "paper_id": "1154",
+      "deposit_type": "PORPHYRY-CU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Panama"
+      ],
+      "tectonic_setting": "island arc (Central American arc)",
+      "metallogenic_belt": "Cordillera Central, western Panama; Central American island arc",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文标题和正文明确称为porphyry copper deposit，矿石以黄铜矿、斑铜矿为主，围岩为安山岩和长英质侵入体，蚀变包括钾硅酸盐、绢云母-碳酸盐等，符合斑岩铜矿特征。原文: porphyry copper deposit"
+    },
+    {
+      "paper_id": "Shoshonite hosted endeavour 48 porphyry copper gold deposit  Northparkes  central New South Wales",
+      "deposit_type": "PORPHYRY-CU-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Late Ordovician oceanic arc setting",
+      "metallogenic_belt": "Goonumbla volcanic complex, Lachlan Fold Belt",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述为'shoshonite-hosted porphyry copper-gold deposit'，矿化与石英网脉和晚期绢云母化有关，侵入岩为石英二长斑岩，典型斑岩铜金矿特征。"
+    },
+    {
+      "paper_id": "Shoshonitic magmatism and the formation of the Northparkes porphyry Cu   Au deposits  New South Wales",
+      "deposit_type": "PORPHYRY-CU-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "岛弧环境（island arc），与俯冲相关的构造背景",
+      "metallogenic_belt": "Junee-Narromine Volcanic Belt, Macquarie Arc, Lachlan Fold Belt",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Northparkes矿床为斑岩铜金矿（porphyry Cu-Au deposits），矿化与石英二长斑岩侵入体相关，具有典型的斑岩型蚀变和矿化特征。原文术语: porphyry Cu-Au"
+    },
+    {
+      "paper_id": "947-970",
+      "deposit_type": "PORPHYRY-CU-MO",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "transitional setting from back-arc basin to arc",
+      "metallogenic_belt": "Central Asian orogenic belt, West Junggar terrane, Baogutu metallogenic belt",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Baogutu为斑岩型Cu-Mo-Au矿床，与闪长岩侵入杂岩有关，发育钾化、绢英岩化和青磐岩化蚀变分带，矿化以浸染状和脉状为主。原文: porphyry Cu-Mo-Au deposit"
+    },
+    {
+      "paper_id": "cjes-2019-0014",
+      "deposit_type": "PORPHYRY-MO",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "active continental margin related to westward subduction of the paleo-Pacific Plate",
+      "metallogenic_belt": "Eastern Xingmeng Orogenic Belt (EXOB), North China Craton (NCC) northern margin",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述为斑岩钼矿（porphyry Mo deposit），矿体产于斑状二长花岗岩中，发育钾化、硅化、绢云母化等典型斑岩蚀变分带，矿石矿物以辉钼矿为主。原文: porphyry Mo deposit"
+    },
+    {
+      "paper_id": "553-578",
+      "deposit_type": "PORPHYRY-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Colombia"
+      ],
+      "tectonic_setting": "Central Cordillera, Tahamí terrane, subduction-related magmatic arc",
+      "metallogenic_belt": "Middle Cauca metallogenic belt",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述为'La Colosa porphyry Au deposit'，具有斑岩型典型特征：斑状结构、钾化蚀变、A型和S型细脉、高盐度流体包裹体(40-50 wt% NaCl equiv)，金为主要商品，铜钼为副产。原文术语: porphyry Au"
+    },
+    {
+      "paper_id": "1608",
+      "deposit_type": "EPITHERMAL-LS",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Japan"
+      ],
+      "tectonic_setting": "岛弧火山环境，第四纪火山活动",
+      "metallogenic_belt": "九州南部，Quaternary火山弧",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Hishikari为低硫化浅成热液金矿（low-sulfidation epithermal gold deposit），特征为近中性pH、还原流体，含冰长石-绢云母蚀变组合，原文术语：low-sulfidation epithermal gold deposit。"
+    },
+    {
+      "paper_id": "Fluid inclusion and stable isotope constraints on the genesis of epithermal base-metal veins in the Armaqan Khaneh mining district  Tarom-Hashtjin met",
+      "deposit_type": "EPITHERMAL-IS",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Iran"
+      ],
+      "tectonic_setting": "active continental margin arc",
+      "metallogenic_belt": "Tarom-Hashtjin metallogenic belt (THMB), Alborz structural zone",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确将Rashtabad、Aqkand和Jalilabad矿床归类为intermediate-sulfidation epithermal矿床，依据包括：中低温蚀变组合（sericite, illite, epidote, calcite, chlorite）、中等盐度（7.4-13.5 wt% NaCl equiv.）和中高温（225-342°C）流体、缺乏高硫型（如enargite, alunite）和低硫型（如adularia）标志性矿物。原文术语: intermediate-sulfidation epithermal"
+    },
+    {
+      "paper_id": "Cenozoic volcanism  tectonics and mineralisation of Woodlark Island  Muyuw   eastern Papua",
+      "deposit_type": "EPITHERMAL-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "tectonic_setting": "大陆裂谷环境，与Woodlark盆地扩张中心相关",
+      "metallogenic_belt": "Kulumadau Horst and Graben Zone, Woodlark Basin",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Busai和Kulumadau金矿床为浅成热液型（epithermal），受岩性控制（孔隙度和渗透率），赋存于Uvarakoi Caldera的Monasiy Tuff中的晶屑岩屑角砾凝灰岩层。原文: epithermal gold deposits"
+    },
+    {
+      "paper_id": "1243",
+      "deposit_type": "CARLIN-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "USA"
+      ],
+      "tectonic_setting": "大陆边缘盆地，受Antler造山运动影响",
+      "metallogenic_belt": "Carlin trend, northern Nevada",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确将Meikle金矿描述为Carlin-type金矿（Carlin-type gold deposit），位于Carlin trend，具有碳酸盐岩容矿、纳米级金等典型特征。"
+    },
+    {
+      "paper_id": "Alteration at the Olympic Dam IOCG U deposit  insights into distal to proximal feldspar and phyllosilicate chemistry from infrared reflectance spectro",
+      "deposit_type": "IOCG",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "克拉通边缘，Gawler Craton东缘",
+      "metallogenic_belt": "Gawler Craton, Olympic Cu-Au province",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确将Olympic Dam描述为iron-oxide–Cu–U–Au–Ag deposit，并引用文献称其为IOCG类矿床的典型实例（type example of the iron oxide–Cu–Au (IOCG) class）。"
+    },
+    {
+      "paper_id": "Tectonothermal events in the Olympic IOCG Province constrained by apatite and REE-phosphate geochronology",
+      "deposit_type": "IOCG",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Gawler Craton eastern margin, Mesoproterozoic",
+      "metallogenic_belt": "Olympic Cu-Au Province, Gawler Craton",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文主要研究对象为Acropolis prospect，属于Olympic IOCG Province，具有磁铁矿-磷灰石脉和赤铁矿交代组合，典型IOCG特征。原文描述为'iron oxide–copper–gold (IOCG) deposits'。"
+    },
+    {
+      "paper_id": "1770",
+      "deposit_type": "KIRUNA-FE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Sweden"
+      ],
+      "tectonic_setting": "Svecokarelian orogeny, accretionary margin",
+      "metallogenic_belt": "Fennoscandian Shield, Svecokarelian orogen",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确研究Kiruna磁铁矿-磷灰石矿床，属于典型的基鲁纳型磁铁矿-磷灰石矿床。原文描述为'Kiruna magnetite-apatite ore'和'Kiruna-type deposits'。"
+    },
+    {
+      "paper_id": "b37808.1",
+      "deposit_type": "SKARN-CU-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Kyrgyzstan"
+      ],
+      "tectonic_setting": "大陆弧（安第斯型俯冲相关弧）",
+      "metallogenic_belt": "Chatkal-Kurama arc, Middle Tianshan, Central Asian Orogenic Belt",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Bozymchak为Cu-Au矽卡岩矿床，矿化产于花岗闪长斑岩与石灰岩接触带的钙质矽卡岩和蛇纹石矽卡岩中，矿石矿物以黄铜矿和斑铜矿为主，伴生黄铁矿、闪锌矿、辉钼矿和方铅矿。原文: Cu-Au skarn deposit"
+    },
+    {
+      "paper_id": "135-162",
+      "deposit_type": "SKARN-PB-ZN",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Kosovo"
+      ],
+      "tectonic_setting": "postcollisional magmatism of Oligocene age",
+      "metallogenic_belt": "Kopaonik block, western Vardar zone, Dinarides",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述为Pb-Zn-Ag矽卡岩矿床，围岩为三叠纪灰岩，矿物组合包括hedenbergite、ilvaite、magnetite、galena、sphalerite等，属于远端Pb-Zn-Ag矽卡岩。原文: Pb-Zn-Ag skarn deposit"
+    },
+    {
+      "paper_id": "2227-2241",
+      "deposit_type": "SMS",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "tectonic_setting": "back-arc basin",
+      "metallogenic_belt": "Eastern Manus back-arc basin, Bismarck Sea",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文研究的是东马努斯弧后盆地Suzette和Pual Ridge地区的海底热液硫化物矿床，属于现代海底块状硫化物矿床（SMS）。原文描述为'seafloor massive sulfide deposits'和'Cu-Zn-Ag-Au-rich Suzette deposit'。"
+    },
+    {
+      "paper_id": "4882_doran_et_al",
+      "deposit_type": "IRISH-PB-ZN",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Ireland"
+      ],
+      "tectonic_setting": "Lower Carboniferous carbonate platform, extensional setting",
+      "metallogenic_belt": "Rathdowney Trend, Irish orefield",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确将Island Pod矿体归类为Irish-type Zn-Pb矿床，属于碳酸盐岩容矿的Zn-Pb矿床，特征介于SEDEX和MVT之间。原文: 'Irish-type Zn-Pb deposits'"
+    },
+    {
+      "paper_id": "Hydrothermal alteration events controlling magnetite-rich iron ore at the Matthew Ridge prospect  Jack Hills greenstone belt  Yilgarn Craton",
+      "deposit_type": "BIF-FE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Archean greenstone belt",
+      "metallogenic_belt": "Jack Hills greenstone belt, Narryer terrane, Yilgarn Craton",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Matthew Ridge prospect为BIF-hosted iron ore，围岩为Algoma-type BIF，矿石矿物为磁铁矿-赤铁矿，属于条带状铁建造铁矿。原文: BIF-hosted iron ore"
+    },
+    {
+      "paper_id": "Isotopic investigations of the Nova-Bollinger Ni Cu Co deposit in the Fraser Zone  Albany-Fraser Orogen  Western Australia",
+      "deposit_type": "NI-CU-PGE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "造山带，深部地壳（>20 km），与区域变质峰期同期，构造背景为弧后或地壳拆沉",
+      "metallogenic_belt": "Fraser Zone, Albany-Fraser Orogen",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Nova-Bollinger为岩浆硫化物Ni-Cu-Co矿床，属于小侵入体容矿的岩浆硫化物型，与Savannah、Jinchuan等类似。原文术语: magmatic sulfide Ni-Cu-Co deposit。"
+    },
+    {
+      "paper_id": "cjes-2019-0229",
+      "deposit_type": "NI-CU-PGE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Canada"
+      ],
+      "tectonic_setting": "impact crater floor, post-impact stabilization",
+      "metallogenic_belt": "Sudbury impact structure, North Range, Superior Province",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Broken Hammer为Cu-Ni-PGE footwall deposit，属于Sudbury型岩浆硫化物矿床，主要矿物为chalcopyrite，含Ni和PGE。原文: 'Cu–Ni–Platinum Group Element (PGE) footwall deposit'"
+    },
+    {
+      "paper_id": "1454",
+      "deposit_type": "PGE-REEF",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "USA"
+      ],
+      "tectonic_setting": "层状侵入体（layered intrusion），早前寒武纪克拉通环境",
+      "metallogenic_belt": "Stillwater Complex, Beartooth Mountains, Montana",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述J-M reef为富含铂和钯的层状矿体，与Bushveld Complex的Merensky Reef类比，位于Stillwater Complex的层状侵入体中，属于铂族层状矿床。原文术语: J-M reef, platinum-palladium reef"
+    },
+    {
+      "paper_id": "895-907",
+      "deposit_type": "CR-STRATIFORM",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Canada"
+      ],
+      "tectonic_setting": "Archean greenstone belt",
+      "metallogenic_belt": "Bird River greenstone belt, Superior Province, Canadian Shield",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Bird River sill为层状侵入体，含有层状铬铁矿（stratiform chromitite），属于层状侵入体容矿的铬铁矿矿床。原文术语: 'stratiform chromitite', 'layered intrusion-hosted chromite deposits'"
+    },
+    {
+      "paper_id": "5142_bodeving_et_al",
+      "deposit_type": "PEGMATITE-LCT",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Canada"
+      ],
+      "tectonic_setting": "Archean greenstone belt, middle amphibolite facies metamorphism",
+      "metallogenic_belt": "Superior Province, Separation Lake greenstone belt, Bird River-Separation Lake pegmatite field",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Big Whopper pegmatite属于LCT（锂-铯-钽）伟晶岩家族，主要锂矿石矿物为petalite，次要为lepidolite，属于稀有元素伟晶岩的petalite和lepidolite亚型。原文: 'lithium-cesium-tantalum (LCT) pegmatites', 'rare element pegmatites, mainly of the beryl and petalite subtype and, less commonly, the lepidolite subtype'"
+    },
+    {
+      "paper_id": "197-208",
+      "deposit_type": "CARBONATITE-REE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Afghanistan"
+      ],
+      "tectonic_setting": "Pliocene-Quaternary intraplate carbonatite complex",
+      "metallogenic_belt": "Registan Desert, Helmand Province",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Khanneshin碳酸岩杂岩体富含轻稀土（LREE），主要矿物为khanneshite-(Ce)、synchysite-(Ce)、parisite-(Ce)等，属于碳酸岩型稀土矿床。"
+    },
+    {
+      "paper_id": "4951_palmieri_et_al",
+      "deposit_type": "CARBONATITE-NB",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Brazil"
+      ],
+      "tectonic_setting": "Late Cretaceous alkaline magmatism related to Trindade mantle plume, within the Brasília belt",
+      "metallogenic_belt": "Alto Paranaíba Igneous Province, Catalão II Complex",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Morro do Padre为碳酸岩相关的铌矿床，赋存于Catalão II杂岩体的碳酸岩-磷铁岩中，主要铌矿物为烧绿石，属于碳酸岩型铌矿。原文: carbonatite-related niobium deposit"
+    },
+    {
+      "paper_id": "Advances in understanding the Kombolgie Subgroup and unconformity-related uranium deposits in the Alligator Rivers Uranium Field and how to explore fo",
+      "deposit_type": "U-UNCONFORMITY",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Pine Creek Orogen, 裂谷背景",
+      "metallogenic_belt": "Pine Creek Orogen, North Australian Craton",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述为 unconformity-related uranium deposits，位于 Alligator Rivers Uranium Field，矿化产于不整合面之下的基底岩石中，围岩为 Kombolgie Subgroup 砂岩，典型的不整合面型铀矿特征。原文: unconformity-related uranium deposits"
+    },
+    {
+      "paper_id": "Applying regional airborne electromagnetic  AEM  surveying to understand the architecture of sandstone-hosted uranium mineral systems in the Callabonn",
+      "deposit_type": "U-SANDSTONE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Cenozoic sedimentary basin flanked by Proterozoic basement inliers (Mount Painter, Mount Babbage) and Adelaide Fold Belt",
+      "metallogenic_belt": "Callabonna Sub-basin, Lake Frome region, Curnamona Province",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确研究砂岩型铀矿（sandstone-hosted uranium deposits），如Beverley、Four Mile East等，围岩为砂岩，受氧化还原控制，符合U-SANDSTONE类型。原文术语: sandstone-hosted uranium"
+    },
+    {
+      "paper_id": "1779-1801",
+      "deposit_type": "SANDSTONE-CU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Sweden"
+      ],
+      "tectonic_setting": "foreland basin of early Caledonian orogen",
+      "metallogenic_belt": "Scandinavian Caledonides",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Laisvall为砂岩容矿Pb-Zn矿床（sandstone-hosted Pb-Zn deposit），赋存于Ediacaran至下寒武统砂岩中，属于沉积岩容矿的铅锌矿床。原文术语为'sandstone-hosted Pb-Zn deposit'，受控词表中无直接对应类型，最接近的父类为SANDSTONE-CU（砂岩铜矿），但此处为Pb-Zn，故选择SANDSTONE-CU并注明原文术语。"
+    },
+    {
+      "paper_id": "4865_li_et_al",
+      "deposit_type": "SEDIMENTARY-MN",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "Carboniferous to Permian volcano-sedimentary back-arc basin",
+      "metallogenic_belt": "Malkansu Mn metallogenic belt, West Kunlun orogenic belt, North Kunlun terrane",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Ortokarnash锰矿床为沉积型锰碳酸盐矿床（sedimentary manganese carbonate deposit），赋存于上石炭统Kalaatehe组，矿石矿物主要为菱锰矿（rhodochrosite），属于沉积型锰矿。原文术语: sedimentary manganese carbonate deposit"
+    },
+    {
+      "paper_id": "Glauconite-bearing-sedimentary-phosphorites-from-the-T-bes_2018_Journal-of-A",
+      "deposit_type": "SEDIMENTARY-P",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Algeria"
+      ],
+      "tectonic_setting": "被动大陆边缘（Tethys Ocean边缘）",
+      "metallogenic_belt": "Saharan Atlas",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文研究阿尔及利亚Tébessa地区的沉积磷块岩（phosphorite），属于沉积型磷矿。原文描述为'sedimentary phosphorites'，主矿物为francolite（碳酸氟磷灰石）。"
+    },
+    {
+      "paper_id": "e00-021",
+      "deposit_type": "KIMBERLITE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Canada"
+      ],
+      "tectonic_setting": "克拉通",
+      "metallogenic_belt": "Slave craton, Slave province, N.W.T.",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述研究对象为Yamba Lake地区的Torrie、Sputnik和Eddie金伯利岩管，属于金伯利岩型金刚石矿床。原文术语: kimberlite"
+    },
+    {
+      "paper_id": "1303",
+      "deposit_type": "VEIN-PB-ZN",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Peru"
+      ],
+      "tectonic_setting": "安第斯造山带西科迪勒拉，白垩纪冒地槽沉积岩区",
+      "metallogenic_belt": "秘鲁科迪勒拉多金属成矿带",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文主要研究Hualgayoc矿区的脉状和层状铅锌银铜矿床，脉体以方铅矿、闪锌矿、黄铜矿、黝铜矿和菱锰矿为主，赋存于中新世安山岩岩体和白垩纪沉积岩中。原文描述为'Pb-Zn-Ag-Cu veins'和'stratiform (manto) orebodies'，属于热液脉型铅锌矿。"
+    },
+    {
+      "paper_id": "b36424.1",
+      "deposit_type": "VEIN-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "intracontinental basin within Yangtze Block, related to Yanshanian tectonism",
+      "metallogenic_belt": "Xiangzhong Basin, Yangtze Block, South China Block",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确描述Xikuangshan为世界最大Sb矿床，受断裂控制，赋存于泥盆纪灰岩中，矿石矿物仅辉锑矿，脉石矿物为石英和方解石，蚀变以硅化为主。原文: 'fault-controlled Xikuangshan Sb deposit within Devonian limestone strata'，'stibnite is the only ore mineral'。"
+    },
+    {
+      "paper_id": "The Lowmead Graben Geology  Tertiary oil shale genesis and regional tectonic implications",
+      "deposit_type": "COAL",
+      "deposit_class": "energy",
+      "deposit_type_conf": 0.9,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "半地堑（half graben），与Electra断层活动相关，位于大陆边缘裂谷系统",
+      "metallogenic_belt": "Coastal Block, Queensland",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文主要研究对象为Lowmead地堑中的油页岩矿床，油页岩属于沉积型能源矿产，受控词表中COAL包含油页岩（oil shale）。原文明确描述为oil shale deposit，且资源量以桶计。"
+    },
+    {
+      "paper_id": "A sequence stratigraphic analysis of the Late Permian succession in the Southern Coalfield  Sydney Basin  New South Wales",
+      "deposit_type": "COAL",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "前陆盆地",
+      "metallogenic_belt": "Sydney Basin",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文主要研究悉尼盆地南部煤田的晚二叠世含煤地层，重点分析Bulli、Wongawilli等煤层，属于煤矿床。原文术语: coal measures, coal deposits"
+    },
+    {
+      "paper_id": "Petroleum prospectivity of the Clarence Moreton Basin  eastern Australia  A geochemical perspective",
+      "deposit_type": "OIL-GAS",
+      "deposit_class": "energy",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "被动大陆边缘，裂谷后热沉降盆地",
+      "metallogenic_belt": "Clarence-Moreton Basin",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文研究Clarence-Moreton盆地的石油和天然气前景，属于常规油气资源。原文术语: petroleum, hydrocarbon, oil, gas"
+    },
+    {
+      "paper_id": "Hydrocarbon accumulation in the northwest Chaluhe Fault Depression  Yitong Basin  North China",
+      "deposit_type": "OIL-GAS",
+      "deposit_class": "energy",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "strike-slip fault basin",
+      "metallogenic_belt": "Yitong Basin, Tanlu Fault Zone",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文研究Yitong盆地Chaluhe Fault Depression的油气成藏，属于常规油气（砂岩储层）。原文明确描述为'hydrocarbon accumulation'，'oil and gas reservoirs'。"
+    },
+    {
+      "paper_id": "Gas-generation potential of shales in small and medium-sized basins  a case study from the Xuanhua Basin  north China",
+      "deposit_type": "SHALE-GAS",
+      "deposit_class": "energy",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "碰撞相关山间盆地（collision-related intermountain basin）",
+      "metallogenic_belt": "Yanshan Meso–Cenozoic Orogenic Belt, North China Craton",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文明确研究Xuanhua盆地Xiahuayuan组页岩的生气潜力，属于页岩气（非常规天然气）矿床。原文术语: shale gas"
+    },
+    {
+      "paper_id": "1719",
+      "deposit_type": "GEOTHERMAL",
+      "deposit_class": "energy",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "USA"
+      ],
+      "tectonic_setting": "与浅成花岗岩侵入体相关的活动地热系统，位于Pliocene至Recent Clear Lake火山场东南缘",
+      "metallogenic_belt": "California Coast Range, Mayacmas Mountains",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文明确研究The Geysers地热系统，属于地热资源，原文描述为'vapor-dominated geothermal system'。"
+    },
+    {
+      "paper_id": "b36859.1",
+      "deposit_type": "GAS-HYDRATE",
+      "deposit_class": "energy",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "被动大陆边缘，南海北部陆坡",
+      "metallogenic_belt": "南海北部陆坡，东沙海域",
+      "completeness_score": 8,
+      "deposit_type_evidence": "论文研究南海东沙海域天然气水合物（methane hydrate），通过自生碳酸盐岩U-Th定年和沉积物Mo富集识别水合物分解事件。原文术语: methane hydrate"
+    },
+    {
+      "paper_id": "The Harry Creek Deformed Zone  a retrograde schist zone of the Arunta Block  central Australia",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "post-orogenic wrench fault",
+      "metallogenic_belt": "Arunta Block",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Latest Miocene to Early Pliocene bathymetric cycles related to tectonism  Puri Anticline  Papuan Basin  Papua New Guinea",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "tectonic_setting": "foreland basin",
+      "metallogenic_belt": "Papuan Fold Belt, Papuan Foreland Basin",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Timing of the progress granite  Larsemann hills  Additional evidence for early Palaeozoic orogenesis within the east Antarctic Shield and implications",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "Antarctica"
+      ],
+      "tectonic_setting": "大陆汇聚背景下的高应变挤压构造（D2）及随后的伸展垮塌（D3）",
+      "metallogenic_belt": "Prydz Bay",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Late Quaternary uplift and subsidence of the west coast of Tanna  south Vanuatu  southwest Pacific  U Th ages of raised coral reefs in the Median Sedi",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "Vanuatu"
+      ],
+      "tectonic_setting": "subduction zone (Australian Plate subducting beneath Vanuatu Island Arc)",
+      "metallogenic_belt": "Median Sedimentary Basin, Vanuatu Island Arc",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Geology of southeast Bohol  central Philippines  Accretion and sedimentation in a marginal basin",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "Philippines"
+      ],
+      "tectonic_setting": "forearc setting, suprasubduction zone",
+      "metallogenic_belt": "Visayan Sea Basin",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Is the switch from I- to S-type magmatism in the Himalayan Orogen indicative of the collision of India and Eurasia ",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "India"
+      ],
+      "tectonic_setting": "collisional orogen",
+      "metallogenic_belt": "Karakorum Batholith",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "U Th Pb monazite dating and the timing of arc continent collision in East Timor",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "East Timor"
+      ],
+      "tectonic_setting": "arc-continent collision",
+      "metallogenic_belt": "Banda Arc",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Paleomagnetism and U Pb geochronology of the Black Range dykes  Pilbara Craton  Western Australia  a Neoarchean crossing of the polar circle",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": null,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Archean craton",
+      "metallogenic_belt": "Pilbara Craton",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "4975_tassara_and_ague",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": null,
+      "countries": [
+        "USA"
+      ],
+      "tectonic_setting": "continental arc",
+      "metallogenic_belt": "Acadian orogen, Central Maine terrane, New England Appalachians",
+      "completeness_score": 7,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Evolution of the middle Proterozoic Chandabooka Caldera  Gawler range acid volcano plutonic province  South Australia",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": null,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "post-orogenic continental-interior magma province",
+      "metallogenic_belt": "Gawler Craton",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "K Ar and 40Ar 39Ar ages on Mesozoic volcanic rocks from the Lower Yangtze Volcanic Zone  southeastern China",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": null,
+      "countries": [
+        "China"
+      ],
+      "tectonic_setting": "rift zone within Eurasian plate, related to Yenshan orogenic cycle",
+      "metallogenic_belt": "Lower Yangtze Volcanic Zone",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Low K tholeiites and high K igneous rocks from Woodlark Island  Papua New Guinea",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": null,
+      "countries": [
+        "Papua New Guinea"
+      ],
+      "tectonic_setting": "岛弧/弧后环境",
+      "metallogenic_belt": "Woodlark Rise",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "A Pan African granulite facies metamorphic episode in Prydz Bay  Antarctica  Evidence from Sm Nd garnet dating",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": null,
+      "countries": [
+        "Antarctica"
+      ],
+      "tectonic_setting": "collisional orogen",
+      "metallogenic_belt": "Prydz Bay",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Metasomatism of the Revenue Granite and aureole rocks  Mt Isa Inlier  Queensland  Syndeformational fluid flow and fluid rock interaction",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": null,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "大陆裂谷盆地，伸展构造背景",
+      "metallogenic_belt": "Mount Isa Inlier, Mary Kathleen Fold Belt",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "Aeromagnetics as an aid to geological mapping a case history from the Arunta Inlier  Northern Territory",
+      "deposit_type": null,
+      "deposit_class": "methodological",
+      "deposit_type_conf": null,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Precambrian basement, multiply deformed metasedimentary and metavolcanic sequence",
+      "metallogenic_belt": "Arunta Inlier, Northern Tectonic Province",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "i0091-7613-28-11-983",
+      "deposit_type": null,
+      "deposit_class": "methodological",
+      "deposit_type_conf": null,
+      "countries": [
+        "USA"
+      ],
+      "tectonic_setting": "extensional fault block, Basin and Range",
+      "metallogenic_belt": "White Mountains, Basin and Range province",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "i0091-7613-36-5-383",
+      "deposit_type": null,
+      "deposit_class": "methodological",
+      "deposit_type_conf": null,
+      "countries": [
+        "Canada"
+      ],
+      "tectonic_setting": "impact crater",
+      "metallogenic_belt": "Sudbury Igneous Complex",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "343",
+      "deposit_type": "PLACER-AU",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Canada"
+      ],
+      "tectonic_setting": "Archean metamorphic basement, Yukon",
+      "metallogenic_belt": "Klondike goldfields, Yukon",
+      "completeness_score": 6,
+      "deposit_type_evidence": "论文明确描述Klondike金矿为砂金矿（placer gold），金来源于石英脉，经河流搬运富集于河谷砾石层中。原文: gold-bearing placer"
+    },
+    {
+      "paper_id": "1243-1272",
+      "deposit_type": "PLACER-AU-PALEO",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "South Africa"
+      ],
+      "tectonic_setting": "foreland basin (retroarc setting)",
+      "metallogenic_belt": "Witwatersrand Basin, Kaapvaal Craton",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文研究Ventersdorp Contact Reef，为Witwatersrand盆地含金砾岩层，属于古砂矿金矿（paleoplacer Au）。论文明确支持modified placer模型，认为金和碎屑黄铁矿为沉积成因，后经热液改造。原文术语: Witwatersrand-type gold deposit"
+    },
+    {
+      "paper_id": "Al-Fe-Ti-Si--mobility-and-secondary-mineralization-implicat_2011_Journal-of-",
+      "deposit_type": "BAUXITE",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Turkey"
+      ],
+      "tectonic_setting": "Alpine tectono-metamorphism, nappe pile",
+      "metallogenic_belt": "Menderes Massif, Mediterranean Bauxite Belt",
+      "completeness_score": 6,
+      "deposit_type_evidence": "论文明确描述为'karst unconformity diasporite-type bauxite horizons'，主要矿物为diaspore，属于喀斯特不整合型铝土矿。原文术语: karst unconformity diasporite-type bauxite"
+    },
+    {
+      "paper_id": "cjes-2017-0184",
+      "deposit_type": "LATERITE-NI",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Turkey"
+      ],
+      "tectonic_setting": "horst-graben system, extensional basin",
+      "metallogenic_belt": "Bornova Flysch Zone, İzmir–Ankara–Erzincan suture zone, Menderes Massif",
+      "completeness_score": 6,
+      "deposit_type_evidence": "论文明确描述为Ni-Co lateritic regolith deposit，由超基性岩热带风化形成，含残余Ni矿床。原文: 'Ni–Co lateritic regolith deposit'"
+    },
+    {
+      "paper_id": "311-330",
+      "deposit_type": "EPITHERMAL-HS",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 1.0,
+      "countries": [
+        "Argentina"
+      ],
+      "tectonic_setting": "安第斯中央造山带，纳斯卡板块俯冲角度变缓的弧后/弧内环境",
+      "metallogenic_belt": "El Indio-Pascua metallogenic belt, Cordillera Frontal, Central Andes",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文明确描述Veladero为高硫化浅成热液金矿（high-sulfidation epithermal gold deposit），位于El Indio-Pascua成矿带，具有典型的高硫化蚀变组合（vuggy石英、明矾石、石英-明矾石带），金以自然金形式产于晶洞和裂隙面。"
+    },
+    {
+      "paper_id": "1567",
+      "deposit_type": "U-VEIN",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "France"
+      ],
+      "tectonic_setting": "Hercynian orogeny, shallow crustal level (1-2 km), syntectonic emplacement along east-west structures",
+      "metallogenic_belt": "European Hercynian chain, Montagne Bourbonnaise, French Massif Central",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文明确描述为铀脉矿床（uranium vein deposit），位于欧洲海西造山带，赋存于Bois Noirs花岗岩中，主要矿石矿物为沥青铀矿（pitchblende），脉石矿物包括石英、碳酸盐等。原文: uranium vein deposit"
+    },
+    {
+      "paper_id": "1753-1781",
+      "deposit_type": "VEIN-AG",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Morocco"
+      ],
+      "tectonic_setting": "Pan-African orogenic belt, later reactivated during Atlantic rifting (Triassic extensional tectonics)",
+      "metallogenic_belt": "Anti-Atlas belt, Saghro inlier, West African craton margin",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文明确描述Imiter为Ag-Hg矿床，矿体为NE-SW至E-W向脉和透镜体，受Imiter断裂控制，赋存于Cryogenian黑色页岩和杂砂岩中。主要矿石矿物为imiterite (Ag-Hg硫化物)、acanthite、native Ag、Ag-Hg amalgam等，脉石为石英和白云石。流体包裹体研究表明成矿流体为盆地卤水，与MVT型Pb-Zn矿床类比。原文术语: Ag-Hg deposit"
+    },
+    {
+      "paper_id": "1231",
+      "deposit_type": "GREISEN-SN",
+      "deposit_class": "mineral_deposit",
+      "deposit_type_conf": 0.95,
+      "countries": [
+        "Finland"
+      ],
+      "tectonic_setting": "元古宙拉帕基维花岗岩岩株",
+      "metallogenic_belt": "Eurajoki岩株，西南芬兰，波罗的地盾",
+      "completeness_score": 7,
+      "deposit_type_evidence": "论文研究Eurajoki岩株中的云英岩脉，主要矿石矿物为锡石(cassiterite)，围岩为花岗岩，蚀变为云英岩化，原文描述为'greisen veins'，属于云英岩型锡矿。"
+    },
+    {
+      "paper_id": "Response of U Pb Zircon and Rb Sr total rock and mineral systems to low grade regional metamorphism in proterozoic igneous rocks  mount Isa  Australia",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": 0.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "Proterozoic continental margin, analogous to Cainozoic Andean-type tectonic regime",
+      "metallogenic_belt": "Cloncurry Complex, Mount Isa region, northwest Queensland",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "The Moruya Batholith and geochemical contrasts between the Moruya and Jindabyne suites",
+      "deposit_type": null,
+      "deposit_class": "geochemical_petrology",
+      "deposit_type_conf": 0.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "造山带（orogenic belt）",
+      "metallogenic_belt": "Lachlan Fold Belt",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    },
+    {
+      "paper_id": "The upper Devonian Boyd Volcanic complex  Eden  New South Wales",
+      "deposit_type": null,
+      "deposit_class": "structural_tectonic",
+      "deposit_type_conf": 0.0,
+      "countries": [
+        "Australia"
+      ],
+      "tectonic_setting": "大陆裂谷环境（terrestrial rift zone）",
+      "metallogenic_belt": "Eden-Comerong-Yalwal Rift Zone",
+      "completeness_score": 6,
+      "deposit_type_evidence": null
+    }
+  ]
+}

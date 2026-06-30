@@ -13,7 +13,7 @@ vLLM 优势：
 import json, os, time, argparse, glob, re, sys
 from pathlib import Path
 
-MODEL_PATH = '/root/autodl-tmp/models/qwen/Qwen2.5-VL-7B-Instruct'
+MODEL_PATH = ''  # 请通过 --model 参数指定，例如: --model /path/to/Qwen2.5-VL-7B-Instruct
 
 PROMPTS = {
     'image': (
@@ -42,7 +42,8 @@ def find_blocks(corpus_root, tasks=('image', 'table')):
         except Exception:
             continue
         folder = os.path.dirname(cl)
-        paper_id = os.path.normpath(cl).split(os.sep)[-3]
+        # 用 Path 解析，避免 split(sep) 对路径深度的假设
+        paper_id = Path(os.path.normpath(cl)).parts[-3]
         for idx, b in enumerate(data):
             btype = b.get('type')
             if btype not in want:
@@ -72,7 +73,10 @@ def load_done(path):
         with open(path, encoding='utf-8') as fh:
             for line in fh:
                 try:
-                    done.add(json.loads(line)['uid'])
+                    rec = json.loads(line)
+                    # 只有明确成功（ok/empty）的条目才视为 done，error 条目下次重试
+                    if rec.get('status') in ('ok', 'empty'):
+                        done.add(rec['uid'])
                 except Exception:
                     pass
     return done
@@ -82,12 +86,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--corpus', required=True)
     ap.add_argument('--out', required=True)
-    ap.add_argument('--model', default=MODEL_PATH)
+    ap.add_argument('--model', default=MODEL_PATH,
+                    help='Qwen2.5-VL 模型路径（必填，例如 /data/models/Qwen2.5-VL-7B-Instruct）')
     ap.add_argument('--tasks', default='image')
     ap.add_argument('--batch', type=int, default=32,
                     help='vLLM 下等同于 max_num_seqs，建议 32-64')
     ap.add_argument('--max', type=int, default=0)
     ap.add_argument('--papers', default='', help='comma-sep paper_ids')
+    ap.add_argument('--papers-file', default='', help='每行一个 paper_id 的文件（优先于 --papers）')
     args = ap.parse_args()
 
     os.makedirs(args.out, exist_ok=True)
@@ -97,7 +103,11 @@ def main():
     items = find_blocks(args.corpus, tasks_list)
     done = load_done(jsonl_path)
     todo = [it for it in items if it['uid'] not in done]
-    if args.papers:
+    if getattr(args, 'papers_file', '') and __import__('os').path.exists(args.papers_file):
+        with open(args.papers_file, encoding='utf-8') as _f:
+            keep = {l.strip() for l in _f if l.strip()}
+        todo = [it for it in todo if it['paper_id'] in keep]
+    elif args.papers:
         keep = set(args.papers.split(','))
         todo = [it for it in todo if it['paper_id'] in keep]
     if args.max:
@@ -105,6 +115,22 @@ def main():
     print(f'Blocks: {len(items)} total, {len(done)} done, {len(todo)} to process')
     if not todo:
         print('Nothing to do.'); return
+
+    # ── GPU / CUDA 预检（快速失败，比等 vLLM 初始化报错更清晰）──────────────────
+    try:
+        import torch
+        if not torch.cuda.is_available():
+            cuda_ver = getattr(torch.version, 'cuda', 'unknown')
+            driver_msg = (
+                "CUDA 不可用。可能原因：\n"
+                f"  · 当前 torch 版本编译于 CUDA {cuda_ver}，但 GPU 驱动版本过低\n"
+                "  · 修复：pip install torch --index-url https://download.pytorch.org/whl/cu128\n"
+                "  · 或确保 GPU 驱动 ≥ CUDA runtime 所需版本"
+            )
+            print(f'[ERROR] {driver_msg}', file=sys.stderr)
+            sys.exit(1)
+    except ImportError:
+        pass  # torch 未安装，vLLM 的 ImportError 会在下面捕获
 
     # ── 加载 vLLM ────────────────────────────────────────────────────────────
     try:
@@ -117,6 +143,11 @@ def main():
     from transformers import AutoProcessor
     from figure_classifier import classify_figure
 
+    if not args.model:
+        print('[ERROR] 请通过 --model 指定 Qwen2.5-VL 模型路径，例如:\n'
+              '  python qwen_vl_hf.py --corpus /path/corpus --out /path/out '
+              '--model /path/to/Qwen2.5-VL-7B-Instruct', file=sys.stderr)
+        sys.exit(1)
     print(f'Loading Qwen2.5-VL via vLLM from {args.model}...')
     processor = AutoProcessor.from_pretrained(args.model)
     llm = LLM(
@@ -142,8 +173,16 @@ def main():
             chunk = todo[chunk_start:chunk_start + chunk_size]
 
             prompts = []
+            skip_uids = set()
             for it in chunk:
-                img = Image.open(it['image_path']).convert('RGB')
+                try:
+                    img = Image.open(it['image_path']).convert('RGB')
+                except Exception as img_e:
+                    print(f"\n  WARN: 跳过损坏图片 {it['image_path']}: {img_e}")
+                    rec = dict(it); rec['status'] = f'error:bad_image:{img_e}'; rec['output'] = None
+                    f_out.write(json.dumps(rec, ensure_ascii=False) + '\n')
+                    skip_uids.add(it['uid'])
+                    continue
                 msgs = [{'role': 'user', 'content': [
                     {'type': 'image', 'image': img},
                     {'type': 'text', 'text': PROMPTS[it['task']]},
@@ -153,7 +192,12 @@ def main():
 
             try:
                 outputs = llm.generate(prompts, sampling)
-                for it, out in zip(chunk, outputs):
+                valid_chunk = [it for it in chunk if it['uid'] not in skip_uids]
+                if len(outputs) != len(valid_chunk):
+                    # vLLM 有时静默丢弃请求（OOM / max_num_seqs 超限）
+                    print(f"\n  WARN: valid_chunk={len(valid_chunk)} 但 outputs={len(outputs)}，"
+                          f"丢失 {len(valid_chunk)-len(outputs)} 条，下次重跑将重试")
+                for it, out in zip(valid_chunk, outputs):
                     text = out.outputs[0].text.strip()
                     rec = dict(it)
                     rec['status'] = 'ok' if text else 'empty'
@@ -181,9 +225,12 @@ def main():
                 f_out.flush()
             except Exception as e:
                 print(f'\n  Chunk error: {e}')
+                # 只写入未被单独标记为 bad_image 的条目；status 用 error:chunk 前缀
+                # 注意：不写入 done 集合，下次运行会重试
                 for it in chunk:
-                    rec = dict(it); rec['status'] = f'error:{e}'; rec['output'] = None
-                    f_out.write(json.dumps(rec, ensure_ascii=False) + '\n')
+                    if it['uid'] not in skip_uids:
+                        rec = dict(it); rec['status'] = f'error:chunk:{e}'; rec['output'] = None
+                        f_out.write(json.dumps(rec, ensure_ascii=False) + '\n')
                 f_out.flush()
 
             done_so_far = chunk_start + len(chunk)
